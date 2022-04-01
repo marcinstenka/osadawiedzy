@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12fbc9753b07598925dc97a1b64cfa81",
+    "revision": "37ebbab550d38afd0f4ffd85647bf23b",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "d6ae890e1c06deb328e9",
-    "url": "/osadawiedzy/static/css/main.2fa3de6c.chunk.css"
+    "revision": "d499138b40cef56db51a",
+    "url": "/osadawiedzy/static/css/main.5b5c5f2b.chunk.css"
   },
   {
-    "revision": "89764ad3c05132ea8621",
-    "url": "/osadawiedzy/static/js/2.c5915e9b.chunk.js"
+    "revision": "1e45ae15b20d57fa58ec",
+    "url": "/osadawiedzy/static/js/2.2ae58fe2.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.c5915e9b.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.2ae58fe2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6ae890e1c06deb328e9",
-    "url": "/osadawiedzy/static/js/main.890031d5.chunk.js"
+    "revision": "d499138b40cef56db51a",
+    "url": "/osadawiedzy/static/js/main.3f315839.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -416,8 +416,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/heroDesktop.937602ca.jpg"
   },
   {
-    "revision": "0c1d78c294cce4bfb3568a869ac151e6",
-    "url": "/osadawiedzy/static/media/heroMobile.0c1d78c2.jpg"
+    "revision": "9dcb6bfe55dbaa800b52d93e9dda7b4c",
+    "url": "/osadawiedzy/static/media/heroMobile-test.9dcb6bfe.jpg"
+  },
+  {
+    "revision": "8821ca50c881ab7e0ae16b2ddef55f90",
+    "url": "/osadawiedzy/static/media/heroPhysicsMobile.8821ca50.jpg"
   },
   {
     "revision": "96451149e65ca4d48a950ddbebc00e9d",
@@ -446,10 +450,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ecd9cd134e0b7d02cf229937091aff2",
     "url": "/osadawiedzy/static/media/karta-uczestnika.7ecd9cd1.pdf"
-  },
-  {
-    "revision": "55c07abb592e2df5d9c578c7eba37da0",
-    "url": "/osadawiedzy/static/media/logo.55c07abb.png"
   },
   {
     "revision": "d2b5d27badb1042bc1b0de95a1cd936c",

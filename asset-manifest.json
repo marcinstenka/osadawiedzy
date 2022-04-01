@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/osadawiedzy/static/css/main.2fa3de6c.chunk.css",
-    "main.js": "/osadawiedzy/static/js/main.890031d5.chunk.js",
-    "main.js.map": "/osadawiedzy/static/js/main.890031d5.chunk.js.map",
+    "main.css": "/osadawiedzy/static/css/main.5b5c5f2b.chunk.css",
+    "main.js": "/osadawiedzy/static/js/main.3f315839.chunk.js",
+    "main.js.map": "/osadawiedzy/static/js/main.3f315839.chunk.js.map",
     "runtime-main.js": "/osadawiedzy/static/js/runtime-main.5de58a90.js",
     "runtime-main.js.map": "/osadawiedzy/static/js/runtime-main.5de58a90.js.map",
-    "static/js/2.c5915e9b.chunk.js": "/osadawiedzy/static/js/2.c5915e9b.chunk.js",
-    "static/js/2.c5915e9b.chunk.js.map": "/osadawiedzy/static/js/2.c5915e9b.chunk.js.map",
+    "static/js/2.2ae58fe2.chunk.js": "/osadawiedzy/static/js/2.2ae58fe2.chunk.js",
+    "static/js/2.2ae58fe2.chunk.js.map": "/osadawiedzy/static/js/2.2ae58fe2.chunk.js.map",
     "index.html": "/osadawiedzy/index.html",
-    "precache-manifest.451e8e508131492bd2f56c58390c8a6c.js": "/osadawiedzy/precache-manifest.451e8e508131492bd2f56c58390c8a6c.js",
+    "precache-manifest.a0f5109b65929cb49e9a0242f212eaf9.js": "/osadawiedzy/precache-manifest.a0f5109b65929cb49e9a0242f212eaf9.js",
     "service-worker.js": "/osadawiedzy/service-worker.js",
-    "static/css/main.2fa3de6c.chunk.css.map": "/osadawiedzy/static/css/main.2fa3de6c.chunk.css.map",
-    "static/js/2.c5915e9b.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.c5915e9b.chunk.js.LICENSE.txt",
+    "static/css/main.5b5c5f2b.chunk.css.map": "/osadawiedzy/static/css/main.5b5c5f2b.chunk.css.map",
+    "static/js/2.2ae58fe2.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.2ae58fe2.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/osadawiedzy/static/media/1.cdcd188b.jpg",
     "static/media/1.JPG": "/osadawiedzy/static/media/1.fbd2fb6f.JPG",
     "static/media/2.JPG": "/osadawiedzy/static/media/2.f658c53c.JPG",
@@ -39,7 +39,8 @@
     "static/media/cz3.jpg": "/osadawiedzy/static/media/cz3.29c0b160.jpg",
     "static/media/facebookIcon.svg": "/osadawiedzy/static/media/facebookIcon.bda8ee1d.svg",
     "static/media/heroDesktop.jpg": "/osadawiedzy/static/media/heroDesktop.937602ca.jpg",
-    "static/media/heroMobile.jpg": "/osadawiedzy/static/media/heroMobile.0c1d78c2.jpg",
+    "static/media/heroMobile-test.jpg": "/osadawiedzy/static/media/heroMobile-test.9dcb6bfe.jpg",
+    "static/media/heroPhysicsMobile.jpg": "/osadawiedzy/static/media/heroPhysicsMobile.8821ca50.jpg",
     "static/media/heroSuperDesktop.jpg": "/osadawiedzy/static/media/heroSuperDesktop.96451149.jpg",
     "static/media/ig.png": "/osadawiedzy/static/media/ig.30fa0886.png",
     "static/media/instagramIcon.svg": "/osadawiedzy/static/media/instagramIcon.7e51fefc.svg",
@@ -47,7 +48,6 @@
     "static/media/ir2.jpg": "/osadawiedzy/static/media/ir2.753a2c93.jpg",
     "static/media/ir3.jpg": "/osadawiedzy/static/media/ir3.642cd1f0.jpg",
     "static/media/karta-uczestnika.pdf": "/osadawiedzy/static/media/karta-uczestnika.7ecd9cd1.pdf",
-    "static/media/logo.png": "/osadawiedzy/static/media/logo.55c07abb.png",
     "static/media/mailpostBig.jpg": "/osadawiedzy/static/media/mailpostBig.d2b5d27b.jpg",
     "static/media/mailpostSmall.jpg": "/osadawiedzy/static/media/mailpostSmall.6dc89a19.jpg",
     "static/media/mainHeroMobile.jpg": "/osadawiedzy/static/media/mainHeroMobile.af7fba21.jpg",
@@ -63,8 +63,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5de58a90.js",
-    "static/js/2.c5915e9b.chunk.js",
-    "static/css/main.2fa3de6c.chunk.css",
-    "static/js/main.890031d5.chunk.js"
+    "static/js/2.2ae58fe2.chunk.js",
+    "static/css/main.5b5c5f2b.chunk.css",
+    "static/js/main.3f315839.chunk.js"
   ]
 }
