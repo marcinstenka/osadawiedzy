@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/osadawiedzy/static/css/main.2fa3de6c.chunk.css",
-    "main.js": "/osadawiedzy/static/js/main.653482ef.chunk.js",
-    "main.js.map": "/osadawiedzy/static/js/main.653482ef.chunk.js.map",
+    "main.js": "/osadawiedzy/static/js/main.890031d5.chunk.js",
+    "main.js.map": "/osadawiedzy/static/js/main.890031d5.chunk.js.map",
     "runtime-main.js": "/osadawiedzy/static/js/runtime-main.5de58a90.js",
     "runtime-main.js.map": "/osadawiedzy/static/js/runtime-main.5de58a90.js.map",
     "static/js/2.c5915e9b.chunk.js": "/osadawiedzy/static/js/2.c5915e9b.chunk.js",
     "static/js/2.c5915e9b.chunk.js.map": "/osadawiedzy/static/js/2.c5915e9b.chunk.js.map",
     "index.html": "/osadawiedzy/index.html",
-    "precache-manifest.8098df3a9417096a8693d4827ed64200.js": "/osadawiedzy/precache-manifest.8098df3a9417096a8693d4827ed64200.js",
+    "precache-manifest.451e8e508131492bd2f56c58390c8a6c.js": "/osadawiedzy/precache-manifest.451e8e508131492bd2f56c58390c8a6c.js",
     "service-worker.js": "/osadawiedzy/service-worker.js",
     "static/css/main.2fa3de6c.chunk.css.map": "/osadawiedzy/static/css/main.2fa3de6c.chunk.css.map",
     "static/js/2.c5915e9b.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.c5915e9b.chunk.js.LICENSE.txt",
@@ -65,6 +65,6 @@
     "static/js/runtime-main.5de58a90.js",
     "static/js/2.c5915e9b.chunk.js",
     "static/css/main.2fa3de6c.chunk.css",
-    "static/js/main.653482ef.chunk.js"
+    "static/js/main.890031d5.chunk.js"
   ]
 }
