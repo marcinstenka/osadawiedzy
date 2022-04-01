@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 import Page404 from './pages/Page404';
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/osadawiedzy/">
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/oboz" component={Colony} />
