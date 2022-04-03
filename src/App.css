@@ -351,8 +351,8 @@ nav {
   }
 }
 @media (min-width: 860px) {
-  .about iframe {
-    min-height: 570px;
+  .frame {
+    min-height: 470px;
     margin-top: 30px;
   }
 }
@@ -1169,7 +1169,7 @@ li {
   .about--text {
     width: 100%;
     margin: 20px auto 0 auto;
-    font-size: 23px;
+    font-size: 18px;
   }
   /* downloads */
   .downloads__main {
