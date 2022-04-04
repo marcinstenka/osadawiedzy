@@ -10,7 +10,6 @@ import Team from './pages/Team';
 import Recomendations from './pages/Recomendations.js';
 import Downloads from './pages/Downloads.js';
 import Blog from './pages/Blog.js';
-import Contact from './pages/Contact';
 import Page404 from './pages/Page404';
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
         <Route exact path="/rekomendacje" component={Recomendations} />
         <Route exact path="/do-pobrania" component={Downloads} />
         <Route exact path="/blog" component={Blog} />
-        <Route exact path="/kontakt" component={Contact} />
         <Route component={Page404} />
       </Switch>
     </BrowserRouter>

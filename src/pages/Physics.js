@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import PhysicsContent from '../components/PhysicsContent';
 
-import HeroPhysicsMobile from '../assets/img/heroPhysicsMobile-test.jpg';
-import HeroPhysicsDesktop from '../assets/img/heroPhysicsDesktop-test.jpg';
-import HeroSuperPhysicsDesktop from '../assets/img/heroPhysicsSuperDesktop-test.jpg';
+import HeroPhysicsMobile from '../assets/img/heroPhysicsMobile.jpg';
+import HeroPhysicsDesktop from '../assets/img/heroPhysicsDesktop.jpg';
+import HeroSuperPhysicsDesktop from '../assets/img/heroPhysicsSuperDesktop.jpg';
 import { Link } from 'react-router-dom';
 
 const Physics = () => {
