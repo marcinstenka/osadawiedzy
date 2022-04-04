@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9cfbc63bbb5c82f0be24c624777e4d0",
+    "revision": "38477cddd2c6b0ae2174be33293bd743",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "814254d6fc414a0f2bbf",
-    "url": "/osadawiedzy/static/css/main.d0228f33.chunk.css"
+    "revision": "48469a7e0da4126340a0",
+    "url": "/osadawiedzy/static/css/main.3e9c945d.chunk.css"
   },
   {
-    "revision": "edfdf0e401971c77b3e8",
-    "url": "/osadawiedzy/static/js/2.91ae3e80.chunk.js"
+    "revision": "d2f02a68210893c2f163",
+    "url": "/osadawiedzy/static/js/2.2ec5b3af.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.91ae3e80.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.2ec5b3af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "814254d6fc414a0f2bbf",
-    "url": "/osadawiedzy/static/js/main.e08f4128.chunk.js"
+    "revision": "48469a7e0da4126340a0",
+    "url": "/osadawiedzy/static/js/main.4e07a7b8.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -409,31 +409,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8759218769593a7dc9f51fd58eda594c",
-    "url": "/osadawiedzy/static/media/heroDesktop-test.87592187.jpg"
+    "url": "/osadawiedzy/static/media/heroDesktop.87592187.jpg"
   },
   {
     "revision": "9dcb6bfe55dbaa800b52d93e9dda7b4c",
-    "url": "/osadawiedzy/static/media/heroMobile-test.9dcb6bfe.jpg"
+    "url": "/osadawiedzy/static/media/heroMobile.9dcb6bfe.jpg"
   },
   {
     "revision": "5dda00d5587ecbf9d55cbb67f04695cd",
-    "url": "/osadawiedzy/static/media/heroPhysicsDesktop-test.5dda00d5.jpg"
+    "url": "/osadawiedzy/static/media/heroPhysicsDesktop.5dda00d5.jpg"
   },
   {
     "revision": "6112c449059b137064688c6df60cac94",
-    "url": "/osadawiedzy/static/media/heroPhysicsMobile-test.6112c449.jpg"
+    "url": "/osadawiedzy/static/media/heroPhysicsMobile.6112c449.jpg"
   },
   {
     "revision": "cae9184557569985861874d074cbf141",
-    "url": "/osadawiedzy/static/media/heroPhysicsSuperDesktop-test.cae91845.jpg"
+    "url": "/osadawiedzy/static/media/heroPhysicsSuperDesktop.cae91845.jpg"
   },
   {
-    "revision": "96451149e65ca4d48a950ddbebc00e9d",
-    "url": "/osadawiedzy/static/media/heroSuperDesktop.96451149.jpg"
-  },
-  {
-    "revision": "30fa0886f8b6840a53f5deb91f9722f5",
-    "url": "/osadawiedzy/static/media/ig.30fa0886.png"
+    "revision": "e42c5f77edb3153cb725bf917e8bdf69",
+    "url": "/osadawiedzy/static/media/heroSuperDesktop.e42c5f77.jpg"
   },
   {
     "revision": "53dfe7e18a0e20fb4519762af8140a24",
@@ -452,20 +448,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/karta-uczestnika.7ecd9cd1.pdf"
   },
   {
-    "revision": "d2b5d27badb1042bc1b0de95a1cd936c",
-    "url": "/osadawiedzy/static/media/mailpostBig.d2b5d27b.jpg"
-  },
-  {
-    "revision": "6dc89a1949e8086370c38dc575462c5f",
-    "url": "/osadawiedzy/static/media/mailpostSmall.6dc89a19.jpg"
-  },
-  {
     "revision": "cd263e98cc234810dff6340a2e38d1dd",
     "url": "/osadawiedzy/static/media/mainHeroDesktop.cd263e98.jpg"
   },
   {
     "revision": "af7fba213719ca20e2e58cf3d76e61dc",
     "url": "/osadawiedzy/static/media/mainHeroMobile.af7fba21.jpg"
+  },
+  {
+    "revision": "b3a4d08a51b8f433eee4db7c007dae69",
+    "url": "/osadawiedzy/static/media/mainHeroSuperDesktop.b3a4d08a.jpg"
   },
   {
     "revision": "71dd9566b2e3f83f6c68dc12cbf002c7",
