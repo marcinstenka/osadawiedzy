@@ -6,6 +6,7 @@ import Colony from './pages/Colony';
 import History from './pages/History.js';
 import Offer from './pages/Offer';
 import Physics from './pages/Physics';
+import ForMinors from './pages/ForMinors';
 import Team from './pages/Team';
 import Recomendations from './pages/Recomendations.js';
 import Downloads from './pages/Downloads.js';
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/historia" component={History} />
         <Route exact path="/oferta" component={Offer} />
         <Route exact path="/fizyka-po-godzinach" component={Physics} />
+        <Route exact path="/fizyka-dla-nieletnich" component={ForMinors} />
         <Route exact path="/zespol" component={Team} />
         <Route exact path="/rekomendacje" component={Recomendations} />
         <Route exact path="/do-pobrania" component={Downloads} />

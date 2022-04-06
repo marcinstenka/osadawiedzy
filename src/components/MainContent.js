@@ -94,7 +94,7 @@ const MainContent = () => {
               </div>
             </div>
           </Link>
-          <Link to="/oboz">
+          <Link to="/fizyka-dla-nieletnich">
             <div className="main-link">
               <div className="main-link">
                 <h3>

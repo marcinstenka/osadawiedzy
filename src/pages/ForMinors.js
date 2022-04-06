@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
 
 import Footer from '../components/Footer';
-import PhysicsContent from '../components/PhysicsContent';
+import ForMinorsContent from '../components/ForMinorsContent';
 
-import HeroPhysicsMobile from '../assets/img/heroPhysicsMobile.jpg';
-import HeroPhysicsDesktop from '../assets/img/heroPhysicsDesktop.jpg';
-import HeroSuperPhysicsDesktop from '../assets/img/heroPhysicsSuperDesktop.jpg';
+import HeroForMinorsMobile from '../assets/img/heroForMinorsMobile.jpg';
+import HeroForMinorsDesktop from '../assets/img/heroForMinorsDesktop.jpg';
+import HeroForMinorsSuperDesktop from '../assets/img/heroForMinorsSuperDesktop.jpg';
 import ScrollRestoration from '../components/ScrollRestoration';
 
 import { Link } from 'react-router-dom';
 
-const Physics = () => {
+const ForMinors = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   if (windowWidth <= 768) {
-    var imageUrl = HeroPhysicsMobile;
+    var imageUrl = HeroForMinorsMobile;
   } else if (windowWidth <= 1080) {
-    imageUrl = HeroPhysicsDesktop;
+    imageUrl = HeroForMinorsDesktop;
   } else {
-    imageUrl = HeroSuperPhysicsDesktop;
+    imageUrl = HeroForMinorsSuperDesktop;
   }
   const handleWindowResize = () => {
     setWindowWidth(window.innerWidth);
@@ -28,7 +28,6 @@ const Physics = () => {
   return (
     <>
       <ScrollRestoration />
-
       <Link to="/" className="back-to-main">
         POWRÓT DO STRONY GŁÓWNEJ
       </Link>
@@ -37,16 +36,16 @@ const Physics = () => {
         style={{ background: `url(${imageUrl}) center 67%  no-repeat` }}
       ></div>
       <div className="physics-text">
-        <h1 className="hero-physics--header">FIZYKA PO GODZINACH</h1>
+        <h1 className="hero-physics--header">FIZYKA DLA NIELETNICH</h1>
         <h5 className="hero-physics--p">
-          zajęcia pozalekcyjne dedykowane uczniom szkół
-          <br /> podstawowych oraz ponadpodstawowych
+          unikalne działania łączące edukację
+          <br />z nowymi mediami
         </h5>
       </div>
 
-      <PhysicsContent />
+      <ForMinorsContent />
       <Footer />
     </>
   );
 };
-export default Physics;
+export default ForMinors;
