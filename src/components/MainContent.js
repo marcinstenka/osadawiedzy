@@ -79,7 +79,7 @@ const MainContent = () => {
               </div>
             </div>
           </Link>
-          <Link to="/oboz">
+          <Link to="/pasco">
             <div className="main-link">
               <div className="main-link">
                 <h3 className="main-link--header">PASCO</h3>

@@ -289,6 +289,7 @@ nav {
 
   overflow: hidden;
 }
+
 .hero-text {
   padding: 250px 0 70px 20px;
 }
@@ -456,9 +457,10 @@ nav {
 .forMinors-logo {
   padding: 20px;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
-.forMinors-logo img {
+.forMinors-logo img,
+.pasco-logo img {
   width: 100%;
 }
 .about-forMinors {
@@ -507,10 +509,21 @@ nav {
   overflow: hidden;
   margin: 25px auto 10px auto;
 }
+.pasco-slider {
+  position: relative;
+  max-width: 768px;
+  overflow: hidden;
+  margin: 25px 15px 10px 15px;
+}
+.pasco-tutors .about--text {
+  padding: 0;
+  text-align: justify;
+}
 .swiper {
   position: relative;
 }
-.slider-slide img {
+.slider-slide img,
+.pasco-slider img {
   width: 100%;
 }
 .swiper-nav {
@@ -561,6 +574,31 @@ nav {
 }
 .swiper-pagination-bullet:last-of-type {
   margin: 0;
+}
+
+/* Pasco */
+.hero-pasco {
+  background-position: 28% center !important;
+}
+.about-pasco ul {
+  list-style-type: disc;
+  padding: 0 0 0 30px;
+}
+.pasco--text {
+  background: #286ca5;
+  width: 90%;
+  color: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 15px;
+  max-width: 520px;
+}
+thin {
+  font-weight: 300;
+}
+.pasco-logo {
+  max-width: 350px;
+  margin: 20px auto;
 }
 /* Footer */
 .footer-social path {
@@ -1223,6 +1261,10 @@ li {
     height: 470px;
     background-position: center center !important;
   }
+  .hero-pasco {
+    height: 470px;
+    background-position: right 65% !important;
+  }
   .hero-text {
     padding: 400px 20px 240px 20px;
   }
@@ -1291,6 +1333,9 @@ li {
   .hero-physics--p {
     font-size: 16px;
   }
+  .pasco-slider {
+    margin: 25px auto 10px auto;
+  }
   .footer {
     margin-top: 0;
   }
@@ -1314,7 +1359,7 @@ li {
   .about--text {
     width: 100%;
     margin: 20px auto 0 auto;
-    font-size: 18px;
+    font-size: 17px;
   }
   /* downloads */
   .downloads__main {
@@ -1549,7 +1594,8 @@ li {
   .about--header {
     font-size: 28px;
   }
-  .hero-physics {
+  .hero-physics,
+  .hero-pasco {
     height: 600px;
   }
   .physics-text {
@@ -1558,10 +1604,8 @@ li {
   }
   .hero-physics--header {
     font-size: 40px;
-    padding-right: 0px;
   }
   .hero-physics--p {
-    padding-right: 0px;
   }
   .about-physics {
     grid-template-columns: 1fr 1fr 1fr;
@@ -1629,7 +1673,6 @@ li {
   }
   .forMinors-slider {
     margin: 25px 40px 0 15px;
-    max-width: unset;
   }
   .nextNav,
   .prevNav {
@@ -1648,6 +1691,46 @@ li {
   .forMinors-logo {
     margin: 60px auto;
   }
+  .about-pasco {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  .about-pasco ul {
+    font-size: 16px;
+    padding: 0 0 0 20px;
+  }
+  .about-pasco .about--header:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .about-pasco .about--header:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .about-pasco .about--text:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .about-pasco .about--text:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .about-pasco .about--text:nth-of-type(3) {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .pasco-slider {
+    margin: 25px auto 60px auto;
+  }
+  .about--logo {
+    grid-column: 3 !important;
+    grid-row: 2;
+  }
+  .pasco-logo {
+    margin-top: 100px;
+  }
 }
 @media (min-width: 1200px) {
   .menu-link {
@@ -1657,6 +1740,10 @@ li {
 @media (min-width: 1295px) {
   .forMinors-tutors .about--text {
     padding: 0 0 0 10px;
+  }
+  .hero-physics--header,
+  .hero-physics--p {
+    padding-right: 0px;
   }
 }
 

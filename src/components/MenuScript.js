@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 
-const MenuScript = ({ isHero }) => {
+const MenuScript = () => {
   useEffect(() => {
     const hamburger = document.querySelector('.hamburger');
     const hamburgerInner = document.querySelector('.hamburger__inner');
