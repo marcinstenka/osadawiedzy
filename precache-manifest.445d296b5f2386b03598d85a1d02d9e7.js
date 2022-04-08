@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0d893faf0578d7ce83df54c54369ceb",
+    "revision": "279e1013563e5f7b5bc4766a1c1010f8",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "b5b18d83c1b3e4e5f5eb",
-    "url": "/osadawiedzy/static/css/main.1aae2abe.chunk.css"
+    "revision": "432ebe272b7d61a1934a",
+    "url": "/osadawiedzy/static/css/main.8996fb49.chunk.css"
   },
   {
     "revision": "d999546ab3c3ae8b60df",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/js/2.3e4397fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5b18d83c1b3e4e5f5eb",
+    "revision": "432ebe272b7d61a1934a",
     "url": "/osadawiedzy/static/js/main.94cf5220.chunk.js"
   },
   {

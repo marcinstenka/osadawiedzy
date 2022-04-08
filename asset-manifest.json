@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/osadawiedzy/static/css/main.1aae2abe.chunk.css",
+    "main.css": "/osadawiedzy/static/css/main.8996fb49.chunk.css",
     "main.js": "/osadawiedzy/static/js/main.94cf5220.chunk.js",
     "main.js.map": "/osadawiedzy/static/js/main.94cf5220.chunk.js.map",
     "runtime-main.js": "/osadawiedzy/static/js/runtime-main.5de58a90.js",
@@ -8,9 +8,9 @@
     "static/js/2.3e4397fd.chunk.js": "/osadawiedzy/static/js/2.3e4397fd.chunk.js",
     "static/js/2.3e4397fd.chunk.js.map": "/osadawiedzy/static/js/2.3e4397fd.chunk.js.map",
     "index.html": "/osadawiedzy/index.html",
-    "precache-manifest.57913ed7cffe76e8adc943de1b7ea5fb.js": "/osadawiedzy/precache-manifest.57913ed7cffe76e8adc943de1b7ea5fb.js",
+    "precache-manifest.445d296b5f2386b03598d85a1d02d9e7.js": "/osadawiedzy/precache-manifest.445d296b5f2386b03598d85a1d02d9e7.js",
     "service-worker.js": "/osadawiedzy/service-worker.js",
-    "static/css/main.1aae2abe.chunk.css.map": "/osadawiedzy/static/css/main.1aae2abe.chunk.css.map",
+    "static/css/main.8996fb49.chunk.css.map": "/osadawiedzy/static/css/main.8996fb49.chunk.css.map",
     "static/js/2.3e4397fd.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.3e4397fd.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/osadawiedzy/static/media/1.cdcd188b.jpg",
     "static/media/1.JPG": "/osadawiedzy/static/media/1.fbd2fb6f.JPG",
@@ -77,7 +77,7 @@
   "entrypoints": [
     "static/js/runtime-main.5de58a90.js",
     "static/js/2.3e4397fd.chunk.js",
-    "static/css/main.1aae2abe.chunk.css",
+    "static/css/main.8996fb49.chunk.css",
     "static/js/main.94cf5220.chunk.js"
   ]
 }
