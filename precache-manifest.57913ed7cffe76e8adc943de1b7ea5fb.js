@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee564f837b662a91e3df9928f274a0f7",
+    "revision": "b0d893faf0578d7ce83df54c54369ceb",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "6e064bf2b98c3d0cdb28",
-    "url": "/osadawiedzy/static/css/main.aae1a64e.chunk.css"
+    "revision": "b5b18d83c1b3e4e5f5eb",
+    "url": "/osadawiedzy/static/css/main.1aae2abe.chunk.css"
   },
   {
-    "revision": "40745fa678fd3c6a5fe2",
-    "url": "/osadawiedzy/static/js/2.8e1482c2.chunk.js"
+    "revision": "d999546ab3c3ae8b60df",
+    "url": "/osadawiedzy/static/js/2.3e4397fd.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.8e1482c2.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.3e4397fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e064bf2b98c3d0cdb28",
-    "url": "/osadawiedzy/static/js/main.226e738e.chunk.js"
+    "revision": "b5b18d83c1b3e4e5f5eb",
+    "url": "/osadawiedzy/static/js/main.94cf5220.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -412,16 +412,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/forMinorsLogo.6dd52eec.png"
   },
   {
-    "revision": "335cca044ff33a59463ae40841fc3d1c",
-    "url": "/osadawiedzy/static/media/forMinorsSlider1.335cca04.jpg"
+    "revision": "bfdb4d8b684ee42cb91088ead14ce105",
+    "url": "/osadawiedzy/static/media/forMinorsSlider1.bfdb4d8b.jpg"
   },
   {
-    "revision": "a90838b333ba78a307909d9c6718df0e",
-    "url": "/osadawiedzy/static/media/forMinorsSlider2.a90838b3.jpg"
+    "revision": "a7571e418b54e4a9ab4a6268000adfec",
+    "url": "/osadawiedzy/static/media/forMinorsSlider2.a7571e41.jpg"
   },
   {
-    "revision": "b37e5bc4d878d4b12f2cd28665505d06",
-    "url": "/osadawiedzy/static/media/forMinorsSlider3.b37e5bc4.jpg"
+    "revision": "f2a2973e1ec3e468a784adbb14d45bd8",
+    "url": "/osadawiedzy/static/media/forMinorsSlider3.f2a2973e.jpg"
   },
   {
     "revision": "f029fa96e66170ef5ae4ea0c8d659fa5",
@@ -442,6 +442,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6727e9ac1c46daf531feff3c2f60944",
     "url": "/osadawiedzy/static/media/heroMobile.c6727e9a.jpg"
+  },
+  {
+    "revision": "efbb9a9d7155be9ca7e710553690dc0a",
+    "url": "/osadawiedzy/static/media/heroPascoDesktop.efbb9a9d.jpg"
+  },
+  {
+    "revision": "a50e19d4f086d91d4e183014690fd526",
+    "url": "/osadawiedzy/static/media/heroPascoMobile.a50e19d4.jpg"
+  },
+  {
+    "revision": "543bee15c4bdd82fb45e3d200f652565",
+    "url": "/osadawiedzy/static/media/heroPascoSuperDesktop.543bee15.jpg"
   },
   {
     "revision": "163bf346e0f9b90b6f23c5813150c209",
@@ -502,6 +514,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65523448d9a2b9a22f8acc62a516825f",
     "url": "/osadawiedzy/static/media/opinia-nauczyciela-matematyki-fizyki.65523448.pdf"
+  },
+  {
+    "revision": "3a5210206a9eeec2817b76206aace2f9",
+    "url": "/osadawiedzy/static/media/pascoLogo.3a521020.png"
+  },
+  {
+    "revision": "0fa19dd5d6f075a136dd5226296cd34d",
+    "url": "/osadawiedzy/static/media/pascoSlider1.0fa19dd5.jpg"
+  },
+  {
+    "revision": "a8b9f771c7cfba2288e710d71ace43d5",
+    "url": "/osadawiedzy/static/media/pascoSlider2.a8b9f771.jpg"
+  },
+  {
+    "revision": "d6e0f5612909a3a9dbed90d38907505e",
+    "url": "/osadawiedzy/static/media/pascoSlider3.d6e0f561.jpg"
   },
   {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
