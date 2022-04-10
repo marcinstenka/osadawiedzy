@@ -224,6 +224,7 @@ nav {
 .main-text p {
   font-size: 13px;
   line-height: 1.4;
+  text-shadow: 0 1px 1px #000000;
 }
 .main-links a {
   text-decoration: none;
@@ -588,7 +589,7 @@ nav {
   background: #286ca5;
   width: 90%;
   color: white;
-  padding: 20px;
+  padding: 20px !important;
   margin: 15px auto;
   border-radius: 15px;
   max-width: 520px;
@@ -597,7 +598,7 @@ thin {
   font-weight: 300;
 }
 .pasco-logo {
-  max-width: 350px;
+  max-width: 270px;
   width: 80%;
   margin: 20px auto;
 }
@@ -613,6 +614,8 @@ thin {
 }
 .footer {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   width: 100%;
   background: var(--light-gray);
   margin: 65px 0 0 0;
@@ -628,7 +631,8 @@ thin {
   font-size: 17px;
   padding: 0 0 15px 0;
 }
-.footer-section p {
+.footer-section p,
+.footer-copyright p {
   color: var(--text-gray);
   font-size: 13px;
   margin: 15px 0;
@@ -637,8 +641,8 @@ thin {
 .footer-section p:nth-of-type(5) {
   margin: 15px 0 -8px 0 !important;
 }
-.footer-section svg {
-  margin: 0 8px;
+.footer-section svg:first-of-type {
+  margin: 0 8px 0 0;
 }
 .footer-section a {
   text-decoration: none;
@@ -719,7 +723,7 @@ thin {
 table {
   width: 100%;
   border-spacing: 0;
-  max-width: 1050px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 .offer__section2,
@@ -1345,14 +1349,14 @@ li {
     margin-top: 0;
   }
   .footer-section h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .footer-section p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .footer-sections {
     grid-column-gap: 95px;
-    margin: 0 0 0 15%;
+    margin: 0 0 0 10%;
   }
 }
 @media (min-width: 1050px) {
@@ -1364,7 +1368,8 @@ li {
   .about--text {
     width: 100%;
     margin: 20px auto 0 auto;
-    font-size: 17px;
+    font-size: 14px;
+    padding: 0;
   }
   /* downloads */
   .downloads__main {
@@ -1587,7 +1592,7 @@ li {
   .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1280px;
+    max-width: 1080px;
     margin: 0 auto 100px auto;
   }
   .about-forMinors {
@@ -1597,7 +1602,14 @@ li {
     font-size: 14px;
   }
   .about--header {
-    font-size: 28px;
+    margin: 35px 0 0 0;
+    font-size: 25px;
+  }
+  .about-section:nth-of-type(2) .about--header {
+    margin: 35px 0 0 30px;
+  }
+  .frame {
+    padding: 0 0 0 30px;
   }
   .hero-physics,
   .hero-pasco {
@@ -1605,15 +1617,15 @@ li {
   }
   .physics-text {
     padding: 440px 0 125px 0;
-    max-width: 1250px;
+    max-width: 1080px;
   }
   .hero-physics--header {
     font-size: 40px;
   }
-  .hero-physics--p {
-  }
+
   .about-physics {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 32px;
   }
   .about--text-physics {
     font-size: 16px;
@@ -1635,12 +1647,15 @@ li {
   }
   .program-desktop {
     display: block;
-    max-width: 1280px;
+    max-width: 1120px;
     margin: 0 auto;
+  }
+  .program-desktop .about--header {
+    margin: 35px 0 0 20px;
   }
   .program-desktop table {
     border-spacing: 20px;
-    max-width: 1280px;
+    max-width: 1120px;
   }
   .program-desktop td {
     width: 100px;
@@ -1663,7 +1678,7 @@ li {
   }
   .participation {
     margin: 60px auto 80px auto;
-    max-width: 1280px;
+    max-width: 1080px;
   }
   .participation p {
     font-size: 17px;
@@ -1699,7 +1714,7 @@ li {
   .about-pasco {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: 32px;
   }
 
   .about-pasco ul {
@@ -1734,7 +1749,11 @@ li {
     grid-row: 2;
   }
   .pasco-logo {
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  .footer-copyright p {
+    font-size: 15px;
+    margin: 0 150px 0 0;
   }
 }
 @media (min-width: 1200px) {
