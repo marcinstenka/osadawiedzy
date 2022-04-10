@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5264eb92517fdd1678ede29144550ec",
+    "revision": "f046176513c1f9b019f60dc3c7489b53",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "1b3eb815b1d088d94352",
-    "url": "/osadawiedzy/static/css/main.cafc2768.chunk.css"
+    "revision": "52a14fd80f53e1986af1",
+    "url": "/osadawiedzy/static/css/main.e8aaabc9.chunk.css"
   },
   {
-    "revision": "d999546ab3c3ae8b60df",
-    "url": "/osadawiedzy/static/js/2.3e4397fd.chunk.js"
+    "revision": "85f852ef100a864f4445",
+    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.3e4397fd.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b3eb815b1d088d94352",
-    "url": "/osadawiedzy/static/js/main.1e18b5d3.chunk.js"
+    "revision": "52a14fd80f53e1986af1",
+    "url": "/osadawiedzy/static/js/main.916ca989.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -500,6 +500,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/mainHeroSuperDesktop.ac1557f2.jpg"
   },
   {
+    "revision": "59f25998e42edc664eb46a6e1778cb9e",
+    "url": "/osadawiedzy/static/media/mainIcon1.59f25998.svg"
+  },
+  {
+    "revision": "3c16770d2d8e2ed9611f977c9760e451",
+    "url": "/osadawiedzy/static/media/mainIcon2.3c16770d.svg"
+  },
+  {
+    "revision": "ee7b6037bc3f65134dbfdbc41285d6c2",
+    "url": "/osadawiedzy/static/media/mainIcon3.ee7b6037.svg"
+  },
+  {
+    "revision": "c55ce2aa43552264f1cfb56404c20dd8",
+    "url": "/osadawiedzy/static/media/mainIcon4.c55ce2aa.svg"
+  },
+  {
     "revision": "71dd9566b2e3f83f6c68dc12cbf002c7",
     "url": "/osadawiedzy/static/media/nz1.71dd9566.jpg"
   },
@@ -534,6 +550,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
     "url": "/osadawiedzy/static/media/rozklad-dnia.af99c70f.pdf"
+  },
+  {
+    "revision": "a1e62992c2000401c04c1b6e042516c0",
+    "url": "/osadawiedzy/static/media/theboldfont.a1e62992.ttf"
+  },
+  {
+    "revision": "a9ae3180f64793112ad4db37ec8bc561",
+    "url": "/osadawiedzy/static/media/triangle.a9ae3180.svg"
   },
   {
     "revision": "052854b5a52e85e1fd61394ffe113ebf",
