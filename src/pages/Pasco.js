@@ -38,7 +38,7 @@ const Pasco = () => {
         }}
       ></div>
       <div className="physics-text">
-        <h1 className="hero-physics--header">PASCO</h1>
+        <h1 className="hero-physics--header">pasco</h1>
         <h5 className="hero-physics--p">
           urządzenia cyfrowe do pomiarów i analiz podczas
           <br />

@@ -4,7 +4,7 @@ const PhysicsContent = () => {
   return (
     <>
       <div className="about about-physics">
-        <h2 className="about--header header">O NAS</h2>
+        <h2 className="about--header header">o nas</h2>
         <p className="about--text about--text-physics">
           W ramach fizyki po godzinach uczniowie będą pracowali na zajęciach w
           oparciu o podstawę programową nauczania fizyki w szkole, ale nie będą
@@ -46,7 +46,7 @@ const PhysicsContent = () => {
         </p>
       </div>
       <div className="program-mobile">
-        <h2 className="about--header header">PROGRAM</h2>
+        <h2 className="about--header header">program</h2>
         <div className="program-section">
           <h2>zajęcia podstawowe</h2>
           <p>
@@ -114,7 +114,7 @@ const PhysicsContent = () => {
         </div>
       </div>
       <div className="program-desktop">
-        <h2 className="about--header header">PROGRAM</h2>
+        <h2 className="about--header header">program</h2>
         <table>
           <tbody>
             <tr className="table-headers">
@@ -173,7 +173,7 @@ const PhysicsContent = () => {
         </table>
       </div>
       <div className="participation">
-        <h2 className="about--header header">UCZESTNICTWO</h2>
+        <h2 className="about--header header">uczestnictwo</h2>
         <p>
           Zapraszamy za zajęcia pozalekcyjne z fizyki dla uczniów po VI klasie
           szkoły podstawowej.

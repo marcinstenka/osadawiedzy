@@ -12,7 +12,7 @@ import ForMinorsLogo from '../assets/img/forMinorsLogo.png';
 import ForMinorsSlider1 from '../assets/img/forMinorsSlider1.jpg';
 import ForMinorsSlider2 from '../assets/img/forMinorsSlider2.jpg';
 import ForMinorsSlider3 from '../assets/img/forMinorsSlider3.jpg';
-import Triangle from '../assets/img/triangle.png';
+import Triangle from '../assets/img/triangle.svg';
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -20,7 +20,7 @@ const ForMinorsContent = () => {
   return (
     <>
       <div className="about about-forMinors">
-        <h2 className="about--header header">O PROJEKCIE</h2>
+        <h2 className="about--header header">o projekcie</h2>
         <p className="about--text about--text--forMinors">
           <bold>„Fizyka dla nieletnich – doświadczenia”</bold>{' '}
           (www.underage.pro) unikalny projekt pod patronatem honorowym Ministra

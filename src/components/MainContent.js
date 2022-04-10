@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import MainHeroMobile from '../assets/img/mainHeroMobile.jpg';
 import MainHeroDesktop from '../assets/img/mainHeroDesktop.jpg';
 import MainHeroSuperDesktop from '../assets/img/mainHeroSuperDesktop.jpg';
-import MainLink1 from '../assets/img/mainIcon1.png';
-import MainLink2 from '../assets/img/mainIcon2.png';
-import MainLink3 from '../assets/img/mainIcon3.png';
-import MainLink4 from '../assets/img/mainIcon4.png';
+import MainLink1 from '../assets/img/mainIcon1.svg';
+import MainLink2 from '../assets/img/mainIcon2.svg';
+import MainLink3 from '../assets/img/mainIcon3.svg';
+import MainLink4 from '../assets/img/mainIcon4.svg';
 
 const MainContent = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -50,7 +50,7 @@ const MainContent = () => {
         <div className="main-links">
           <Link to="/oboz">
             <div className="main-link">
-              <h3 className="main-link--header">OBÓZ NAUKOWY</h3>
+              <h3 className="main-link--header">obóz naukowy</h3>
               <p>
                 wyjątkowy obóz naukowy, przestrzeń budowania relacji, rozwijania
                 pasji i zainteresowań
@@ -65,8 +65,8 @@ const MainContent = () => {
             <div className="main-link">
               <div className="main-link">
                 <h3>
-                  FIZYKA <br className="br" />
-                  PO GODZINACH
+                  fizyka <br className="br" />
+                  po godzinach
                 </h3>
                 <p>
                   zajęcia pozalekcyjne dedykowane uczniom szkół podstawowych
@@ -82,7 +82,7 @@ const MainContent = () => {
           <Link to="/pasco">
             <div className="main-link">
               <div className="main-link">
-                <h3 className="main-link--header">PASCO</h3>
+                <h3 className="main-link--header">pasco</h3>
                 <p>
                   urządzenia cyfrowe do pomiarów i analiz podczas doświadczeń na
                   lekcjach przedmiotów przyrodniczych
@@ -98,8 +98,8 @@ const MainContent = () => {
             <div className="main-link">
               <div className="main-link">
                 <h3>
-                  FIZYKA
-                  <br className="br" /> DLA NIELETNICH
+                  fizyka
+                  <br className="br" /> dla nieletnich
                 </h3>
                 <p>
                   system unikalnych działań medialnych o charakterze

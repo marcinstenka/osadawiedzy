@@ -1,8 +1,8 @@
 /* GLOBAL */
 
 :root {
-  --roboto: 'Roboto', sans-serif;
-  --paytone-one: 'Paytone One', sans-serif;
+  --roboto: 'Roboto Condensed', sans-serif;
+  --the-font-bold: 'the bold font', sans-serif;
   --green: #5d9443;
   --light-gray: #efefef;
   --header-gray: #384445;
@@ -46,7 +46,7 @@ button:focus {
 
 .main-logo {
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 10px;
   width: 130px;
 }
@@ -166,9 +166,7 @@ nav {
   transform: translateY(10px) rotate(45deg);
 }
 /* Navbar - mobile menu logo and links */
-.logo {
-  height: 99px;
-}
+
 .mobile-menu__logo {
   position: absolute;
   left: 10px;
@@ -216,10 +214,11 @@ nav {
   display: none;
 }
 .main-text h1 {
-  font-family: var(--paytone-one);
+  font-family: var(--the-font-bold);
   font-weight: normal;
   font-size: 37px;
   text-shadow: 0 1px 2px #000000;
+  min-width: 300px;
 }
 .main-text p {
   font-size: 13px;
@@ -256,10 +255,12 @@ nav {
   transform: translateY(-10px);
 }
 .main-link h3 {
-  font-size: 15px;
+  font-size: 24px;
   color: var(--header-gray);
-  font-weight: 900;
+  font-weight: 700;
   padding: 20px 0 10px 0;
+  line-height: 0.8;
+  font-variant: small-caps;
 }
 .main-link--header {
   padding-top: 36px !important;
@@ -268,6 +269,7 @@ nav {
 .main-link p {
   font-size: 11px;
   padding: 0 8px 0 8px;
+  font-weight: 700;
 
   color: var(--text-gray);
 }
@@ -276,6 +278,7 @@ nav {
   bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
+  width: 85px;
 }
 
 /* hero */
@@ -298,6 +301,7 @@ nav {
   margin: 0;
   color: white;
   font-size: 23px;
+  text-shadow: 0px 1px 1px #000;
 }
 .hero-p {
   margin: 0;
@@ -306,6 +310,7 @@ nav {
   font-weight: normal;
   max-width: 290px;
   padding: 15px 0 0 0;
+  text-shadow: 0px 1px 1px #000;
 }
 .check-offer {
   display: none;
@@ -313,11 +318,12 @@ nav {
 .about--header {
   margin: 35px 0 0 20px;
   color: var(--header-gray);
-  font-size: 19px;
+  font-size: 28px;
   font-weight: bold;
+  font-variant: small-caps;
 }
 .about--text {
-  font-size: 17px;
+  font-size: 15px;
   padding: 0 20px;
   color: var(--text-gray);
   line-height: 1.5;
@@ -327,7 +333,7 @@ nav {
   color: var(--text-gray);
 }
 .about--text-physics {
-  font-size: 16px;
+  font-size: 15px;
 }
 .frame {
   width: 100%;
@@ -342,22 +348,11 @@ nav {
 }
 @media (min-width: 640px) {
   .frame {
-    min-height: 300px;
-  }
-}
-@media (min-width: 768px) {
-  .frame {
-    min-height: 350px;
+    min-height: 286px;
   }
 }
 @media (min-width: 860px) {
   .frame {
-    min-height: 420px;
-  }
-}
-@media (min-width: 860px) {
-  .frame {
-    min-height: 470px;
     margin-top: 30px;
   }
 }
@@ -371,6 +366,7 @@ nav {
   text-decoration: none;
   font-size: 10px;
   z-index: 1;
+  font-weight: 700;
 }
 .physics-text {
   padding: 320px 0 83px 0;
@@ -378,10 +374,12 @@ nav {
 .hero-physics--header {
   margin: 0;
   color: white;
-  font-weight: 900;
+  font-weight: 700;
   text-align: right;
   padding: 0 20px 10px 0;
-  font-size: 23px;
+  font-size: 42px;
+  font-variant: small-caps;
+  text-shadow: 0px 1px 1px #000;
 }
 
 .hero-physics--p {
@@ -391,6 +389,7 @@ nav {
   color: white;
   font-size: 13px;
   font-weight: normal;
+  text-shadow: 0 1px 1px #000;
 }
 .program-desktop {
   display: none;
@@ -526,6 +525,7 @@ nav {
 .slider-slide img,
 .pasco-slider img {
   width: 100%;
+  border-radius: 15px !important;
 }
 .swiper-nav {
   display: flex;
@@ -628,8 +628,9 @@ thin {
 }
 .footer-section h2 {
   color: var(--header-gray);
-  font-size: 17px;
+  font-size: 26px;
   padding: 0 0 15px 0;
+  font-variant: small-caps;
 }
 .footer-section p,
 .footer-copyright p {
@@ -1219,7 +1220,6 @@ li {
     height: 800px;
     background-position: center bottom !important;
   }
-
   .main-text {
     top: 150px;
   }
@@ -1333,7 +1333,7 @@ li {
     margin: 0 auto;
   }
   .hero-physics--header {
-    font-size: 30px;
+    font-size: 49px;
   }
   .hero-physics--p {
     font-size: 16px;
@@ -1349,7 +1349,7 @@ li {
     margin-top: 0;
   }
   .footer-section h2 {
-    font-size: 22px;
+    font-size: 31px;
   }
   .footer-section p {
     font-size: 17px;
@@ -1368,8 +1368,7 @@ li {
   .about--text {
     width: 100%;
     margin: 20px auto 0 auto;
-    font-size: 14px;
-    padding: 0;
+    font-size: 15px;
   }
   /* downloads */
   .downloads__main {
@@ -1488,12 +1487,19 @@ li {
     margin: 35px auto;
   }
 }
-@media (min-width: 1080px) {
-  .nav-logo {
-    position: absolute;
-    top: 0px;
-    left: 10px;
+@media (min-width: 1130px) {
+  .about--text {
+    padding: 0;
   }
+  .about--header {
+    margin: 35px 0 0 0;
+    font-size: 28px;
+  }
+  .participation p {
+    padding: 0;
+  }
+}
+@media (min-width: 1080px) {
   .br-reverse {
     display: none;
   }
@@ -1512,26 +1518,22 @@ li {
     height: 265px;
   }
   .main-link h3 {
-    font-size: 24px;
-    padding: 30px 0 10px 0;
+    font-size: 34px;
+    padding: 48px 0 10px 0;
   }
   .main-link--header {
-    padding-top: 57px !important;
+    padding-top: 77px !important;
   }
   .main-link p {
-    font-size: 13.5px;
     padding: 0 25px;
   }
   .main-link img {
     width: 115px;
     bottom: -55px;
   }
-  .logo {
-    height: 150px;
-  }
   nav {
     justify-content: flex-end;
-    height: 115px;
+    height: 100px;
   }
   .hamburger,
   .mobile-menu {
@@ -1552,6 +1554,7 @@ li {
     text-decoration: none;
     margin: 0 20px 0 0;
     font-size: 18px;
+    font-weight: 700;
     transition: 0.5s;
   }
   .menu-link-hero {
@@ -1601,10 +1604,6 @@ li {
   .back-to-main {
     font-size: 14px;
   }
-  .about--header {
-    margin: 35px 0 0 0;
-    font-size: 25px;
-  }
   .about-section:nth-of-type(2) .about--header {
     margin: 35px 0 0 30px;
   }
@@ -1616,19 +1615,16 @@ li {
     height: 600px;
   }
   .physics-text {
-    padding: 440px 0 125px 0;
+    padding: 400px 0 125px 0;
     max-width: 1080px;
   }
   .hero-physics--header {
-    font-size: 40px;
+    font-size: 59px;
   }
 
   .about-physics {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 32px;
-  }
-  .about--text-physics {
-    font-size: 16px;
   }
   .about--header {
     grid-column: 1;
@@ -1659,7 +1655,7 @@ li {
   }
   .program-desktop td {
     width: 100px;
-
+    color: var(--text-gray);
     font-size: 15px;
     border-radius: 7px;
   }
@@ -1667,11 +1663,13 @@ li {
     color: white;
     padding: 15px;
     background: #dcdcdc;
+    font-weight: 700;
   }
   .table-left {
     background: #6d70c0;
     padding: 15px;
-    color: white;
+    color: white !important;
+    font-weight: 700;
   }
   .table-small {
     font-size: 13px !important;
@@ -1681,7 +1679,7 @@ li {
     max-width: 1080px;
   }
   .participation p {
-    font-size: 17px;
+    font-size: 15px;
   }
   .frame-forMinors {
     padding: 0 10px 0 30px !important;
@@ -1754,11 +1752,6 @@ li {
   .footer-copyright p {
     font-size: 15px;
     margin: 0 150px 0 0;
-  }
-}
-@media (min-width: 1200px) {
-  .menu-link {
-    font-size: 22px;
   }
 }
 @media (min-width: 1295px) {

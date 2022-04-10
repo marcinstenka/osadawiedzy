@@ -37,7 +37,7 @@ const Physics = () => {
         style={{ background: `url(${imageUrl}) center 67%  no-repeat` }}
       ></div>
       <div className="physics-text">
-        <h1 className="hero-physics--header">FIZYKA PO GODZINACH</h1>
+        <h1 className="hero-physics--header">fizyka po godzinach</h1>
         <h5 className="hero-physics--p">
           zajęcia pozalekcyjne dedykowane uczniom szkół
           <br /> podstawowych oraz ponadpodstawowych

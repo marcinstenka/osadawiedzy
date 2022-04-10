@@ -12,7 +12,7 @@ const Navbar = ({ isHero }) => {
     <nav>
       <ScrollRestoration />
       <Link to="/" className="nav-logo">
-        <img className="logo" src={Logo} alt="Logo" />
+        <img className="main-logo" src={Logo} alt="Logo" />
       </Link>
       <button className="hamburger">
         <span className="hamburger__box">

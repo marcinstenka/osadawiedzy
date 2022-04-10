@@ -5,7 +5,7 @@ const Footer = ({ footerBottom }) => {
     <div className={footerBottom ? 'footer footer-bottom' : 'footer'}>
       <div className="footer-sections">
         <div className="footer-section">
-          <h2>KONTAKT</h2>
+          <h2>kontkat</h2>
           <p>kontakt@osadawiedzy.pl</p>
           <p>
             ul. Długa 24A
@@ -34,7 +34,7 @@ const Footer = ({ footerBottom }) => {
           </p>
         </div>
         <div className="footer-section">
-          <h2>ŚLEDŹ NAS</h2>
+          <h2>śledź nas</h2>
 
           <Link to="">
             <svg
