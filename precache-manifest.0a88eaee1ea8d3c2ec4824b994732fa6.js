@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f046176513c1f9b019f60dc3c7489b53",
+    "revision": "de955a2e78bdde1a72fe9d8fa07a841f",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "52a14fd80f53e1986af1",
+    "revision": "d38663f90dfa32a1acc7",
     "url": "/osadawiedzy/static/css/main.e8aaabc9.chunk.css"
   },
   {
-    "revision": "85f852ef100a864f4445",
-    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js"
+    "revision": "45d408c9f6542e4ab462",
+    "url": "/osadawiedzy/static/js/2.f8168f13.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.f8168f13.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52a14fd80f53e1986af1",
-    "url": "/osadawiedzy/static/js/main.916ca989.chunk.js"
+    "revision": "d38663f90dfa32a1acc7",
+    "url": "/osadawiedzy/static/js/main.525480c6.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -444,16 +444,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/heroMobile.c6727e9a.jpg"
   },
   {
-    "revision": "efbb9a9d7155be9ca7e710553690dc0a",
-    "url": "/osadawiedzy/static/media/heroPascoDesktop.efbb9a9d.jpg"
+    "revision": "4c6bc3e88311acbbfbcd53c1c8f859db",
+    "url": "/osadawiedzy/static/media/heroPascoDesktop.4c6bc3e8.jpg"
   },
   {
-    "revision": "a50e19d4f086d91d4e183014690fd526",
-    "url": "/osadawiedzy/static/media/heroPascoMobile.a50e19d4.jpg"
+    "revision": "c1cad87112be989777cc5a071d6e6552",
+    "url": "/osadawiedzy/static/media/heroPascoMobile.c1cad871.jpg"
   },
   {
-    "revision": "543bee15c4bdd82fb45e3d200f652565",
-    "url": "/osadawiedzy/static/media/heroPascoSuperDesktop.543bee15.jpg"
+    "revision": "1761104edb929b6a9a30473471199e88",
+    "url": "/osadawiedzy/static/media/heroPascoSuperDesktop.1761104e.jpg"
   },
   {
     "revision": "163bf346e0f9b90b6f23c5813150c209",
@@ -500,20 +500,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/mainHeroSuperDesktop.ac1557f2.jpg"
   },
   {
-    "revision": "59f25998e42edc664eb46a6e1778cb9e",
-    "url": "/osadawiedzy/static/media/mainIcon1.59f25998.svg"
+    "revision": "d5ee387ab9340a6e73d4b2a02dc6e0bd",
+    "url": "/osadawiedzy/static/media/mainIcon1.d5ee387a.svg"
   },
   {
-    "revision": "3c16770d2d8e2ed9611f977c9760e451",
-    "url": "/osadawiedzy/static/media/mainIcon2.3c16770d.svg"
+    "revision": "848f8a4fb35e0bdeae3b7c12c14a7613",
+    "url": "/osadawiedzy/static/media/mainIcon2.848f8a4f.svg"
   },
   {
-    "revision": "ee7b6037bc3f65134dbfdbc41285d6c2",
-    "url": "/osadawiedzy/static/media/mainIcon3.ee7b6037.svg"
+    "revision": "2dfa8fa005012e723365e5a9e8b44d68",
+    "url": "/osadawiedzy/static/media/mainIcon3.2dfa8fa0.svg"
   },
   {
-    "revision": "c55ce2aa43552264f1cfb56404c20dd8",
-    "url": "/osadawiedzy/static/media/mainIcon4.c55ce2aa.svg"
+    "revision": "5bdf1b81c9a4f7b39496e79c0c7bf333",
+    "url": "/osadawiedzy/static/media/mainIcon4.5bdf1b81.svg"
   },
   {
     "revision": "71dd9566b2e3f83f6c68dc12cbf002c7",
@@ -556,8 +556,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/theboldfont.a1e62992.ttf"
   },
   {
-    "revision": "a9ae3180f64793112ad4db37ec8bc561",
-    "url": "/osadawiedzy/static/media/triangle.a9ae3180.svg"
+    "revision": "0ce4125ac77fa278994da03e8c11e4ef",
+    "url": "/osadawiedzy/static/media/triangle.0ce4125a.svg"
   },
   {
     "revision": "052854b5a52e85e1fd61394ffe113ebf",
