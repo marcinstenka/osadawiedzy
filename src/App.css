@@ -46,9 +46,9 @@ button:focus {
 
 .main-logo {
   position: absolute;
-  top: 0;
-  left: 10px;
-  width: 130px;
+  top: -15px;
+  left: -10px;
+  width: 180px;
 }
 
 nav {
@@ -171,7 +171,7 @@ nav {
   position: absolute;
   left: 10px;
   top: 10px;
-  width: 110px;
+  width: 150px;
 }
 
 .mobile-menu__links {
@@ -184,7 +184,7 @@ nav {
   text-align: justify;
   text-decoration: none;
   font-size: 22px;
-  margin: 10px 0;
+  margin: 15px 0;
   transition: color 0.5s;
   color: var(--header-gray);
 }
@@ -219,6 +219,7 @@ nav {
   font-size: 37px;
   text-shadow: 0 1px 2px #000000;
   min-width: 300px;
+  letter-spacing: 3px;
 }
 .main-text p {
   font-size: 13px;
@@ -267,7 +268,7 @@ nav {
 }
 
 .main-link p {
-  font-size: 11px;
+  font-size: 12px;
   padding: 0 8px 0 8px;
   font-weight: 700;
 
@@ -302,6 +303,7 @@ nav {
   color: white;
   font-size: 23px;
   text-shadow: 0px 1px 1px #000;
+  text-transform: uppercase;
 }
 .hero-p {
   margin: 0;
@@ -327,7 +329,6 @@ nav {
   padding: 0 20px;
   color: var(--text-gray);
   line-height: 1.5;
-  text-align: justify;
 }
 .about--text a {
   color: var(--text-gray);
@@ -338,7 +339,6 @@ nav {
 .frame {
   width: 100%;
   min-height: 190px;
-  margin: 40px 0 0 0;
   padding: 0 20px;
 }
 @media (min-width: 480px) {
@@ -353,7 +353,7 @@ nav {
 }
 @media (min-width: 860px) {
   .frame {
-    margin-top: 30px;
+    margin-top: 23px;
   }
 }
 
@@ -364,19 +364,25 @@ nav {
   left: 20px;
   top: 20px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   z-index: 1;
   font-weight: 700;
 }
+.back-to-main--white {
+  color: white !important;
+}
+.back-to-main--dark {
+  color: var(--header-gray) !important;
+}
 .physics-text {
-  padding: 320px 0 83px 0;
+  padding: 340px 0 63px 0;
 }
 .hero-physics--header {
   margin: 0;
   color: white;
   font-weight: 700;
   text-align: right;
-  padding: 0 20px 10px 0;
+  padding: 0 20px 0 0;
   font-size: 42px;
   font-variant: small-caps;
   text-shadow: 0px 1px 1px #000;
@@ -456,7 +462,7 @@ nav {
 }
 .forMinors-logo {
   padding: 20px;
-  max-width: 500px;
+  max-width: 400px;
   margin: 25px auto;
 }
 .forMinors-logo img,
@@ -485,14 +491,15 @@ nav {
   grid-row: 6;
 }
 .forMinors-social {
-  grid-row: 7;
-  grid-column: 1/3;
+  grid-row: 6;
+  grid-column: 3/6;
 }
 .frame-forMinors:nth-of-type(1) {
-  grid-row: 2/5;
+  grid-row: 2/4;
 }
 .frame-forMinors:nth-of-type(2) {
-  grid-row: 5/8;
+  grid-row: 4/6;
+  margin: 24px 0 0 0;
 }
 .frame-forMinors {
   grid-column: 3/6;
@@ -507,11 +514,11 @@ nav {
   position: relative;
   max-width: 700px;
   overflow: hidden;
-  margin: 25px auto 10px auto;
+  margin: 25px 15px 10px 15px;
 }
 .pasco-slider {
   position: relative;
-  max-width: 768px;
+  max-width: 768;
   overflow: hidden;
   margin: 25px 15px 10px 15px;
 }
@@ -598,9 +605,9 @@ thin {
   font-weight: 300;
 }
 .pasco-logo {
-  max-width: 270px;
+  max-width: 220px;
   width: 80%;
-  margin: 20px auto;
+  margin: 32px auto;
 }
 /* Footer */
 .footer-social path {
@@ -631,12 +638,18 @@ thin {
   font-size: 26px;
   padding: 0 0 15px 0;
   font-variant: small-caps;
+  min-width: 100px;
 }
 .footer-section p,
 .footer-copyright p {
   color: var(--text-gray);
   font-size: 13px;
   margin: 15px 0;
+}
+.footer-copyright p {
+  min-width: 90px;
+  text-align: right;
+  margin: 15px 0 15px -30px;
 }
 .footer-section p:nth-of-type(3),
 .footer-section p:nth-of-type(5) {
@@ -1210,12 +1223,18 @@ li {
   padding: 30px;
 }
 /* media queries */
-
+@media (min-width: 700px) {
+  .forMinors-slider {
+    margin: 25px auto 10px auto;
+  }
+}
 @media (min-width: 768px) {
   .br {
     display: block;
   }
-
+  .about--text {
+    text-align: justify;
+  }
   .main-img {
     height: 800px;
     background-position: center bottom !important;
@@ -1259,8 +1278,9 @@ li {
     height: 900px;
   }
   .back-to-main {
-    font-size: 12px;
+    font-size: 14px;
     z-index: 1;
+    color: var(--header-gray);
   }
   .hero-physics {
     height: 470px;
@@ -1602,20 +1622,21 @@ li {
     margin: 0 auto 50px auto !important;
   }
   .back-to-main {
-    font-size: 14px;
+    font-size: 16px;
   }
   .about-section:nth-of-type(2) .about--header {
     margin: 35px 0 0 30px;
   }
   .frame {
     padding: 0 0 0 30px;
+    margin: 40px 0 0 0;
   }
   .hero-physics,
   .hero-pasco {
     height: 600px;
   }
   .physics-text {
-    padding: 400px 0 125px 0;
+    padding: 440px 0 85px 0;
     max-width: 1080px;
   }
   .hero-physics--header {
@@ -1716,8 +1737,8 @@ li {
   }
 
   .about-pasco ul {
-    font-size: 16px;
     padding: 0 0 0 20px;
+    text-align: left;
   }
   .about-pasco .about--header:nth-of-type(1) {
     grid-column: 1;
@@ -1747,7 +1768,8 @@ li {
     grid-row: 2;
   }
   .pasco-logo {
-    margin-top: 50px;
+    margin: 50px auto 20px auto;
+    max-width: 270px;
   }
   .footer-copyright p {
     font-size: 15px;

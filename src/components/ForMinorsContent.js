@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'; // problem with route - added  '/swiper-react' at the end
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 
-import WbIcon from '../assets/img/forMinors-wb.png';
-import TikTokIcon from '../assets/img/forMinors-tik-tok.png';
-import YtIcon from '../assets/img/forMinors-yt.png';
-import FbIcon from '../assets/img/forMinors-fb.png';
+import WbIcon from '../assets/img/forMinors-wb.svg';
+import TikTokIcon from '../assets/img/forMinors-tik-tok.svg';
+import YtIcon from '../assets/img/forMinors-yt.svg';
+import FbIcon from '../assets/img/forMinors-fb.svg';
 import ForMinorsLogo from '../assets/img/forMinorsLogo.png';
 import ForMinorsSlider1 from '../assets/img/forMinorsSlider1.jpg';
 import ForMinorsSlider2 from '../assets/img/forMinorsSlider2.jpg';
@@ -101,7 +101,7 @@ const ForMinorsContent = () => {
         </div>
       </div>
       <div className="forMinors-tutors">
-        <h2 className="about--header header">Prowadzący</h2>
+        <h2 className="about--header header">prowadzący</h2>
         <p className="about--text">
           Prowadzącymi i realizującymi doświadczenia są Ignacy Rejmak i
           Przemysław Rojewski, charyzmatyczni nauczyciele z wieloletnim stażem i

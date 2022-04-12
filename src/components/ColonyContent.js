@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-section">
-        <h2 className="about--header header">O NAS</h2>
+        <h2 className="about--header header">o nas</h2>
         <p className="about--text">
           Jest rok 2022. Cały świat zdominowany został przez Mocarstwo
           Edukacyjnej Negacji. Cały? Nie. Jedna jedyna osada, prowadzona przez
@@ -26,7 +26,7 @@ const About = () => {
         </p>
       </div>
       <div className="about-section">
-        <div className="about--header header">OBEJRZYJ</div>
+        <div className="about--header header">obejrzyj</div>
         <iframe
           title="movie"
           className="frame"
