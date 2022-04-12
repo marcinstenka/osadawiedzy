@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import TheBoldFont from './assets/fonts/theboldfont.ttf';
-import test from './assets/fonts/roboto-condensed.bold.ttf';
+import test from './assets/fonts/roboto-condensed.regular.ttf';
 const GlobalStyle = createGlobalStyle`
         
         @font-face{
