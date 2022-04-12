@@ -267,6 +267,7 @@ nav {
   padding: 20px 0 10px 0;
   line-height: 0.8;
   font-variant: small-caps;
+  text-transform: lowercase;
 }
 .main-link--header {
   padding-top: 36px !important;
@@ -328,6 +329,7 @@ nav {
   font-size: 28px;
   font-weight: bold;
   font-variant: small-caps;
+  text-transform: lowercase;
 }
 .about--text {
   font-size: 15px;
@@ -390,6 +392,7 @@ nav {
   padding: 0 20px 0 0;
   font-size: 42px;
   font-variant: small-caps;
+  text-transform: lowercase;
   text-shadow: 0px 1px 1px #000;
 }
 
@@ -643,6 +646,7 @@ thin {
   font-size: 26px;
   padding: 0 0 15px 0;
   font-variant: small-caps;
+  text-transform: lowercase;
   min-width: 100px;
 }
 .footer-section p,
