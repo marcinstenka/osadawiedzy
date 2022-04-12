@@ -12,11 +12,16 @@
 html {
   box-sizing: border-box;
   font-family: var(--roboto);
+  -webkit-font-family: var(--roboto);
+  -moz-font-family: var(--roboto);
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 body {
   margin: 0;
