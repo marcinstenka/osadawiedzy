@@ -34,7 +34,7 @@ const Footer = ({ footerBottom }) => {
           </p>
         </div>
         <div className="footer-section">
-          <h2>śledź nas</h2>
+          <h2>śledź nas 11</h2>
 
           <Link to="">
             <svg
