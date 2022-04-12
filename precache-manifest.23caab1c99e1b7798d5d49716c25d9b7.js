@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c7c858c12c4ac279d23a1b55f779ab4",
+    "revision": "9c662892f0c9e7ff1ffa176f8aeed19f",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "531f2c44a5ef80ace570",
+    "revision": "e3fc7aa24b2e78a601d1",
     "url": "/osadawiedzy/static/css/main.5e651189.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/js/2.ba9cbfbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "531f2c44a5ef80ace570",
-    "url": "/osadawiedzy/static/js/main.37995ce5.chunk.js"
+    "revision": "e3fc7aa24b2e78a601d1",
+    "url": "/osadawiedzy/static/js/main.a686ead9.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -568,8 +568,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/pascoSlider3.d6e0f561.jpg"
   },
   {
-    "revision": "7ff4438405bfb9fe87b606ca356ba6a0",
-    "url": "/osadawiedzy/static/media/roboto-condensed.bold.7ff44384.ttf"
+    "revision": "e6fd95f0cb839566476ec9b6df34849c",
+    "url": "/osadawiedzy/static/media/roboto-condensed.regular.e6fd95f0.ttf"
   },
   {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
