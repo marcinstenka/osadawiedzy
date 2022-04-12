@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de955a2e78bdde1a72fe9d8fa07a841f",
+    "revision": "e1fb6c4b9ef8563f5963cea4c75eac4d",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "d38663f90dfa32a1acc7",
-    "url": "/osadawiedzy/static/css/main.e8aaabc9.chunk.css"
+    "revision": "8f872e98ecc7d21f8556",
+    "url": "/osadawiedzy/static/css/main.3993f542.chunk.css"
   },
   {
-    "revision": "45d408c9f6542e4ab462",
-    "url": "/osadawiedzy/static/js/2.f8168f13.chunk.js"
+    "revision": "85f852ef100a864f4445",
+    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.f8168f13.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d38663f90dfa32a1acc7",
-    "url": "/osadawiedzy/static/js/main.525480c6.chunk.js"
+    "revision": "8f872e98ecc7d21f8556",
+    "url": "/osadawiedzy/static/js/main.c511d51a.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -408,6 +408,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/cz3.29c0b160.jpg"
   },
   {
+    "revision": "4eecc2334eb58206d79460395fbae447",
+    "url": "/osadawiedzy/static/media/forMinors-fb.4eecc233.svg"
+  },
+  {
+    "revision": "d57e7ef6e7012bf639381ce2854f25cc",
+    "url": "/osadawiedzy/static/media/forMinors-tik-tok.d57e7ef6.svg"
+  },
+  {
+    "revision": "736540a9a27f6e9686ee604cd85c5c4b",
+    "url": "/osadawiedzy/static/media/forMinors-wb.736540a9.svg"
+  },
+  {
+    "revision": "a405e9ca2ad775065ee881aa5dd9d3de",
+    "url": "/osadawiedzy/static/media/forMinors-yt.a405e9ca.svg"
+  },
+  {
     "revision": "6dd52eec5447a47e2a5a5f35fea09109",
     "url": "/osadawiedzy/static/media/forMinorsLogo.6dd52eec.png"
   },
@@ -488,6 +504,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/karta-uczestnika.7ecd9cd1.pdf"
   },
   {
+    "revision": "196e98d641784c86b66c1fba0d2112c4",
+    "url": "/osadawiedzy/static/media/logo.196e98d6.png"
+  },
+  {
     "revision": "a89aee90607145287f5f80b9785d2353",
     "url": "/osadawiedzy/static/media/mainHeroDesktop.a89aee90.jpg"
   },
@@ -500,20 +520,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/mainHeroSuperDesktop.ac1557f2.jpg"
   },
   {
-    "revision": "d5ee387ab9340a6e73d4b2a02dc6e0bd",
-    "url": "/osadawiedzy/static/media/mainIcon1.d5ee387a.svg"
+    "revision": "59f25998e42edc664eb46a6e1778cb9e",
+    "url": "/osadawiedzy/static/media/mainIcon1.59f25998.svg"
   },
   {
-    "revision": "848f8a4fb35e0bdeae3b7c12c14a7613",
-    "url": "/osadawiedzy/static/media/mainIcon2.848f8a4f.svg"
+    "revision": "3c16770d2d8e2ed9611f977c9760e451",
+    "url": "/osadawiedzy/static/media/mainIcon2.3c16770d.svg"
   },
   {
-    "revision": "2dfa8fa005012e723365e5a9e8b44d68",
-    "url": "/osadawiedzy/static/media/mainIcon3.2dfa8fa0.svg"
+    "revision": "ee7b6037bc3f65134dbfdbc41285d6c2",
+    "url": "/osadawiedzy/static/media/mainIcon3.ee7b6037.svg"
   },
   {
-    "revision": "5bdf1b81c9a4f7b39496e79c0c7bf333",
-    "url": "/osadawiedzy/static/media/mainIcon4.5bdf1b81.svg"
+    "revision": "c55ce2aa43552264f1cfb56404c20dd8",
+    "url": "/osadawiedzy/static/media/mainIcon4.c55ce2aa.svg"
   },
   {
     "revision": "71dd9566b2e3f83f6c68dc12cbf002c7",
@@ -556,8 +576,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/theboldfont.a1e62992.ttf"
   },
   {
-    "revision": "0ce4125ac77fa278994da03e8c11e4ef",
-    "url": "/osadawiedzy/static/media/triangle.0ce4125a.svg"
+    "revision": "a9ae3180f64793112ad4db37ec8bc561",
+    "url": "/osadawiedzy/static/media/triangle.a9ae3180.svg"
   },
   {
     "revision": "052854b5a52e85e1fd61394ffe113ebf",
