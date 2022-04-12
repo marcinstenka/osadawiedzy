@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/osadawiedzy/static/css/main.243d66b1.chunk.css",
-    "main.js": "/osadawiedzy/static/js/main.3a306bc5.chunk.js",
-    "main.js.map": "/osadawiedzy/static/js/main.3a306bc5.chunk.js.map",
+    "main.css": "/osadawiedzy/static/css/main.5e651189.chunk.css",
+    "main.js": "/osadawiedzy/static/js/main.37995ce5.chunk.js",
+    "main.js.map": "/osadawiedzy/static/js/main.37995ce5.chunk.js.map",
     "runtime-main.js": "/osadawiedzy/static/js/runtime-main.5de58a90.js",
     "runtime-main.js.map": "/osadawiedzy/static/js/runtime-main.5de58a90.js.map",
-    "static/js/2.5cad4632.chunk.js": "/osadawiedzy/static/js/2.5cad4632.chunk.js",
-    "static/js/2.5cad4632.chunk.js.map": "/osadawiedzy/static/js/2.5cad4632.chunk.js.map",
+    "static/js/2.ba9cbfbb.chunk.js": "/osadawiedzy/static/js/2.ba9cbfbb.chunk.js",
+    "static/js/2.ba9cbfbb.chunk.js.map": "/osadawiedzy/static/js/2.ba9cbfbb.chunk.js.map",
     "index.html": "/osadawiedzy/index.html",
-    "precache-manifest.089bc1caf0157c49c99790329d85bc33.js": "/osadawiedzy/precache-manifest.089bc1caf0157c49c99790329d85bc33.js",
+    "precache-manifest.73b1caaf9a627fd299aefd7186aba144.js": "/osadawiedzy/precache-manifest.73b1caaf9a627fd299aefd7186aba144.js",
     "service-worker.js": "/osadawiedzy/service-worker.js",
-    "static/css/main.243d66b1.chunk.css.map": "/osadawiedzy/static/css/main.243d66b1.chunk.css.map",
-    "static/js/2.5cad4632.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.5cad4632.chunk.js.LICENSE.txt",
+    "static/css/main.5e651189.chunk.css.map": "/osadawiedzy/static/css/main.5e651189.chunk.css.map",
+    "static/js/2.ba9cbfbb.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.ba9cbfbb.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/osadawiedzy/static/media/1.cdcd188b.jpg",
     "static/media/1.JPG": "/osadawiedzy/static/media/1.fbd2fb6f.JPG",
     "static/media/2.JPG": "/osadawiedzy/static/media/2.f658c53c.JPG",
@@ -77,6 +77,7 @@
     "static/media/pascoSlider1.jpg": "/osadawiedzy/static/media/pascoSlider1.0fa19dd5.jpg",
     "static/media/pascoSlider2.jpg": "/osadawiedzy/static/media/pascoSlider2.a8b9f771.jpg",
     "static/media/pascoSlider3.jpg": "/osadawiedzy/static/media/pascoSlider3.d6e0f561.jpg",
+    "static/media/roboto-condensed.bold.ttf": "/osadawiedzy/static/media/roboto-condensed.bold.7ff44384.ttf",
     "static/media/rozklad-dnia.pdf": "/osadawiedzy/static/media/rozklad-dnia.af99c70f.pdf",
     "static/media/theboldfont.ttf": "/osadawiedzy/static/media/theboldfont.a1e62992.ttf",
     "static/media/triangle.svg": "/osadawiedzy/static/media/triangle.a9ae3180.svg",
@@ -87,8 +88,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5de58a90.js",
-    "static/js/2.5cad4632.chunk.js",
-    "static/css/main.243d66b1.chunk.css",
-    "static/js/main.3a306bc5.chunk.js"
+    "static/js/2.ba9cbfbb.chunk.js",
+    "static/css/main.5e651189.chunk.css",
+    "static/js/main.37995ce5.chunk.js"
   ]
 }

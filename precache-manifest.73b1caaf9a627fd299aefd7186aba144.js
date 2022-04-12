@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a24a1e5c8a47b4f930b0681adfc34522",
+    "revision": "8c7c858c12c4ac279d23a1b55f779ab4",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "b1a5b58dc60c83c92d9a",
-    "url": "/osadawiedzy/static/css/main.243d66b1.chunk.css"
+    "revision": "531f2c44a5ef80ace570",
+    "url": "/osadawiedzy/static/css/main.5e651189.chunk.css"
   },
   {
-    "revision": "85f852ef100a864f4445",
-    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js"
+    "revision": "d22870c7bcaeebd0adf6",
+    "url": "/osadawiedzy/static/js/2.ba9cbfbb.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.5cad4632.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.ba9cbfbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1a5b58dc60c83c92d9a",
-    "url": "/osadawiedzy/static/js/main.3a306bc5.chunk.js"
+    "revision": "531f2c44a5ef80ace570",
+    "url": "/osadawiedzy/static/js/main.37995ce5.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -566,6 +566,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d6e0f5612909a3a9dbed90d38907505e",
     "url": "/osadawiedzy/static/media/pascoSlider3.d6e0f561.jpg"
+  },
+  {
+    "revision": "7ff4438405bfb9fe87b606ca356ba6a0",
+    "url": "/osadawiedzy/static/media/roboto-condensed.bold.7ff44384.ttf"
   },
   {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
