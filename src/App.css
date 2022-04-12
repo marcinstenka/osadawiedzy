@@ -646,6 +646,7 @@ thin {
   font-size: 26px;
   padding: 0 0 15px 0;
   font-variant: small-caps;
+  font-family: 'test' !important;
   text-transform: lowercase;
   min-width: 100px;
 }
