@@ -261,13 +261,11 @@ nav {
   transform: translateY(-10px);
 }
 .main-link h3 {
-  font-size: 24px;
+  font-size: 18px;
   color: var(--header-gray);
   font-weight: 700;
   padding: 20px 0 10px 0;
-  line-height: 0.8;
-  font-variant: small-caps;
-  text-transform: lowercase;
+  line-height: 0.9;
 }
 .main-link--header {
   padding-top: 36px !important;
@@ -643,11 +641,8 @@ thin {
 }
 .footer-section h2 {
   color: var(--header-gray);
-  font-size: 26px;
+  font-size: 17px;
   padding: 0 0 15px 0;
-  font-variant: small-caps;
-  font-family: 'test' !important;
-  text-transform: lowercase;
   min-width: 100px;
 }
 .footer-section p,
@@ -1379,7 +1374,7 @@ li {
     margin-top: 0;
   }
   .footer-section h2 {
-    font-size: 31px;
+    font-size: 21px;
   }
   .footer-section p {
     font-size: 17px;
@@ -1548,8 +1543,8 @@ li {
     height: 265px;
   }
   .main-link h3 {
-    font-size: 34px;
-    padding: 48px 0 10px 0;
+    font-size: 23px;
+    padding: 56px 0 10px 0;
   }
   .main-link--header {
     padding-top: 77px !important;

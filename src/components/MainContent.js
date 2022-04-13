@@ -50,7 +50,7 @@ const MainContent = () => {
         <div className="main-links">
           <Link to="/oboz">
             <div className="main-link">
-              <h3 className="main-link--header">obóz naukowy</h3>
+              <h3 className="main-link--header">OBÓŻ NAUKOWY</h3>
               <p>
                 wyjątkowy obóz naukowy, przestrzeń budowania relacji, rozwijania
                 pasji i zainteresowań
@@ -65,8 +65,8 @@ const MainContent = () => {
             <div className="main-link">
               <div className="main-link">
                 <h3>
-                  fizyka <br className="br" />
-                  po godzinach
+                  FIZYKA <br className="br" />
+                  PO GODZINACH
                 </h3>
                 <p>
                   zajęcia pozalekcyjne dedykowane uczniom szkół podstawowych
@@ -82,7 +82,7 @@ const MainContent = () => {
           <Link to="/pasco">
             <div className="main-link">
               <div className="main-link">
-                <h3 className="main-link--header">pasco</h3>
+                <h3 className="main-link--header">PASCO</h3>
                 <p>
                   urządzenia cyfrowe do pomiarów i analiz podczas doświadczeń na
                   lekcjach przedmiotów przyrodniczych
@@ -98,8 +98,8 @@ const MainContent = () => {
             <div className="main-link">
               <div className="main-link">
                 <h3>
-                  fizyka
-                  <br className="br" /> dla nieletnich
+                  FIZYKA
+                  <br className="br" /> DLA NIELETNICH
                 </h3>
                 <p>
                   system unikalnych działań medialnych o charakterze
