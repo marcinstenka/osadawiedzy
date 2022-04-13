@@ -20,7 +20,7 @@ const ForMinorsContent = () => {
   return (
     <>
       <div className="about about-forMinors">
-        <h2 className="about--header header">o projekcie</h2>
+        <h2 className="about--header header">O PROJEKCIE</h2>
         <p className="about--text about--text--forMinors">
           <bold>„Fizyka dla nieletnich – doświadczenia”</bold>{' '}
           (www.underage.pro) unikalny projekt pod patronatem honorowym Ministra
@@ -101,7 +101,7 @@ const ForMinorsContent = () => {
         </div>
       </div>
       <div className="forMinors-tutors">
-        <h2 className="about--header header">prowadzący</h2>
+        <h2 className="about--header header">PROWADZĄCY </h2>
         <p className="about--text">
           Prowadzącymi i realizującymi doświadczenia są Ignacy Rejmak i
           Przemysław Rojewski, charyzmatyczni nauczyciele z wieloletnim stażem i

@@ -51,9 +51,9 @@ button:focus {
 
 .main-logo {
   position: absolute;
-  top: -15px;
-  left: -10px;
-  width: 180px;
+  top: 0px;
+  left: 5px;
+  width: 130px;
 }
 
 nav {
@@ -274,7 +274,6 @@ nav {
 .main-link p {
   font-size: 12px;
   padding: 0 8px 0 8px;
-  font-weight: 700;
 
   color: var(--text-gray);
 }
@@ -324,10 +323,8 @@ nav {
 .about--header {
   margin: 35px 0 0 20px;
   color: var(--header-gray);
-  font-size: 28px;
+  font-size: 19px;
   font-weight: bold;
-  font-variant: small-caps;
-  text-transform: lowercase;
 }
 .about--text {
   font-size: 15px;
@@ -345,6 +342,9 @@ nav {
   width: 100%;
   min-height: 190px;
   padding: 0 20px;
+}
+.frame-colony {
+  margin: 20px 0 0 0;
 }
 @media (min-width: 480px) {
   .frame {
@@ -445,6 +445,7 @@ nav {
   margin: 30px 0;
   padding: 0 10px;
   text-align: center;
+  color: var(--header-gray);
 }
 .social-continer {
   display: grid;
@@ -524,7 +525,7 @@ nav {
 }
 .pasco-slider {
   position: relative;
-  max-width: 768;
+  max-width: 768px;
   overflow: hidden;
   margin: 25px 15px 10px 15px;
 }
@@ -1237,6 +1238,13 @@ li {
   .br {
     display: block;
   }
+  .main-logo {
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    width: 180px;
+  }
+
   .about--text {
     text-align: justify;
   }
@@ -1518,7 +1526,6 @@ li {
   }
   .about--header {
     margin: 35px 0 0 0;
-    font-size: 28px;
   }
   .participation p {
     padding: 0;
@@ -1635,6 +1642,9 @@ li {
   .frame {
     padding: 0 0 0 30px;
     margin: 40px 0 0 0;
+  }
+  .frame-colony {
+    margin: 23px 0 0 0;
   }
   .hero-physics,
   .hero-pasco {

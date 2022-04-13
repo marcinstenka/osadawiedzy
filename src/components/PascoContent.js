@@ -15,7 +15,7 @@ const PascoContent = () => {
   return (
     <>
       <div className="about about-pasco">
-        <h2 className="about--header header">o współpracy</h2>
+        <h2 className="about--header header">O WSPÓŁPRACY</h2>
         <p className="about--text ">
           Osada Wiedzy w 2021r. nawiązała współpracę z firmą PASCO z Kalifornii
           w USA, która od wielu lat specjalizuje się w rozwoju technologii
@@ -110,7 +110,7 @@ const PascoContent = () => {
         </div>
       </div>
       <div className="about about-pasco">
-        <h2 className="about--header header">oferta dla rodziców</h2>
+        <h2 className="about--header header">OFERTA DLA RODZICÓW</h2>
         <p className="about--text ">
           Największym zainteresowaniem rodziców cieszą się:
           <ul>
@@ -131,7 +131,7 @@ const PascoContent = () => {
           </ul>
           a także wszystkie urządzenia do kodowania i robotyki.
         </p>
-        <h2 className="about--header header">oferta dla szkół</h2>
+        <h2 className="about--header header">OFERTA DLA SZKÓŁ</h2>
         <p className="about--text ">
           Obecnie, największym zainteresowaniem cieszą się zestawy przygotowane
           w ramach rządowego dofinansowania Laboratoria Przyszłości. Obecnie
