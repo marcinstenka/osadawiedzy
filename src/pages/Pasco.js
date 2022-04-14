@@ -28,7 +28,7 @@ const Pasco = () => {
   return (
     <>
       <ScrollRestoration />
-      <Link to="/" className="back-to-main back-to-main--dark">
+      <Link to="/" className="back-to-main back-to-main--white">
         POWRÓT DO STRONY GŁÓWNEJ
       </Link>
       <div
