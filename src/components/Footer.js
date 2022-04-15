@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 const Footer = ({ footerBottom }) => {
   return (
     <div className={footerBottom ? 'footer footer-bottom' : 'footer'}>
@@ -36,7 +35,7 @@ const Footer = ({ footerBottom }) => {
         <div className="footer-section">
           <h2>ŚLEDŹ NAS</h2>
 
-          <Link to="">
+          <a href="//facebook.com/osadawiedzy/">
             <svg
               width="32"
               height="32"
@@ -52,8 +51,8 @@ const Footer = ({ footerBottom }) => {
                 fill="#A8A8A8"
               />
             </svg>
-          </Link>
-          <Link to="">
+          </a>
+          <a href="//instagram.com/osadawiedzy_pl/">
             <svg
               width="32"
               height="32"
@@ -79,7 +78,7 @@ const Footer = ({ footerBottom }) => {
                 fill="#A8A8A8"
               />
             </svg>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="footer-copyright">

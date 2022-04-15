@@ -164,7 +164,12 @@ const PascoContent = () => {
             <thin> Zniżki nie kumulują się z innymi.</thin>
           </p>
           <div className="pasco-logo">
-            <img src={PascoLogo} alt="Logo projektu 'Fizyka dla nieletnich'" />
+            <a href="//pasco.com.pl">
+              <img
+                src={PascoLogo}
+                alt="Logo projektu 'Fizyka dla nieletnich'"
+              />
+            </a>
           </div>
         </div>
       </div>

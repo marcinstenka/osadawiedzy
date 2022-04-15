@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'; // problem with route - added  '/swiper-react' at the end
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 
@@ -85,18 +84,18 @@ const ForMinorsContent = () => {
         <div className="forMinors-social">
           <h3>odwiedź naszą stronę i media społecznościowe:</h3>
           <div className="social-continer">
-            <Link>
+            <a href="//underage.pro">
               <img src={WbIcon} alt="Sprawdź naszą stronę!" />
-            </Link>
-            <Link>
+            </a>
+            <a href="//tiktok.com/@underage.pro">
               <img src={TikTokIcon} alt="Sprawdź naszego Tik Toka!" />
-            </Link>
-            <Link>
+            </a>
+            <a href="//youtube.com/channel/UChkmmDRRdNvkrLB6lFctbgw">
               <img src={YtIcon} alt="Sprawdź nasz kanał na Youtube!" />
-            </Link>
-            <Link>
+            </a>
+            <a href="//facebook.com/NieletniInzynierowie">
               <img src={FbIcon} alt="Sprawdź naszego Facebooka!" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -175,7 +174,12 @@ const ForMinorsContent = () => {
       </div>
 
       <div className="forMinors-logo">
-        <img src={ForMinorsLogo} alt="Logo projektu 'Fizyka dla nieletnich'" />
+        <a href="//underage.pro">
+          <img
+            src={ForMinorsLogo}
+            alt="Logo projektu 'Fizyka dla nieletnich'"
+          />
+        </a>
       </div>
     </>
   );
