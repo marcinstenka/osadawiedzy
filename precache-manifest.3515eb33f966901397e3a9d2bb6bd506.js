@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9694d1e03b10115ed2a39fe1b0393672",
+    "revision": "3618b03cea3e02d6a75f109c5910a98a",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "e4946885d85e48033ff8",
+    "revision": "204fc4b95725e06b57b7",
     "url": "/osadawiedzy/static/css/main.441de659.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/js/2.4eb5fd71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4946885d85e48033ff8",
-    "url": "/osadawiedzy/static/js/main.76d3a477.chunk.js"
+    "revision": "204fc4b95725e06b57b7",
+    "url": "/osadawiedzy/static/js/main.72e5c4d0.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -504,8 +504,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/karta-uczestnika.7ecd9cd1.pdf"
   },
   {
-    "revision": "196e98d641784c86b66c1fba0d2112c4",
-    "url": "/osadawiedzy/static/media/logo.196e98d6.png"
+    "revision": "4476527e701b19597252fa953fae9a38",
+    "url": "/osadawiedzy/static/media/logo.4476527e.png"
   },
   {
     "revision": "a89aee90607145287f5f80b9785d2353",
