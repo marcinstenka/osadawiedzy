@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3618b03cea3e02d6a75f109c5910a98a",
+    "revision": "77a2a35a05b8a803d6547f71770453e3",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "204fc4b95725e06b57b7",
-    "url": "/osadawiedzy/static/css/main.441de659.chunk.css"
+    "revision": "027a6651c559b3db5f52",
+    "url": "/osadawiedzy/static/css/main.173c26a0.chunk.css"
   },
   {
-    "revision": "d1d4455eb385e414c0b2",
-    "url": "/osadawiedzy/static/js/2.4eb5fd71.chunk.js"
+    "revision": "7cc1d6cabd90f4041d25",
+    "url": "/osadawiedzy/static/js/2.e4ebc69d.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.4eb5fd71.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.e4ebc69d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "204fc4b95725e06b57b7",
-    "url": "/osadawiedzy/static/js/main.72e5c4d0.chunk.js"
+    "revision": "027a6651c559b3db5f52",
+    "url": "/osadawiedzy/static/js/main.59b77a40.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -360,8 +360,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/8.87650238.jpg"
   },
   {
-    "revision": "ed8ac77c47be8f645ff37bd91a4c32af",
-    "url": "/osadawiedzy/static/media/Regulamin-obozu-naukowego.ed8ac77c.pdf"
+    "revision": "30d2336c85eef1a1123c8479ac061c34",
+    "url": "/osadawiedzy/static/media/Regulamin-obozu-naukowego.30d2336c.pdf"
   },
   {
     "revision": "73dd49bb02b634be8b24cff218be68e5",
@@ -568,6 +568,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/pascoSlider3.d6e0f561.jpg"
   },
   {
+    "revision": "6a5a3d31361736857f5aefebe62a5d5f",
+    "url": "/osadawiedzy/static/media/pr1.6a5a3d31.jpg"
+  },
+  {
+    "revision": "393876f1fc21bbdd4d9bda52952a590d",
+    "url": "/osadawiedzy/static/media/pr2.393876f1.jpg"
+  },
+  {
+    "revision": "d18c6de4fa61bd9526f69fbb756eaf80",
+    "url": "/osadawiedzy/static/media/pr3.d18c6de4.jpg"
+  },
+  {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
     "url": "/osadawiedzy/static/media/rozklad-dnia.af99c70f.pdf"
   },
@@ -580,8 +592,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/triangle.a9ae3180.svg"
   },
   {
-    "revision": "052854b5a52e85e1fd61394ffe113ebf",
-    "url": "/osadawiedzy/static/media/umowa-oboz.052854b5.pdf"
+    "revision": "cf59bd47ca712c4982093d9dc7c55b43",
+    "url": "/osadawiedzy/static/media/umowa-oboz.cf59bd47.pdf"
   },
   {
     "revision": "3e58136ed5998e1af2ac008db2ed5c3a",
