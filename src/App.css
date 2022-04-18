@@ -51,9 +51,9 @@ button:focus {
 
 .main-logo {
   position: absolute;
-  top: 0px;
+  top: -5px;
   left: 5px;
-  width: 130px;
+  width: 135px;
 }
 
 nav {
@@ -1248,8 +1248,8 @@ li {
   .main-logo {
     position: absolute;
     top: -15px;
-    left: -10px;
-    width: 180px;
+    left: -5px;
+    width: 165px;
   }
 
   .about--text {

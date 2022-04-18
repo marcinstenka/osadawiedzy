@@ -35,7 +35,7 @@ const ForMinors = () => {
         className="hero hero-physics"
         style={{ background: `url(${imageUrl}) center 67%  no-repeat` }}
       ></div>
-      <div className="physics-text">
+      <div className="physics-text" data-aos="fade-up">
         <h1 className="hero-physics--header">fizyka dla nieletnich</h1>
         <h5 className="hero-physics--p">
           unikalne działania łączące edukację

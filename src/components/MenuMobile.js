@@ -8,9 +8,7 @@ const MenuMobile = () => {
       <span className="mobile-menu__cross">
         <span className="mobile-menu__cross__line"></span>
       </span>
-      <Link to="/">
-        <img className="mobile-menu__logo" src={Logo} alt="Logo" />
-      </Link>
+
       <div className="mobile-menu__links">
         <Link to="/">STRONA GŁÓWNA</Link>
         <Link to="/historia">HISTORIA</Link>

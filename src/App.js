@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Main from './pages/Main';
 import Colony from './pages/Colony';
 import History from './pages/History.js';
@@ -14,6 +17,10 @@ import Downloads from './pages/Downloads.js';
 import Blog from './pages/Blog.js';
 import Page404 from './pages/Page404';
 function App() {
+  AOS.init({
+    duration: 600,
+    once: true,
+  });
   return (
     <BrowserRouter basename="/osadawiedzy/">
       <Switch>

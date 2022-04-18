@@ -34,13 +34,15 @@ const MainContent = () => {
           }}
         >
           <div className="main-text">
-            <h1 className="main-header">OSADA WIEDZY</h1>
-            <p className="main-text--mobile">
+            <h1 className="main-header" data-aos="fade-up">
+              OSADA WIEDZY
+            </h1>
+            <p className="main-text--mobile" data-aos="fade-up">
               przestrzeń edukacyjnych inicjatyw dla dzieci,
               <br />
               młodzieży i nauczycieli związanych <br />z przedmiotami ścisłymi
             </p>
-            <p className="main-text--desktop">
+            <p className="main-text--desktop" data-aos="fade-up">
               przestrzeń edukacyjnych inicjatyw dla dzieci, młodzieży i
               nauczycieli <br />
               związanych z przedmiotami ścisłymi
@@ -48,7 +50,7 @@ const MainContent = () => {
           </div>
         </div>
         <div className="main-links">
-          <Link to="/oboz">
+          <Link to="/oboz" data-aos="fade-up">
             <div className="main-link">
               <h3 className="main-link--header">OBÓŻ NAUKOWY</h3>
               <p>
@@ -61,7 +63,7 @@ const MainContent = () => {
               />
             </div>
           </Link>
-          <Link to="/fizyka-po-godzinach">
+          <Link to="/fizyka-po-godzinach" data-aos="fade-up">
             <div className="main-link">
               <div className="main-link">
                 <h3>
@@ -79,7 +81,7 @@ const MainContent = () => {
               </div>
             </div>
           </Link>
-          <Link to="/pasco">
+          <Link to="/pasco" data-aos="fade-up">
             <div className="main-link">
               <div className="main-link">
                 <h3 className="main-link--header">PASCO</h3>
@@ -94,7 +96,7 @@ const MainContent = () => {
               </div>
             </div>
           </Link>
-          <Link to="/fizyka-dla-nieletnich">
+          <Link to="/fizyka-dla-nieletnich" data-aos="fade-up">
             <div className="main-link">
               <div className="main-link">
                 <h3>

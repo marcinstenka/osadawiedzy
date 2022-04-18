@@ -24,7 +24,7 @@ const Hero = () => {
         className="hero hero-colony"
         style={{ background: `url(${imageUrl}) 30% center  no-repeat` }}
       ></div>
-      <div className="hero-text">
+      <div className="hero-text" data-aos="fade-up">
         <h1 className="hero-header">
           Szukasz obozu naukowego?
           <br />

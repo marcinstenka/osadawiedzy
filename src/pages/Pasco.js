@@ -37,7 +37,7 @@ const Pasco = () => {
           background: `url(${imageUrl}) right 65% no-repeat`,
         }}
       ></div>
-      <div className="physics-text">
+      <div className="physics-text" data-aos="fade-up">
         <h1 className="hero-physics--header">pasco</h1>
         <h5 className="hero-physics--p">
           urządzenia cyfrowe do pomiarów i analiz podczas
