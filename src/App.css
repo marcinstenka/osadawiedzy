@@ -1021,14 +1021,14 @@ table {
 }
 /* downloads */
 .downloads__main {
-  width: 100vw;
-  height: calc(100vh - 295px);
   display: flex;
-  font-size: 19px;
-  margin: 20px 0 0 30px;
+  flex-direction: column;
+  font-size: 18px;
+  padding: 0 20px;
 }
 .downloads__header {
-  margin: 140px 0 0 30px;
+  margin-top: 120px !important;
+  margin-bottom: 35px !important;
 }
 .downloads__list a {
   color: black;
@@ -1039,6 +1039,10 @@ table {
 }
 .downloads__list a:hover {
   color: var(--green);
+}
+.downloads__list {
+  list-style-type: disc;
+  padding: 0 0 0 35px;
 }
 /* Team */
 .team__section {
@@ -1124,7 +1128,8 @@ table {
 .recomendations {
   margin: 100px 0 0 0;
 }
-.recomendations__header {
+.recomendations__header,
+.downloads__header {
   margin: 30px 0 30px 30px;
 }
 .recomendations__section {
@@ -1407,15 +1412,9 @@ li {
   }
   /* downloads */
   .downloads__main {
-    height: calc(100vh - 362px);
     font-size: 30px;
-    margin: 30px 0 0 170px;
   }
-  .downloads__header {
-    font-size: 46px;
-    margin: 150px 0 60px 90px;
-    font-weight: 300;
-  }
+
   /* Offer */
   .offer__title {
     font-size: 36px;
@@ -1477,7 +1476,8 @@ li {
   .recomendations__img {
     display: none;
   }
-  .recomendations__header {
+  .recomendations__header,
+  .downloads__header {
     margin: 160px 0 60px 130px;
   }
   .recomendations__container {
@@ -1787,6 +1787,10 @@ li {
   .pasco-logo {
     margin: 50px auto 20px auto;
     max-width: 270px;
+  }
+  .downloads__main {
+    max-width: 80%;
+    margin: 20px auto;
   }
   .footer-copyright p {
     font-size: 15px;

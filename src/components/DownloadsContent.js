@@ -9,7 +9,34 @@ import pdf5 from '../assets/links/karta-uczestnika.pdf';
 const DownloadsContent = () => {
   return (
     <div className="downloads__main">
-      <ol className="downloads__list">
+      Szanowni Państwo
+      <ol>
+        <li>
+          Prosimy o pobranie poniższych dokumentów ze strony (oprócz rozkładu
+          dnia).{' '}
+        </li>
+        <li>Wydrukowanie ich, uzupełnienie i podpisanie. </li>
+        <li>Umowę prosimy wydrukować w dwóch egzemplarzach, oba podpisać.</li>
+        <li>
+          Całość prosimy przesłać na adres:{' '}
+          <bold>
+            Osada Wiedzy ul. Długa 24A 84-353 Lębork-Mosty najpóźniej do
+            10.07.2022r.{' '}
+          </bold>
+        </li>
+        <li>
+          Umowę podpisaną przez Organizatora prześlemy na wskazany przez Państwa
+          adres.
+        </li>
+        <li>
+          Numer konta do wpłaty:
+          <br />
+          <bold>Stowarzyszenie FPUNKT</bold> <br />
+          Bank Spółdzielczy w Łebie <br />
+          numer: 45 9324 0008 0004 6314 2000 0010
+        </li>
+      </ol>
+      <ul className="downloads__list">
         <li className="downloads__list-item">
           <a href={pdf1} download="Umowa.pdf">
             Umowa o udział w obozie
@@ -35,7 +62,7 @@ const DownloadsContent = () => {
             Karta uczestnika
           </a>
         </li>
-      </ol>
+      </ul>
     </div>
   );
 };
