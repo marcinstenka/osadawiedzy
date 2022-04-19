@@ -22,7 +22,7 @@ function App() {
     once: true,
   });
   return (
-    <BrowserRouter basename="/osadawiedzy/">
+    <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/oboz" component={Colony} />
