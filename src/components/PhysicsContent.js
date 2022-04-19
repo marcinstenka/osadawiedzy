@@ -188,9 +188,7 @@ const PhysicsContent = () => {
             <li>Grupa II – uczniowie szkół ponadpodstawowych (czwartek)</li>
             <li>Grupa – maksymalnie 10 osób</li>
           </ul>
-          Zajęcia rozpoczynają się ****** r.
-          <br />
-          <bold>Koszt zajęć: 300 zł miesięcznie.</bold>
+          Zajęcia rozpoczynają się we wrześniu 2022r.
         </p>
       </div>
     </>

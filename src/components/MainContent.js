@@ -52,7 +52,7 @@ const MainContent = () => {
         <div className="main-links">
           <Link to="/oboz" data-aos="fade-up">
             <div className="main-link">
-              <h3 className="main-link--header">OBÓŻ NAUKOWY</h3>
+              <h3 className="main-link--header">OBÓZ NAUKOWY</h3>
               <p>
                 wyjątkowy obóz naukowy, przestrzeń budowania relacji, rozwijania
                 pasji i zainteresowań

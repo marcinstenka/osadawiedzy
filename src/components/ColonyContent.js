@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const ColonyContent = () => {
   return (
     <div className="about">
       <div className="about-section">
@@ -40,4 +40,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default ColonyContent;
