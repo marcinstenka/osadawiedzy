@@ -1065,6 +1065,10 @@ table {
   text-align: justify;
   line-height: 1.4;
 }
+
+.team__text a {
+  color: black;
+}
 .team__imgs {
   display: flex;
   flex-direction: column;
@@ -1497,6 +1501,12 @@ li {
   }
   .recomendations__section:nth-of-type(even) {
     margin: 0 0 100px 575px;
+  }
+  .team__section:nth-of-type(odd) a {
+    color: white;
+  }
+  .team__section:nth-of-type(even) a {
+    color: black;
   }
   .section__text {
     font-size: 24px;
