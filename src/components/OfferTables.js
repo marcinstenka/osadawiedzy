@@ -12,7 +12,7 @@ const OfferTables = () => {
                 <th className="term__header">Cena</th>
               </tr>
               <tr>
-                <td className="term__row">10 - 17.02.2022r.</td>
+                <td className="term__row">10 - 17.07.2022r.</td>
                 <td className="term__row">1890,00 zł</td>
               </tr>
             </tbody>
