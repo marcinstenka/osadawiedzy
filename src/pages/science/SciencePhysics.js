@@ -14,7 +14,7 @@ const SciencePhysics = () => {
 		<div>
 			<div className='science-background science-background--physics'>
 				<h2>FIZYKA</h2>
-				<Link to='nauki-scisle-po-godzinach'>NAUKI ŚCISŁE PO GODZINACH</Link>
+				<Link to='/nauki-scisle-po-godzinach'>NAUKI ŚCISŁE PO GODZINACH</Link>
 			</div>
 			<div className='science-content'>
 				<h3>
