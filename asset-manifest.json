@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/osadawiedzy/static/css/main.812d5226.chunk.css",
-    "main.js": "/osadawiedzy/static/js/main.0a46df39.chunk.js",
-    "main.js.map": "/osadawiedzy/static/js/main.0a46df39.chunk.js.map",
+    "main.css": "/osadawiedzy/static/css/main.0db2e961.chunk.css",
+    "main.js": "/osadawiedzy/static/js/main.b9de7799.chunk.js",
+    "main.js.map": "/osadawiedzy/static/js/main.b9de7799.chunk.js.map",
     "runtime-main.js": "/osadawiedzy/static/js/runtime-main.5de58a90.js",
     "runtime-main.js.map": "/osadawiedzy/static/js/runtime-main.5de58a90.js.map",
     "static/css/2.4707e12a.chunk.css": "/osadawiedzy/static/css/2.4707e12a.chunk.css",
     "static/js/2.c27f81ca.chunk.js": "/osadawiedzy/static/js/2.c27f81ca.chunk.js",
     "static/js/2.c27f81ca.chunk.js.map": "/osadawiedzy/static/js/2.c27f81ca.chunk.js.map",
     "index.html": "/osadawiedzy/index.html",
-    "precache-manifest.4c5e5f0115c4d5b32a5cd1e5e627a64c.js": "/osadawiedzy/precache-manifest.4c5e5f0115c4d5b32a5cd1e5e627a64c.js",
+    "precache-manifest.050496520827070fac8b336b59d4de0e.js": "/osadawiedzy/precache-manifest.050496520827070fac8b336b59d4de0e.js",
     "service-worker.js": "/osadawiedzy/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/osadawiedzy/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.812d5226.chunk.css.map": "/osadawiedzy/static/css/main.812d5226.chunk.css.map",
+    "static/css/main.0db2e961.chunk.css.map": "/osadawiedzy/static/css/main.0db2e961.chunk.css.map",
     "static/js/2.c27f81ca.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.c27f81ca.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/osadawiedzy/static/media/1.cdcd188b.jpg",
     "static/media/1.JPG": "/osadawiedzy/static/media/1.fbd2fb6f.JPG",
@@ -88,7 +88,7 @@
     "static/media/physicsGif.gif": "/osadawiedzy/static/media/physicsGif.463e6d90.gif",
     "static/media/physicsLecturer1.png": "/osadawiedzy/static/media/physicsLecturer1.efe45c85.png",
     "static/media/physicsLecturer2.png": "/osadawiedzy/static/media/physicsLecturer2.80c769bb.png",
-    "static/media/physicsLecturer3.png": "/osadawiedzy/static/media/physicsLecturer3.0e2f5643.png",
+    "static/media/physicsLecturer3.png": "/osadawiedzy/static/media/physicsLecturer3.74e7cf2c.png",
     "static/media/physicsLecturerGif1.gif": "/osadawiedzy/static/media/physicsLecturerGif1.c9fcbfb0.gif",
     "static/media/physicsLecturerGif2.gif": "/osadawiedzy/static/media/physicsLecturerGif2.1595c43f.gif",
     "static/media/physicsLecturerGif3.gif": "/osadawiedzy/static/media/physicsLecturerGif3.7dd61eb5.gif",
@@ -108,7 +108,7 @@
     "static/js/runtime-main.5de58a90.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.c27f81ca.chunk.js",
-    "static/css/main.812d5226.chunk.css",
-    "static/js/main.0a46df39.chunk.js"
+    "static/css/main.0db2e961.chunk.css",
+    "static/js/main.b9de7799.chunk.js"
   ]
 }

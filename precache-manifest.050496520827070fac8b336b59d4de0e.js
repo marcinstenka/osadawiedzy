@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e8a700537251eb6fdd5b312494d316e",
+    "revision": "b04982c41d2b6c3d96fce16bdfec2e22",
     "url": "/osadawiedzy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "47f0713251e29a40c7a1",
-    "url": "/osadawiedzy/static/css/main.812d5226.chunk.css"
+    "revision": "670dfb8a2c83bd983220",
+    "url": "/osadawiedzy/static/css/main.0db2e961.chunk.css"
   },
   {
     "revision": "ee5bb8886f1f1b16d3d4",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/js/2.c27f81ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "47f0713251e29a40c7a1",
-    "url": "/osadawiedzy/static/js/main.0a46df39.chunk.js"
+    "revision": "670dfb8a2c83bd983220",
+    "url": "/osadawiedzy/static/js/main.b9de7799.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -608,8 +608,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/physicsLecturer2.80c769bb.png"
   },
   {
-    "revision": "0e2f5643da4f95cdbd44d2b98f6859af",
-    "url": "/osadawiedzy/static/media/physicsLecturer3.0e2f5643.png"
+    "revision": "74e7cf2c01ea04752b7d00e427702c9c",
+    "url": "/osadawiedzy/static/media/physicsLecturer3.74e7cf2c.png"
   },
   {
     "revision": "c9fcbfb0246e7b9c2629681df0df4254",
