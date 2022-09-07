@@ -43,11 +43,11 @@ const Science = () => {
 				</h5>
 			</div>
 
-			<Link to='nauki-scisle-po-godzinach/fizyka'>fizyka</Link>
+			<Link to='/nauki-scisle-po-godzinach/fizyka'>fizyka</Link>
 			<br />
-			<Link to='nauki-scisle-po-godzinach/matematyka'>matematyka</Link>
+			<Link to='/nauki-scisle-po-godzinach/matematyka'>matematyka</Link>
 			<br />
-			<Link to='nauki-scisle-po-godzinach/programowanie'>programowanie</Link>
+			<Link to='/nauki-scisle-po-godzinach/programowanie'>programowanie</Link>
 
 			<Footer />
 		</>
