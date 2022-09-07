@@ -428,6 +428,7 @@ nav {
 	font-size: 35px;
 	color: white;
 	font-family: var(--the-font-bold);
+	text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
 }
 .science-background a {
 	position: absolute;
@@ -482,8 +483,9 @@ nav {
 	font-size: 19px;
 }
 .section-img {
-	max-width: 100%;
+	max-width: 580px;
 	padding: 0 20px 20px 20px;
+	margin: 0 auto;
 }
 .section-img img {
 	border-radius: 5px;
@@ -615,7 +617,7 @@ nav {
 	padding: 8px 10px 8px 10px;
 }
 .science-price-list p {
-	padding: 0;
+	padding: 4px;
 }
 .lecturers-where {
 	position: relative;
@@ -1592,6 +1594,13 @@ li {
 		width: 30px;
 		height: 30px;
 	}
+	.science-classes {
+		justify-content: space-between;
+		flex-direction: row !important;
+		max-width: 768px;
+
+		margin: 50px auto 0 auto;
+	}
 	.footer {
 		margin-top: 0;
 	}
@@ -1941,6 +1950,9 @@ li {
 		padding: 0;
 		margin: 60px 0;
 	}
+	.section-img {
+		max-width: 100%;
+	}
 	.science-physics {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
@@ -2005,13 +2017,9 @@ li {
 		grid-column: 1 / 4;
 	}
 
-	.science-classes {
-		justify-content: space-between;
-		margin: 50px 0 0 0;
-	}
 	.science-physics.section-1 .section ul,
 	.science-physics.section-2 .section:nth-of-type(3) ul {
-		padding: 0 0 0 20px;
+		padding: 0 20px;
 	}
 	.science-physics.section-1 .section li,
 	.science-physics.section-2 .section:nth-of-type(3) li {
@@ -2172,7 +2180,6 @@ li {
 		padding: 0;
 	}
 	.science-classes {
-		flex-direction: row !important;
 	}
 	.science-classes div {
 		margin: 0 !important;

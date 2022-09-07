@@ -82,19 +82,22 @@ const SciencePhysics = () => {
 							<br />
 							<br />
 							<li>
-								<bold>zajęcia z matematycznych podstaw fizyki</bold> (dwa razy w
-								miesiącu)
+								<bold>zajęcia z matematycznych podstaw fizyki</bold>{' '}
+								<br className='br' />
+								(dwa razy w miesiącu)
 							</li>
 							<li>
 								<bold>
 									zajęcia oraz wykłady z pracownikiem naukowym Uniwersytetu
 									Morskiego w Gdyni
 								</bold>{' '}
+								<br className='br' />
 								(dwa razy w roku szkolnym)
 							</li>
 							<li>
-								<bold>a także wyjazd na Uniwersytet Morski w Gdyni </bold>(jeden
-								w trakcie roku szkolnego)
+								<bold>a także wyjazd na Uniwersytet Morski w Gdyni </bold>
+								<br className='br' />
+								(jeden w trakcie roku szkolnego)
 							</li>
 						</ul>
 					</div>
@@ -250,7 +253,7 @@ const SciencePhysics = () => {
 							<br />
 							Zapisy przyjmujemy cały rok szkolny.
 							<br />
-							<br /> Pierwsze grupy startują w<bold>październiku 2022 r.</bold>
+							<br /> Pierwsze grupy startują w <bold>październiku 2022 r.</bold>
 							<br />
 							<br />
 							Zajęcia odbywają się:

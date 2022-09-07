@@ -67,7 +67,7 @@ const MainContent = () => {
 						<div className='main-link'>
 							<div className='main-link'>
 								<h3>
-									FIZYKA <br className='br' />
+									NAUKI ŚCISŁE <br className='br' />
 									PO GODZINACH
 								</h3>
 								<p>
