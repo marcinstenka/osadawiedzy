@@ -354,6 +354,7 @@ const SciencePhysics = () => {
 							/>
 						</div>
 						<div className='lecturer-info'>
+							<br />
 							mgr
 							<h4>IGNACY REJMAK</h4>
 						</div>
@@ -376,6 +377,7 @@ const SciencePhysics = () => {
 							/>
 						</div>
 						<div className='lecturer-info'>
+							<br />
 							mgr
 							<h4>PRZEMYSŁAW ROJEWSKI</h4>
 						</div>
@@ -411,7 +413,7 @@ const SciencePhysics = () => {
 				</div>
 				<div className='lecturers-mission'>
 					<p className='science-text'>
-						Nasza misja brzmi: <br />
+						<span className='text-small'>Nasza misja brzmi:</span> <br />
 						<br />
 						<i>
 							Osada Wiedzy to przestrzeń budowania relacji. Wyobraźnia, rozwój i
@@ -424,20 +426,17 @@ const SciencePhysics = () => {
 					<h5>Fizyka dla uczniów i uczennic ze szkół podstawowych</h5>
 					<p className='science-text'>
 						450 zł
-						<br />
-						miesięcznie
+						<br className='br-reverse' /> miesięcznie
 					</p>
 					<h5>Fizyka dla uczniów i uczennic ze szkół PONADpodstawowych</h5>
 					<p className='science-text'>
 						450 zł
-						<br />
-						miesięcznie
+						<br className='br-reverse' /> miesięcznie
 					</p>
 					<h5>Fizyka dla maturzysów i maturzystek</h5>
 					<p className='science-text'>
 						450 zł
-						<br />
-						miesięcznie
+						<br className='br-reverse' /> miesięcznie
 					</p>
 					<h5>
 						Fizyka dla studentów i studentek pierwszych lat na kierunkach
@@ -445,31 +444,28 @@ const SciencePhysics = () => {
 					</h5>
 					<p className='science-text'>
 						450 zł
-						<br />
-						miesięcznie
+						<br className='br-reverse' /> miesięcznie
 					</p>
 				</div>
 				<div
 					className='lecturers-where'
 					style={{ background: `url(${PhysicsFrame})` }}
 				>
-					{/* <img
-						src={PhysicsFrame}
-						alt='Zajęcia z fizyki w Lęborku oraz w Warszawie'
-					/> */}
 					<p className='science-text'>
 						Zajęcia z fizyki dla wszystkich grup prowadzimy w{' '}
 						<span className='science-color-physics'>Lęborku</span> oraz w{' '}
 						<span className='science-color-physics'>Wejherowie</span>.
-						<br />
+						<br className='br-reverse' />
 						<br />
 						Pierwsza lekcja jest próbna i bezpłatna w przypadku rezygnacji z
 						kursu.
-						<br />
+						<br className='br-reverse' />
 						<br /> Na życzenie wystawiamy faktury.
 					</p>
 				</div>
 			</div>
+			<div className='science-separator physics-separator'></div>
+
 			<Footer />
 		</div>
 	);
