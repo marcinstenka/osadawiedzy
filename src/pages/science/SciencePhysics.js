@@ -99,7 +99,7 @@ const SciencePhysics = () => {
 						</ul>
 					</div>
 					<div className='section'>
-						<p className='science-text'>
+						<p className='science-text science-text-bigger'>
 							Zajęcia skierowane są do młodych ludzi{' '}
 							<bold>ze szkół podstawowych.</bold>
 							<br />
@@ -124,7 +124,7 @@ const SciencePhysics = () => {
 			<div className='science-content'>
 				<h3>
 					Fizyka dla uczniów i uczennic
-					<br />
+					<br className='br-reverse' />
 					ze szkół ponadpodstawowych
 				</h3>
 				<div className='science-physics section-2'>
@@ -162,25 +162,26 @@ const SciencePhysics = () => {
 							<br />
 							<br />
 							<li>
-								<bold>zajęcia z matematycznych podstaw fizyki</bold> (dwa razy w
-								miesiącu)
+								<bold>zajęcia z matematycznych podstaw fizyki</bold>
+								<br className='br' /> (dwa razy w miesiącu)
 							</li>
 							<li>
 								<bold>
 									zajęcia oraz wykłady z pracownikiem naukowym Uniwersytetu
 									Morskiego w Gdyni
 								</bold>
+								<br className='br' />
 								(dwa razy w roku szkolnym)
 							</li>
 							<li>
-								<bold>a także wyjazd na Uniwersytet Morski w Gdyni</bold> (jeden
-								w trakcie roku szkolnego)
+								<bold>a także wyjazd na Uniwersytet Morski w Gdyni</bold>
+								<br className='br' /> (jeden w trakcie roku szkolnego)
 							</li>
 						</ul>
 					</div>
 					<div className='section'>
-						<p className='science-text'>
-							<br />
+						<p className='science-text science-text-bigger'>
+							<br className='br-reverse' />
 							Zajęcia skierowane są do młodych ludzi{' '}
 							<bold>ze szkół ponadpodstawowych.</bold>
 							<br />
@@ -234,7 +235,13 @@ const SciencePhysics = () => {
 						<img src={Physics4} alt='Zajęcia z fizyki.' />
 					</div>
 					<div className='section'>
-						<p className='science-text'>
+						<p className='science-text-desktop'>
+							Zajęcia są prowadzone przez nauczyciela z ponad 20 letnim stażem,
+							który od kilkunastu lat jest egzaminatorem maturalnym z fizyki.
+						</p>
+					</div>
+					<div className='section'>
+						<p className='science-text science-text-bigger'>
 							Zajęcia skierowane są do{' '}
 							<bold>
 								maturzystów chcących zdawać fizykę na poziomie rozszerzonym.
@@ -290,7 +297,7 @@ const SciencePhysics = () => {
 						<img src={Physics5} alt='Zajęcia z fizyki.' />
 					</div>
 					<div className='section'>
-						<p className='science-text'>
+						<p className='science-text science-text-bigger'>
 							Zajęcia skierowane są do{' '}
 							<bold>studentów pierwszych lat na kierunkach technicznych.</bold>
 							<br />
