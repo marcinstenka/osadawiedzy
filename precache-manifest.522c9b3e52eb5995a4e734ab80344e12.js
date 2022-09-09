@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "901d6a2177137f0fe74e80d15a12ff49",
+    "revision": "27e783064a1d31f0b4e5113464df0ceb",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "ee5bb8886f1f1b16d3d4",
+    "revision": "28ff03b83979df288634",
     "url": "/osadawiedzy/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "fd830753d8cf859cce34",
-    "url": "/osadawiedzy/static/css/main.14754f69.chunk.css"
+    "revision": "866809743f637c9dc25b",
+    "url": "/osadawiedzy/static/css/main.cfb8921f.chunk.css"
   },
   {
-    "revision": "ee5bb8886f1f1b16d3d4",
-    "url": "/osadawiedzy/static/js/2.c27f81ca.chunk.js"
+    "revision": "28ff03b83979df288634",
+    "url": "/osadawiedzy/static/js/2.e392da2d.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.c27f81ca.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.e392da2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd830753d8cf859cce34",
-    "url": "/osadawiedzy/static/js/main.79faf308.chunk.js"
+    "revision": "866809743f637c9dc25b",
+    "url": "/osadawiedzy/static/js/main.f3cfade3.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -412,20 +412,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/cz3.29c0b160.jpg"
   },
   {
-    "revision": "9cf22ef7cb330a0121316758714ba274",
-    "url": "/osadawiedzy/static/media/forMinors-fb.9cf22ef7.svg"
+    "revision": "4eecc2334eb58206d79460395fbae447",
+    "url": "/osadawiedzy/static/media/forMinors-fb.4eecc233.svg"
   },
   {
-    "revision": "31ddb383671ee8446315bce4f5476ccf",
-    "url": "/osadawiedzy/static/media/forMinors-tik-tok.31ddb383.svg"
+    "revision": "d57e7ef6e7012bf639381ce2854f25cc",
+    "url": "/osadawiedzy/static/media/forMinors-tik-tok.d57e7ef6.svg"
   },
   {
-    "revision": "4298e2332dc731e16d26d3a95462768c",
-    "url": "/osadawiedzy/static/media/forMinors-wb.4298e233.svg"
+    "revision": "736540a9a27f6e9686ee604cd85c5c4b",
+    "url": "/osadawiedzy/static/media/forMinors-wb.736540a9.svg"
   },
   {
-    "revision": "8206c818e81d191ce3eb8f5ac02bf353",
-    "url": "/osadawiedzy/static/media/forMinors-yt.8206c818.svg"
+    "revision": "a405e9ca2ad775065ee881aa5dd9d3de",
+    "url": "/osadawiedzy/static/media/forMinors-yt.a405e9ca.svg"
   },
   {
     "revision": "6dd52eec5447a47e2a5a5f35fea09109",
@@ -524,20 +524,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/mainHeroSuperDesktop.ac1557f2.jpg"
   },
   {
-    "revision": "d5ee387ab9340a6e73d4b2a02dc6e0bd",
-    "url": "/osadawiedzy/static/media/mainIcon1.d5ee387a.svg"
+    "revision": "59f25998e42edc664eb46a6e1778cb9e",
+    "url": "/osadawiedzy/static/media/mainIcon1.59f25998.svg"
   },
   {
-    "revision": "848f8a4fb35e0bdeae3b7c12c14a7613",
-    "url": "/osadawiedzy/static/media/mainIcon2.848f8a4f.svg"
+    "revision": "3c16770d2d8e2ed9611f977c9760e451",
+    "url": "/osadawiedzy/static/media/mainIcon2.3c16770d.svg"
   },
   {
-    "revision": "2dfa8fa005012e723365e5a9e8b44d68",
-    "url": "/osadawiedzy/static/media/mainIcon3.2dfa8fa0.svg"
+    "revision": "ee7b6037bc3f65134dbfdbc41285d6c2",
+    "url": "/osadawiedzy/static/media/mainIcon3.ee7b6037.svg"
   },
   {
-    "revision": "5bdf1b81c9a4f7b39496e79c0c7bf333",
-    "url": "/osadawiedzy/static/media/mainIcon4.5bdf1b81.svg"
+    "revision": "c55ce2aa43552264f1cfb56404c20dd8",
+    "url": "/osadawiedzy/static/media/mainIcon4.c55ce2aa.svg"
+  },
+  {
+    "revision": "6b56a553d14e978721f7b419ad503ee8",
+    "url": "/osadawiedzy/static/media/maths1.6b56a553.jpg"
+  },
+  {
+    "revision": "a923ad5e39199d9bcf523cac75c6ae4b",
+    "url": "/osadawiedzy/static/media/maths2.a923ad5e.jpg"
+  },
+  {
+    "revision": "46375be2cd66c1ba1d37ff426f9f4591",
+    "url": "/osadawiedzy/static/media/mathsFrame.46375be2.png"
+  },
+  {
+    "revision": "50717ea88681be35897c0f7c84057381",
+    "url": "/osadawiedzy/static/media/mathsGif.50717ea8.gif"
+  },
+  {
+    "revision": "404647ed36769f9bbb27d079040ad5ba",
+    "url": "/osadawiedzy/static/media/mathsLecturer.404647ed.png"
+  },
+  {
+    "revision": "9816fe8140e8062febcb165f7bb068ea",
+    "url": "/osadawiedzy/static/media/mathsLecturerGif.9816fe81.gif"
   },
   {
     "revision": "71dd9566b2e3f83f6c68dc12cbf002c7",
@@ -636,20 +660,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/pr3.d18c6de4.jpg"
   },
   {
+    "revision": "e4a279da8fcebf335f91d9a130e93d98",
+    "url": "/osadawiedzy/static/media/programming1.e4a279da.jpg"
+  },
+  {
+    "revision": "8479fc8c1d504a5a5a42ff5737792bb0",
+    "url": "/osadawiedzy/static/media/programming2.8479fc8c.jpg"
+  },
+  {
+    "revision": "6a317e91315303e2ab2c4718c1d57a80",
+    "url": "/osadawiedzy/static/media/programming3.6a317e91.jpg"
+  },
+  {
+    "revision": "e9397fc39bc4826828610c06ed129ebe",
+    "url": "/osadawiedzy/static/media/programmingFrame.e9397fc3.png"
+  },
+  {
+    "revision": "34e55ad2cdd0add009cfed44a287cfb9",
+    "url": "/osadawiedzy/static/media/programmingGif.34e55ad2.gif"
+  },
+  {
+    "revision": "f9081d3a9e7753593265be179a6b6145",
+    "url": "/osadawiedzy/static/media/programmingLecturer.f9081d3a.png"
+  },
+  {
+    "revision": "008db65ac0ddc6fd3b30ffbdfd7f4221",
+    "url": "/osadawiedzy/static/media/programmingLecturerGif.008db65a.gif"
+  },
+  {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
     "url": "/osadawiedzy/static/media/rozklad-dnia.af99c70f.pdf"
   },
   {
-    "revision": "762d7dda3ed23730d301a5e3ee407f63",
-    "url": "/osadawiedzy/static/media/scienceArrow.762d7dda.svg"
+    "revision": "3dc591bf96bb6904e0d0827be2087c40",
+    "url": "/osadawiedzy/static/media/scienceArrow.3dc591bf.svg"
   },
   {
     "revision": "a1e62992c2000401c04c1b6e042516c0",
     "url": "/osadawiedzy/static/media/theboldfont.a1e62992.ttf"
   },
   {
-    "revision": "0ce4125ac77fa278994da03e8c11e4ef",
-    "url": "/osadawiedzy/static/media/triangle.0ce4125a.svg"
+    "revision": "a9ae3180f64793112ad4db37ec8bc561",
+    "url": "/osadawiedzy/static/media/triangle.a9ae3180.svg"
   },
   {
     "revision": "cf59bd47ca712c4982093d9dc7c55b43",
