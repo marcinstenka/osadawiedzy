@@ -2201,6 +2201,9 @@ li {
     height: 202px;
     margin: 80px auto;
   }
+  .lecturers-programming .lecturers-where {
+    height: 214px;
+  }
   .lecturers-where .science-text {
     font-size: 19px;
     margin: 0 0 15px 0;
