@@ -97,7 +97,6 @@ const ScienceProgramming = () => {
                   nowych pomysłów i wyzwań, które pomogą im się rozwinąć.
                 </li>
               </ul>
-              <br />
               Wszystko zaś w atmosferze wolnej od ocen i pośpiechu.
             </p>
           </div>

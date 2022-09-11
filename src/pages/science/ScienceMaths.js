@@ -157,7 +157,7 @@ const ScienceMaths = () => {
           style={{ background: `url(${MathsFrame})` }}
         >
           <p className="science-text">
-            Zajęcia z fizyki dla wszystkich grup prowadzimy w{' '}
+            Zajęcia z matematyki dla wszystkich grup prowadzimy w{' '}
             <span className="science-color-maths">Lęborku</span>
             <br className="br-reverse" />
             <br />
