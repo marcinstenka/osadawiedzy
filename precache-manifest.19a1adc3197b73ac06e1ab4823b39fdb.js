@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e69026543f6f08b5abba0de5726d8f2e",
+    "revision": "7e5be74d944aa7760a1bb31c675be95d",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "28ff03b83979df288634",
+    "revision": "f93ca997f6fdd5b253c7",
     "url": "/osadawiedzy/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "593c023d34f84b7f32cc",
-    "url": "/osadawiedzy/static/css/main.2c6ce8b1.chunk.css"
+    "revision": "d3a38d79955ce631e031",
+    "url": "/osadawiedzy/static/css/main.3aeae487.chunk.css"
   },
   {
-    "revision": "28ff03b83979df288634",
-    "url": "/osadawiedzy/static/js/2.e392da2d.chunk.js"
+    "revision": "f93ca997f6fdd5b253c7",
+    "url": "/osadawiedzy/static/js/2.b606369e.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.e392da2d.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.b606369e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "593c023d34f84b7f32cc",
-    "url": "/osadawiedzy/static/js/main.f3cfade3.chunk.js"
+    "revision": "d3a38d79955ce631e031",
+    "url": "/osadawiedzy/static/js/main.ad2e605c.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -476,20 +476,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/heroPascoSuperDesktop.1761104e.jpg"
   },
   {
-    "revision": "163bf346e0f9b90b6f23c5813150c209",
-    "url": "/osadawiedzy/static/media/heroScienceDesktop.163bf346.jpg"
-  },
-  {
-    "revision": "7d89f1aeea2d3f8d729c7c3ce8be445b",
-    "url": "/osadawiedzy/static/media/heroScienceMobile.7d89f1ae.jpg"
+    "revision": "1fd690bcc9743c360d46ba03465768ee",
+    "url": "/osadawiedzy/static/media/heroScienceDesktop.1fd690bc.jpg"
   },
   {
     "revision": "f8a9fac3025fcf550a554db6b705b2ac",
     "url": "/osadawiedzy/static/media/heroSuperDesktop.f8a9fac3.jpg"
   },
   {
-    "revision": "e0fe1daa1934d65d7aff7b3a0db23a2e",
-    "url": "/osadawiedzy/static/media/heroSuperScienceDesktop.e0fe1daa.jpg"
+    "revision": "bf562af95fc6d5975a39386377530082",
+    "url": "/osadawiedzy/static/media/heroSuperScienceDesktop.bf562af9.jpg"
   },
   {
     "revision": "53dfe7e18a0e20fb4519762af8140a24",

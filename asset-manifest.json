@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/osadawiedzy/static/css/main.2c6ce8b1.chunk.css",
-    "main.js": "/osadawiedzy/static/js/main.f3cfade3.chunk.js",
-    "main.js.map": "/osadawiedzy/static/js/main.f3cfade3.chunk.js.map",
+    "main.css": "/osadawiedzy/static/css/main.3aeae487.chunk.css",
+    "main.js": "/osadawiedzy/static/js/main.ad2e605c.chunk.js",
+    "main.js.map": "/osadawiedzy/static/js/main.ad2e605c.chunk.js.map",
     "runtime-main.js": "/osadawiedzy/static/js/runtime-main.5de58a90.js",
     "runtime-main.js.map": "/osadawiedzy/static/js/runtime-main.5de58a90.js.map",
     "static/css/2.4707e12a.chunk.css": "/osadawiedzy/static/css/2.4707e12a.chunk.css",
-    "static/js/2.e392da2d.chunk.js": "/osadawiedzy/static/js/2.e392da2d.chunk.js",
-    "static/js/2.e392da2d.chunk.js.map": "/osadawiedzy/static/js/2.e392da2d.chunk.js.map",
+    "static/js/2.b606369e.chunk.js": "/osadawiedzy/static/js/2.b606369e.chunk.js",
+    "static/js/2.b606369e.chunk.js.map": "/osadawiedzy/static/js/2.b606369e.chunk.js.map",
     "index.html": "/osadawiedzy/index.html",
-    "precache-manifest.816da060a671b8204d5d98756fc562cf.js": "/osadawiedzy/precache-manifest.816da060a671b8204d5d98756fc562cf.js",
+    "precache-manifest.19a1adc3197b73ac06e1ab4823b39fdb.js": "/osadawiedzy/precache-manifest.19a1adc3197b73ac06e1ab4823b39fdb.js",
     "service-worker.js": "/osadawiedzy/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/osadawiedzy/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.2c6ce8b1.chunk.css.map": "/osadawiedzy/static/css/main.2c6ce8b1.chunk.css.map",
-    "static/js/2.e392da2d.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.e392da2d.chunk.js.LICENSE.txt",
+    "static/css/main.3aeae487.chunk.css.map": "/osadawiedzy/static/css/main.3aeae487.chunk.css.map",
+    "static/js/2.b606369e.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.b606369e.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/osadawiedzy/static/media/1.cdcd188b.jpg",
     "static/media/1.JPG": "/osadawiedzy/static/media/1.fbd2fb6f.JPG",
     "static/media/2.JPG": "/osadawiedzy/static/media/2.f658c53c.JPG",
@@ -55,10 +55,9 @@
     "static/media/heroPascoDesktop.jpg": "/osadawiedzy/static/media/heroPascoDesktop.4c6bc3e8.jpg",
     "static/media/heroPascoMobile.jpg": "/osadawiedzy/static/media/heroPascoMobile.c1cad871.jpg",
     "static/media/heroPascoSuperDesktop.jpg": "/osadawiedzy/static/media/heroPascoSuperDesktop.1761104e.jpg",
-    "static/media/heroScienceDesktop.jpg": "/osadawiedzy/static/media/heroScienceDesktop.163bf346.jpg",
-    "static/media/heroScienceMobile.jpg": "/osadawiedzy/static/media/heroScienceMobile.7d89f1ae.jpg",
+    "static/media/heroScienceDesktop.jpg": "/osadawiedzy/static/media/heroScienceDesktop.1fd690bc.jpg",
     "static/media/heroSuperDesktop.jpg": "/osadawiedzy/static/media/heroSuperDesktop.f8a9fac3.jpg",
-    "static/media/heroSuperScienceDesktop.jpg": "/osadawiedzy/static/media/heroSuperScienceDesktop.e0fe1daa.jpg",
+    "static/media/heroSuperScienceDesktop.jpg": "/osadawiedzy/static/media/heroSuperScienceDesktop.bf562af9.jpg",
     "static/media/ir1.jpg": "/osadawiedzy/static/media/ir1.53dfe7e1.jpg",
     "static/media/ir2.jpg": "/osadawiedzy/static/media/ir2.753a2c93.jpg",
     "static/media/ir3.jpg": "/osadawiedzy/static/media/ir3.642cd1f0.jpg",
@@ -120,8 +119,8 @@
   "entrypoints": [
     "static/js/runtime-main.5de58a90.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.e392da2d.chunk.js",
-    "static/css/main.2c6ce8b1.chunk.css",
-    "static/js/main.f3cfade3.chunk.js"
+    "static/js/2.b606369e.chunk.js",
+    "static/css/main.3aeae487.chunk.css",
+    "static/js/main.ad2e605c.chunk.js"
   ]
 }
