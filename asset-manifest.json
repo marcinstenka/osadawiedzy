@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/osadawiedzy/static/css/main.3aeae487.chunk.css",
-    "main.js": "/osadawiedzy/static/js/main.ad2e605c.chunk.js",
-    "main.js.map": "/osadawiedzy/static/js/main.ad2e605c.chunk.js.map",
+    "main.css": "/osadawiedzy/static/css/main.2316097b.chunk.css",
+    "main.js": "/osadawiedzy/static/js/main.f22635c2.chunk.js",
+    "main.js.map": "/osadawiedzy/static/js/main.f22635c2.chunk.js.map",
     "runtime-main.js": "/osadawiedzy/static/js/runtime-main.5de58a90.js",
     "runtime-main.js.map": "/osadawiedzy/static/js/runtime-main.5de58a90.js.map",
     "static/css/2.4707e12a.chunk.css": "/osadawiedzy/static/css/2.4707e12a.chunk.css",
-    "static/js/2.b606369e.chunk.js": "/osadawiedzy/static/js/2.b606369e.chunk.js",
-    "static/js/2.b606369e.chunk.js.map": "/osadawiedzy/static/js/2.b606369e.chunk.js.map",
+    "static/js/2.f3ac2dd8.chunk.js": "/osadawiedzy/static/js/2.f3ac2dd8.chunk.js",
+    "static/js/2.f3ac2dd8.chunk.js.map": "/osadawiedzy/static/js/2.f3ac2dd8.chunk.js.map",
     "index.html": "/osadawiedzy/index.html",
-    "precache-manifest.19a1adc3197b73ac06e1ab4823b39fdb.js": "/osadawiedzy/precache-manifest.19a1adc3197b73ac06e1ab4823b39fdb.js",
+    "precache-manifest.2e74fc4aa29ecf9d14b19f2e3c5eba3d.js": "/osadawiedzy/precache-manifest.2e74fc4aa29ecf9d14b19f2e3c5eba3d.js",
     "service-worker.js": "/osadawiedzy/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/osadawiedzy/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.3aeae487.chunk.css.map": "/osadawiedzy/static/css/main.3aeae487.chunk.css.map",
-    "static/js/2.b606369e.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.b606369e.chunk.js.LICENSE.txt",
+    "static/css/main.2316097b.chunk.css.map": "/osadawiedzy/static/css/main.2316097b.chunk.css.map",
+    "static/js/2.f3ac2dd8.chunk.js.LICENSE.txt": "/osadawiedzy/static/js/2.f3ac2dd8.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/osadawiedzy/static/media/1.cdcd188b.jpg",
     "static/media/1.JPG": "/osadawiedzy/static/media/1.fbd2fb6f.JPG",
     "static/media/2.JPG": "/osadawiedzy/static/media/2.f658c53c.JPG",
@@ -107,6 +107,7 @@
     "static/media/programmingGif.gif": "/osadawiedzy/static/media/programmingGif.34e55ad2.gif",
     "static/media/programmingLecturer.png": "/osadawiedzy/static/media/programmingLecturer.f9081d3a.png",
     "static/media/programmingLecturerGif.gif": "/osadawiedzy/static/media/programmingLecturerGif.008db65a.gif",
+    "static/media/registerTypeArrow.svg": "/osadawiedzy/static/media/registerTypeArrow.4230d691.svg",
     "static/media/rozklad-dnia.pdf": "/osadawiedzy/static/media/rozklad-dnia.af99c70f.pdf",
     "static/media/scienceArrow.svg": "/osadawiedzy/static/media/scienceArrow.3dc591bf.svg",
     "static/media/theboldfont.ttf": "/osadawiedzy/static/media/theboldfont.a1e62992.ttf",
@@ -119,8 +120,8 @@
   "entrypoints": [
     "static/js/runtime-main.5de58a90.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.b606369e.chunk.js",
-    "static/css/main.3aeae487.chunk.css",
-    "static/js/main.ad2e605c.chunk.js"
+    "static/js/2.f3ac2dd8.chunk.js",
+    "static/css/main.2316097b.chunk.css",
+    "static/js/main.f22635c2.chunk.js"
   ]
 }

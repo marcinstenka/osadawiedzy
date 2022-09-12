@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e5be74d944aa7760a1bb31c675be95d",
+    "revision": "411079a0af6de13eaa43d8b233dd9cef",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "f93ca997f6fdd5b253c7",
+    "revision": "89afe0c47ac1f55fe2e5",
     "url": "/osadawiedzy/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "d3a38d79955ce631e031",
-    "url": "/osadawiedzy/static/css/main.3aeae487.chunk.css"
+    "revision": "98201e2ac866845e3646",
+    "url": "/osadawiedzy/static/css/main.2316097b.chunk.css"
   },
   {
-    "revision": "f93ca997f6fdd5b253c7",
-    "url": "/osadawiedzy/static/js/2.b606369e.chunk.js"
+    "revision": "89afe0c47ac1f55fe2e5",
+    "url": "/osadawiedzy/static/js/2.f3ac2dd8.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.b606369e.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.f3ac2dd8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3a38d79955ce631e031",
-    "url": "/osadawiedzy/static/js/main.ad2e605c.chunk.js"
+    "revision": "98201e2ac866845e3646",
+    "url": "/osadawiedzy/static/js/main.f22635c2.chunk.js"
   },
   {
     "revision": "2254ad8448f2e7e57daa",
@@ -682,6 +682,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "008db65ac0ddc6fd3b30ffbdfd7f4221",
     "url": "/osadawiedzy/static/media/programmingLecturerGif.008db65a.gif"
+  },
+  {
+    "revision": "4230d6918b0207d79dced2d5aeaa809a",
+    "url": "/osadawiedzy/static/media/registerTypeArrow.4230d691.svg"
   },
   {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
