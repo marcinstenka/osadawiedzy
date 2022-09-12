@@ -8,6 +8,8 @@ import MathsLecturerGif from '../../assets/img/mathsLecturerGif.gif';
 import ScienceArrow from '../../assets/img/scienceArrow.svg';
 import MathsFrame from '../../assets/img/mathsFrame.png';
 import { Link } from 'react-router-dom';
+
+import ScienceMail from '../../components/ScienceMail';
 import Footer from '../../components/Footer';
 
 const ScienceMaths = () => {
@@ -169,6 +171,7 @@ const ScienceMaths = () => {
         </div>
       </div>
       <div className="science-separator maths-separator"></div>
+      <ScienceMail color="var(--science-maths)" />
       <Footer />
     </div>
   );

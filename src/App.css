@@ -508,7 +508,8 @@ nav {
   text-decoration: none;
 }
 
-.science-content h3 {
+.science-content h3,
+.science-register h3 {
   font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
@@ -678,7 +679,65 @@ nav {
 .lecturers-where .science-text {
   padding: 30px 20px 0 20px;
 }
+.register-form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 1030px;
+  padding: 0 15px;
+  margin: 0 auto 40px auto;
+}
 
+.register-form label {
+  font-size: 15px;
+  margin: 0 0 8px 0;
+}
+.register-form label:first-of-type {
+  margin: 35px 0 8px 0;
+}
+.register-form input,
+.register-form select {
+  height: 65px;
+  margin: 0 0 20px 0;
+  border: none;
+  font-size: 16px;
+  padding: 0 15px;
+  background: var(--science-gray);
+}
+.register-form input:last-of-type {
+  height: 160px;
+}
+.register-form button {
+  height: 50px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.register-form img {
+  transition: 0.3s;
+  margin: 0 0 0 10px;
+}
+.register-form button:hover img {
+  translate: 5px;
+}
+.register-type {
+  position: relative;
+  padding: 0 0 0 30px !important;
+  height: 20px;
+  width: 20px;
+  background: blue;
+}
+.register-type::before {
+  content: ' ';
+  appearance: auto;
+  position: relative;
+  background: red;
+  top: 0;
+  width: 20px !important;
+  height: 20px !important;
+}
 /* Science - subpages */
 .science-background--physics {
   background: var(--science-physics);
@@ -2159,7 +2218,8 @@ li {
   .science-background h2 {
     font-size: 67px;
   }
-  .science-content {
+  .science-content,
+  .science-register {
     max-width: 1230px;
     margin: 0 auto;
   }
@@ -2168,7 +2228,8 @@ li {
     margin: 100px auto 0 auto;
     border-radius: 5px;
   }
-  .science-content h3 {
+  .science-content h3,
+  .science-register h3 {
     font-size: 28px;
     padding: 0;
     margin: 60px 0;
@@ -2337,6 +2398,13 @@ li {
   .lecturers-where .science-text {
     font-size: 19px;
     margin: 0 0 15px 0;
+  }
+  .register-form {
+    margin: 0 auto 140px auto;
+  }
+  .register-form input,
+  .register-form select {
+    font-size: 17px;
   }
   .frame-forMinors {
     padding: 0 10px 0 30px !important;

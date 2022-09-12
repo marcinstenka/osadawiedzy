@@ -17,6 +17,7 @@ import PhysicsFrame from '../../assets/img/physicsFrame.png';
 
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
+import ScienceMail from '../../components/ScienceMail';
 
 const SciencePhysics = () => {
   return (
@@ -468,7 +469,7 @@ const SciencePhysics = () => {
         </div>
       </div>
       <div className="science-separator physics-separator"></div>
-
+      <ScienceMail color="var(--science-physics)" />
       <Footer />
     </div>
   );

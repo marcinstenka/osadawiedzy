@@ -10,6 +10,7 @@ import ScienceArrow from '../../assets/img/scienceArrow.svg';
 import ProgrammingFrame from '../../assets/img/programmingFrame.png';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
+import ScienceMail from '../../components/ScienceMail';
 
 const ScienceProgramming = () => {
   return (
@@ -258,6 +259,7 @@ const ScienceProgramming = () => {
         </div>
       </div>
       <div className="science-separator programming-separator"></div>
+      <ScienceMail color="var(--science-programming)" />
       <Footer />
     </div>
   );
