@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "906ac195b02326284dd5ba1b5ec4eaee",
+    "revision": "90bf04d0833a1afee6870a84fde17c04",
     "url": "/osadawiedzy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "20fe4e6b1a70152fb753",
-    "url": "/osadawiedzy/static/css/main.8428ca09.chunk.css"
+    "revision": "1a5ef7c8f37bdeca4e16",
+    "url": "/osadawiedzy/static/css/main.828d82e2.chunk.css"
   },
   {
     "revision": "49e676463e55abcc7d51",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/js/2.068d25aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20fe4e6b1a70152fb753",
-    "url": "/osadawiedzy/static/js/main.ce3eb63e.chunk.js"
+    "revision": "1a5ef7c8f37bdeca4e16",
+    "url": "/osadawiedzy/static/js/main.6013ab60.chunk.js"
   },
   {
     "revision": "5a5d0d6a299efe659a11",
@@ -472,20 +472,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/heroPascoMobile.c1cad871.jpg"
   },
   {
-    "revision": "1761104edb929b6a9a30473471199e88",
-    "url": "/osadawiedzy/static/media/heroPascoSuperDesktop.1761104e.jpg"
+    "revision": "9e35d6083067d02ad669e869112e368a",
+    "url": "/osadawiedzy/static/media/heroPascoSuperDesktop.9e35d608.jpg"
   },
   {
-    "revision": "1fd690bcc9743c360d46ba03465768ee",
-    "url": "/osadawiedzy/static/media/heroScienceDesktop.1fd690bc.jpg"
+    "revision": "98b395ed8603e34a3850e6c6fc90d254",
+    "url": "/osadawiedzy/static/media/heroScienceDesktop.98b395ed.jpg"
   },
   {
     "revision": "f8a9fac3025fcf550a554db6b705b2ac",
     "url": "/osadawiedzy/static/media/heroSuperDesktop.f8a9fac3.jpg"
   },
   {
-    "revision": "bf562af95fc6d5975a39386377530082",
-    "url": "/osadawiedzy/static/media/heroSuperScienceDesktop.bf562af9.jpg"
+    "revision": "6966c5ed905b36dedcbecf5e4a01bbdb",
+    "url": "/osadawiedzy/static/media/heroSuperScienceDesktop.6966c5ed.jpg"
   },
   {
     "revision": "53dfe7e18a0e20fb4519762af8140a24",
@@ -536,24 +536,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/mainIcon4.5bdf1b81.svg"
   },
   {
-    "revision": "6b56a553d14e978721f7b419ad503ee8",
-    "url": "/osadawiedzy/static/media/maths1.6b56a553.jpg"
+    "revision": "4e7afe87b8fbdeee8a62f6927b4af87d",
+    "url": "/osadawiedzy/static/media/maths1.4e7afe87.jpg"
   },
   {
-    "revision": "a923ad5e39199d9bcf523cac75c6ae4b",
-    "url": "/osadawiedzy/static/media/maths2.a923ad5e.jpg"
+    "revision": "8920efcb05ac46d79e85d46c86c0e304",
+    "url": "/osadawiedzy/static/media/maths2.8920efcb.jpg"
   },
   {
-    "revision": "46375be2cd66c1ba1d37ff426f9f4591",
-    "url": "/osadawiedzy/static/media/mathsFrame.46375be2.png"
+    "revision": "d46e35dcf7ccfc3f11127b274359773f",
+    "url": "/osadawiedzy/static/media/mathsFrame.d46e35dc.png"
   },
   {
-    "revision": "50717ea88681be35897c0f7c84057381",
-    "url": "/osadawiedzy/static/media/mathsGif.50717ea8.gif"
+    "revision": "6d748f2376665d2f542c0508ce6c8b08",
+    "url": "/osadawiedzy/static/media/mathsGif.6d748f23.gif"
   },
   {
-    "revision": "404647ed36769f9bbb27d079040ad5ba",
-    "url": "/osadawiedzy/static/media/mathsLecturer.404647ed.png"
+    "revision": "7500e9892ba5e93e899daf7821e91ca0",
+    "url": "/osadawiedzy/static/media/mathsLecturer.7500e989.png"
   },
   {
     "revision": "9816fe8140e8062febcb165f7bb068ea",
@@ -576,10 +576,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/opinia-nauczyciela-matematyki-fizyki.65523448.pdf"
   },
   {
-    "revision": "3a5210206a9eeec2817b76206aace2f9",
-    "url": "/osadawiedzy/static/media/pascoLogo.3a521020.png"
-  },
-  {
     "revision": "0fa19dd5d6f075a136dd5226296cd34d",
     "url": "/osadawiedzy/static/media/pascoSlider1.0fa19dd5.jpg"
   },
@@ -592,44 +588,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/pascoSlider3.d6e0f561.jpg"
   },
   {
-    "revision": "3014bf436ab10b1dd212d996abde7e43",
-    "url": "/osadawiedzy/static/media/physics1.3014bf43.jpg"
+    "revision": "8d8a26872ff6694355ab41ac9d1d8f21",
+    "url": "/osadawiedzy/static/media/physics1.8d8a2687.jpg"
   },
   {
-    "revision": "5a92c7c18663a5297915001d57d136f8",
-    "url": "/osadawiedzy/static/media/physics2.5a92c7c1.jpg"
+    "revision": "bf3c4e09993480605a9cfea674e06feb",
+    "url": "/osadawiedzy/static/media/physics2.bf3c4e09.jpg"
   },
   {
-    "revision": "286451c7c0b94f24fd72c669e3a12b9c",
-    "url": "/osadawiedzy/static/media/physics3.286451c7.jpg"
+    "revision": "94cf5e13bfd30087dca0b8cfa4fe361f",
+    "url": "/osadawiedzy/static/media/physics3.94cf5e13.jpg"
   },
   {
-    "revision": "210c26c9288ae133d3e1996e1c92b2a2",
-    "url": "/osadawiedzy/static/media/physics4.210c26c9.jpg"
+    "revision": "3c2fcb298549d22663015cab6243e197",
+    "url": "/osadawiedzy/static/media/physics4.3c2fcb29.jpg"
   },
   {
-    "revision": "09617d99ccdef8574c8d5b50cb52d3d8",
-    "url": "/osadawiedzy/static/media/physics5.09617d99.jpg"
+    "revision": "3eb49bcb2b77a30dc85f6643188d526d",
+    "url": "/osadawiedzy/static/media/physics5.3eb49bcb.jpg"
   },
   {
-    "revision": "95b6731d96397568ca4054008af53d10",
-    "url": "/osadawiedzy/static/media/physicsFrame.95b6731d.png"
+    "revision": "b5bb44723c041ea16bb61f3242d58030",
+    "url": "/osadawiedzy/static/media/physicsFrame.b5bb4472.png"
   },
   {
-    "revision": "463e6d90c295ef1b5964890039f7d02c",
-    "url": "/osadawiedzy/static/media/physicsGif.463e6d90.gif"
+    "revision": "82dd9ad7e920ace57a08fe8fa0d516d0",
+    "url": "/osadawiedzy/static/media/physicsGif.82dd9ad7.gif"
   },
   {
-    "revision": "efe45c859ad6a7d2df5daa111406647e",
-    "url": "/osadawiedzy/static/media/physicsLecturer1.efe45c85.png"
+    "revision": "a9f37a647176e7536c4bd04944933641",
+    "url": "/osadawiedzy/static/media/physicsLecturer1.a9f37a64.png"
   },
   {
-    "revision": "80c769bbf4f1d925fe350b48a46ccafe",
-    "url": "/osadawiedzy/static/media/physicsLecturer2.80c769bb.png"
+    "revision": "d86f96f584b5eb9e40161015927fdfed",
+    "url": "/osadawiedzy/static/media/physicsLecturer2.d86f96f5.png"
   },
   {
-    "revision": "74e7cf2c01ea04752b7d00e427702c9c",
-    "url": "/osadawiedzy/static/media/physicsLecturer3.74e7cf2c.png"
+    "revision": "d4d5e2116015cc97e4bdceeb5f27d381",
+    "url": "/osadawiedzy/static/media/physicsLecturer3.d4d5e211.png"
   },
   {
     "revision": "c9fcbfb0246e7b9c2629681df0df4254",
@@ -656,28 +652,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/pr3.d18c6de4.jpg"
   },
   {
-    "revision": "e4a279da8fcebf335f91d9a130e93d98",
-    "url": "/osadawiedzy/static/media/programming1.e4a279da.jpg"
+    "revision": "5e5050f6e26f20492f7d115b8a315bc8",
+    "url": "/osadawiedzy/static/media/programming1.5e5050f6.jpg"
   },
   {
-    "revision": "8479fc8c1d504a5a5a42ff5737792bb0",
-    "url": "/osadawiedzy/static/media/programming2.8479fc8c.jpg"
+    "revision": "99ae13e3cae230c3932f65c231123c4d",
+    "url": "/osadawiedzy/static/media/programming2.99ae13e3.jpg"
   },
   {
-    "revision": "6a317e91315303e2ab2c4718c1d57a80",
-    "url": "/osadawiedzy/static/media/programming3.6a317e91.jpg"
+    "revision": "be3ddd9c18c4a10ee567393a4618728b",
+    "url": "/osadawiedzy/static/media/programming3.be3ddd9c.jpg"
   },
   {
-    "revision": "e9397fc39bc4826828610c06ed129ebe",
-    "url": "/osadawiedzy/static/media/programmingFrame.e9397fc3.png"
+    "revision": "8c55d06fb14f2bc14b25460256083dde",
+    "url": "/osadawiedzy/static/media/programmingFrame.8c55d06f.png"
   },
   {
-    "revision": "34e55ad2cdd0add009cfed44a287cfb9",
-    "url": "/osadawiedzy/static/media/programmingGif.34e55ad2.gif"
+    "revision": "d036f949ffd3a43fd5a46a195a273adc",
+    "url": "/osadawiedzy/static/media/programmingGif.d036f949.gif"
   },
   {
-    "revision": "f9081d3a9e7753593265be179a6b6145",
-    "url": "/osadawiedzy/static/media/programmingLecturer.f9081d3a.png"
+    "revision": "39e3e668c80f09d5e7e693042ae7bfee",
+    "url": "/osadawiedzy/static/media/programmingLecturer.39e3e668.png"
   },
   {
     "revision": "008db65ac0ddc6fd3b30ffbdfd7f4221",
