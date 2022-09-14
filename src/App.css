@@ -422,9 +422,7 @@ nav {
 	margin: 20px 0 0 0;
 	font-size: 15px;
 }
-.hero-science-mobile .science-text-desktop {
-	display: none;
-}
+
 .back-to-main {
 	position: absolute;
 	color: white;
@@ -724,6 +722,7 @@ nav {
 	border: none;
 	border-radius: 5px;
 	transition: 0.3s;
+	font-family: var(--roboto);
 }
 .register-form img {
 	transition: 0.3s;
@@ -854,6 +853,9 @@ nav {
 }
 .science-programming.section-2 li {
 	margin: 0;
+}
+.science-physics.section-2 .section:nth-of-type(1) ul {
+	padding: 0 20px 20px 20px;
 }
 /* For Minors */
 .forMinors-social {
@@ -2324,11 +2326,12 @@ li {
 		position: relative;
 		order: 3;
 		grid-column: 1 / 4;
+		justify-self: center;
 	}
 
 	.science-physics.section-1 .section ul,
 	.science-physics.section-2 .section:nth-of-type(3) ul {
-		padding: 0 20px;
+		padding: 0 20px 0 56px;
 	}
 	.science-physics.section-1 .section li,
 	.science-physics.section-2 .section:nth-of-type(3) li {
@@ -2336,7 +2339,7 @@ li {
 		font-size: 19px;
 	}
 	.science-physics.section-2 .section:nth-of-type(1) ul {
-		padding: 20px 0;
+		padding: 0 20px 20px 20px;
 	}
 
 	.science-programming.section-1 .section {
@@ -2355,13 +2358,14 @@ li {
 		margin: 0;
 		padding: 0 30px;
 		background: var(--science-physics);
-		color: white;
-		font-size: 19px;
-		font-weight: bold;
 		line-height: 23px;
 		border-radius: 10px;
 		text-align: center;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.science-text-desktop .science-color-physics-bigger {
+		color: white !important;
+		padding: 25px;
 	}
 	.science-lecturers h3 {
 		font-size: 28px;
@@ -2413,6 +2417,9 @@ li {
 	.lecturers-where .science-text {
 		font-size: 19px;
 		margin: 0 0 15px 0;
+	}
+	.science-classes div {
+		margin: 0 5px;
 	}
 	.register-form {
 		margin: 0 auto 140px auto;
@@ -2510,15 +2517,22 @@ li {
 	.science-maths {
 		grid-gap: 60px;
 	}
-	.science-classes div {
-		margin: 0 !important;
-	}
 	.forMinors-tutors .about--text {
 		padding: 0 10px;
 	}
 	.hero-science--header,
 	.hero-science--p {
 		padding-right: 0px;
+	}
+	.science-classes div {
+		margin: 0;
+	}
+	.science-physics.section-1 .section ul,
+	.science-physics.section-2 .section:nth-of-type(3) ul {
+		padding: 0px 20px;
+	}
+	.science-physics.section-2 .section:nth-of-type(1) ul {
+		padding: 20px 0;
 	}
 }
 @media (min-width: 1450px) {

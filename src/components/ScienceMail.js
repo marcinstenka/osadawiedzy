@@ -20,7 +20,7 @@ const ScienceMail = color => {
 		e.preventDefault();
 		emailjs
 			.sendForm(
-				'osadatest',
+				'service_i2turqg',
 				'template_w9a8tbs',
 				form.current,
 				'zCfJ_UFvXZ_U3x64A'
