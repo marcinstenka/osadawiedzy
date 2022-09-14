@@ -16,7 +16,7 @@ const ScienceProgramming = () => {
 	return (
 		<div>
 			<div className='science-background science-background--programming'>
-				<h2>PROGRAMOWANIE</h2>
+				<h2 data-aos='fade-up'>PROGRAMOWANIE</h2>
 				<Link to='/nauki-scisle-po-godzinach'>NAUKI ŚCISŁE PO GODZINACH</Link>
 			</div>
 			<div className='science-content'>
@@ -117,7 +117,10 @@ const ScienceProgramming = () => {
 							<br />
 							Zajęcia odbywają się:
 						</p>
-						<div className='science-classes classes-programming'>
+						<div
+							className='science-classes classes-programming'
+							data-aos='fade-up'
+						>
 							<div>w małych grupch</div>
 							<div>raz w tygodniu</div>
 							<div>trwają 90 minut</div>
@@ -159,7 +162,10 @@ const ScienceProgramming = () => {
 							<br />
 							Zajęcia odbywają się:
 						</p>
-						<div className='science-classes classes-programming'>
+						<div
+							className='science-classes classes-programming'
+							data-aos='fade-up'
+						>
 							<div>w małych grupch</div>
 							<div>raz w tygodniu</div>
 							<div>trwają 90 minut</div>

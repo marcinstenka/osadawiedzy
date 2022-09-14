@@ -23,7 +23,7 @@ const SciencePhysics = () => {
 	return (
 		<div>
 			<div className='science-background science-background--physics'>
-				<h2>FIZYKA</h2>
+				<h2 data-aos='fade-up'>FIZYKA</h2>
 				<Link to='/nauki-scisle-po-godzinach'>NAUKI ŚCISŁE PO GODZINACH</Link>
 			</div>
 			<div className='science-content'>
@@ -116,7 +116,10 @@ const SciencePhysics = () => {
 							<br />
 							Zajęcia odbywają się:
 						</p>
-						<div className=' science-classes classes-physics'>
+						<div
+							className=' science-classes classes-physics'
+							data-aos='fade-up'
+						>
 							<div>w małych grupch</div>
 							<div>raz w tygodniu</div>
 							<div>trwają 90 minut</div>
@@ -197,7 +200,10 @@ const SciencePhysics = () => {
 							<br />
 							Zajęcia odbywają się:
 						</p>
-						<div className=' science-classes classes-physics'>
+						<div
+							className=' science-classes classes-physics'
+							data-aos='fade-up'
+						>
 							<div>w małych grupch</div>
 							<div>raz w tygodniu</div>
 							<div>trwają 90 minut</div>
@@ -262,7 +268,7 @@ const SciencePhysics = () => {
 							<br />
 							Zajęcia odbywają się:
 						</p>
-						<div className='science-classes classes-physics'>
+						<div className='science-classes classes-physics' data-aos='fade-up'>
 							<div>w małych grupch</div>
 							<div>raz w tygodniu</div>
 							<div>trwają 120 minut</div>
@@ -317,7 +323,10 @@ const SciencePhysics = () => {
 							<br />
 							Zajęcia odbywają się:
 						</p>
-						<div className=' science-classes classes-physics'>
+						<div
+							className=' science-classes classes-physics'
+							data-aos='fade-up'
+						>
 							<div>w małych grupch</div>
 							<div>raz w tygodniu</div>
 							<div>trwają 120 minut</div>

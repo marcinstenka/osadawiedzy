@@ -707,6 +707,7 @@ nav {
 	font-size: 16px;
 	padding: 0 15px;
 	background: var(--science-gray);
+	font-family: var(--roboto);
 }
 .register-form select {
 	cursor: pointer;
@@ -2326,6 +2327,7 @@ li {
 		position: relative;
 		order: 3;
 		grid-column: 1 / 4;
+		width: 100%;
 		justify-self: center;
 	}
 

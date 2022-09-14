@@ -51,9 +51,22 @@ const ScienceMail = color => {
 				<input type='text' name='register-phone' required />
 				<label htmlFor='register-type'>Zajęcia:</label>
 				<select name='register-type' required>
-					<option value='Fizyka'>Fizyka</option>
-					<option value='Matematyka'>Matematyka</option>
-					<option value='Programowanie'>Programowanie</option>
+					<option value='' selected disabled hidden>
+						wybierz zajęcia
+					</option>
+					<option value='Fizyka (szkoła podstawowa)'>
+						Fizyka (szkoła podstawowa)
+					</option>
+					<option value='Fizyka (szkoła ponadpodstawowa)'>
+						Fizyka (szkoła ponadpodstawowa)
+					</option>
+					<option value='Fizyka (matura)'>Fizyka (matura)</option>
+					<option value='Fizyka (studia)'>Fizyka (studia)</option>
+					<option value='Matematyka (egzmain ósmoklasisty)'>
+						Matematyka (egzmain ósmoklasisty)
+					</option>
+					<option value='Programowanie (python)'>Programowanie (python)</option>
+					<option value='Programowanie (matura)'>Programowanie (matura)</option>
 				</select>
 				<label htmlFor='register-message'>Twoja wiadomość:</label>
 				<input type='text' name='register-message' />

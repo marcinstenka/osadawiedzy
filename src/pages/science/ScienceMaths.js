@@ -16,7 +16,7 @@ const ScienceMaths = () => {
 	return (
 		<div>
 			<div className='science-background science-background--maths'>
-				<h2>MATEMATYKA</h2>
+				<h2 data-aos='fade-up'>MATEMATYKA</h2>
 				<Link to='/nauki-scisle-po-godzinach'>NAUKI ŚCISŁE PO GODZINACH</Link>
 			</div>
 			<div className='science-content'>
@@ -84,7 +84,7 @@ const ScienceMaths = () => {
 							<br />
 							Zajęcia odbywają się:
 						</p>
-						<div className='science-classes classes-maths'>
+						<div className='science-classes classes-maths' data-aos='fade-up'>
 							<div>w małych grupch</div>
 							<div>raz w tygodniu</div>
 							<div>trwają 90 minut</div>
