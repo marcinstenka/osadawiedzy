@@ -318,7 +318,7 @@ const SciencePhysics = () => {
 							Zapisy przyjmujemy cały rok szkolny.
 							<br />
 							<br />
-							Pierwsze grupy startują w<bold>październiku 2022 r.</bold>
+							Pierwsze grupy startują w <bold>październiku 2022 r.</bold>
 							<br />
 							<br />
 							Zajęcia odbywają się:
