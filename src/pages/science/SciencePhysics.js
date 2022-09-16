@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import Physics1 from '../../assets/img/physics1.jpg';
 import Physics2 from '../../assets/img/physics2.jpg';
@@ -15,7 +17,6 @@ import PhysicsLecturerGif3 from '../../assets/img/physicsLecturerGif3.gif';
 import ScienceArrow from '../../assets/img/scienceArrow.svg';
 import PhysicsFrame from '../../assets/img/physicsFrame.png';
 
-import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
 import ScienceMail from '../../components/ScienceMail';
 
@@ -374,10 +375,13 @@ const SciencePhysics = () => {
 							mgr
 							<h4>IGNACY REJMAK</h4>
 						</div>
-						<a className='lecturer-more-info more-info-physics'>
+						<HashLink
+							to={'/zespol#Ignacy-Rejmak'}
+							className='lecturer-more-info more-info-physics'
+						>
 							zobacz więcej
 							<img src={ScienceArrow} alt='Strzałka zobacz więcej.' />
-						</a>
+						</HashLink>
 					</div>
 					<div className='lecturer'>
 						<div className='lecturer-img'>
@@ -397,10 +401,13 @@ const SciencePhysics = () => {
 							mgr
 							<h4>PRZEMYSŁAW ROJEWSKI</h4>
 						</div>
-						<a className='lecturer-more-info more-info-physics'>
+						<HashLink
+							to={'/zespol#Przemyslaw-Rojewski'}
+							className='lecturer-more-info more-info-physics'
+						>
 							zobacz więcej
 							<img src={ScienceArrow} alt='Strzałka zobacz więcej.' />
-						</a>
+						</HashLink>
 					</div>
 					<div className='lecturer'>
 						<div className='lecturer-img'>
@@ -421,10 +428,13 @@ const SciencePhysics = () => {
 							Uniwersytetu Morskiego w Gdyni
 							<h4>BOGUSŁAW PRANSZKE</h4>
 						</div>
-						<a className='lecturer-more-info more-info-physics'>
+						<HashLink
+							to={'/zespol#Boguslaw-Pranszke'}
+							className='lecturer-more-info more-info-physics'
+						>
 							zobacz więcej
 							<img src={ScienceArrow} alt='Strzałka zobacz więcej.' />
-						</a>
+						</HashLink>
 					</div>
 				</div>
 				<div className='lecturers-mission'>

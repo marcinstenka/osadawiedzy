@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 
 import heroScienceDesktop from '../assets/img/heroScienceDesktop.jpg';
 import HeroSuperScienceDesktop from '../assets/img/heroSuperScienceDesktop.jpg';
-import ScrollRestoration from '../components/ScrollRestoration';
 
 import { Link } from 'react-router-dom';
 
@@ -25,8 +24,6 @@ const Science = () => {
 	});
 	return (
 		<>
-			<ScrollRestoration />
-
 			<Link to='/' className='back-to-main back-to-main--white'>
 				POWRÓT DO STRONY GŁÓWNEJ
 			</Link>
