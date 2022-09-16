@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useMemo } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AOS from 'aos';
@@ -19,41 +19,50 @@ import Recomendations from './pages/Recomendations.js';
 import Downloads from './pages/Downloads.js';
 import Blog from './pages/Blog.js';
 import Page404 from './pages/Page404';
+
+import { LinksScienceContext } from './LinksScienceContext';
+
 function App() {
   AOS.init({
     duration: 600,
     once: true,
   });
+  const ref1 = useRef();
+  const ref2 = useRef();
+  const refs = [ref1, ref2];
+  const providerValue = useMemo(() => refs);
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/oboz" component={Colony} />
-        <Route exact path="/historia" component={History} />
-        <Route exact path="/oferta" component={Offer} />
-        <Route exact path="/nauki-scisle-po-godzinach" component={Science} />
-        <Route
-          exact
-          path="/nauki-scisle-po-godzinach/fizyka"
-          component={SciencePhysics}
-        />
-        <Route
-          exact
-          path="/nauki-scisle-po-godzinach/matematyka"
-          component={ScienceMaths}
-        />
-        <Route
-          exact
-          path="/nauki-scisle-po-godzinach/programowanie"
-          component={ScienceProgramming}
-        />
-        <Route exact path="/fizyka-dla-nieletnich" component={ForMinors} />
-        <Route exact path="/pasco" component={Pasco} />
-        <Route exact path="/zespol" component={Team} />
-        <Route exact path="/rekomendacje" component={Recomendations} />
-        <Route exact path="/do-pobrania" component={Downloads} />
-        <Route exact path="/blog" component={Blog} />
-        <Route component={Page404} />
+        <LinksScienceContext.Provider value={refs}>
+          <Route exact path="/" component={Main} />
+          <Route exact path="/oboz" component={Colony} />
+          <Route exact path="/historia" component={History} />
+          <Route exact path="/oferta" component={Offer} />
+          <Route exact path="/nauki-scisle-po-godzinach" component={Science} />
+          <Route
+            exact
+            path="/nauki-scisle-po-godzinach/fizyka"
+            component={SciencePhysics}
+          />
+          <Route
+            exact
+            path="/nauki-scisle-po-godzinach/matematyka"
+            component={ScienceMaths}
+          />
+          <Route
+            exact
+            path="/nauki-scisle-po-godzinach/programowanie"
+            component={ScienceProgramming}
+          />
+          <Route exact path="/fizyka-dla-nieletnich" component={ForMinors} />
+          <Route exact path="/pasco" component={Pasco} />
+          <Route exact path="/zespol" component={Team} />
+          <Route exact path="/rekomendacje" component={Recomendations} />
+          <Route exact path="/do-pobrania" component={Downloads} />
+          <Route exact path="/blog" component={Blog} />
+          <Route component={Page404} />
+        </LinksScienceContext.Provider>
       </Switch>
     </BrowserRouter>
   );

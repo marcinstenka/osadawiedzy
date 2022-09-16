@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { useContext } from 'react';
 import Maths1 from '../../assets/img/maths1.jpg';
 import Maths2 from '../../assets/img/maths2.jpg';
 import MathsGif from '../../assets/img/mathsGif.gif';
@@ -12,7 +11,16 @@ import { Link } from 'react-router-dom';
 import ScienceMail from '../../components/ScienceMail';
 import Footer from '../../components/Footer';
 
+import { LinksScienceContext } from '../../LinksScienceContext.js';
 const ScienceMaths = () => {
+  const [ref1] = useContext(LinksScienceContext);
+  console.log(ref1);
+  const handleScroll = item => {
+    window.scrollTo({
+      top: item.current.offsetTop - 65,
+      behavior: 'smooth',
+    });
+  };
   return (
     <div>
       <div className="science-background science-background--maths">
@@ -128,10 +136,13 @@ const ScienceMaths = () => {
               mgr
               <h4>AGATA BARANOWSKA</h4>
             </div>
-            <a className="lecturer-more-info more-info-maths">
+            <button
+              onClick={() => handleScroll(ref1)}
+              className="lecturer-more-info more-info-maths"
+            >
               zobacz więcej
               <img src={ScienceArrow} alt="Strzałka zobacz więcej." />
-            </a>
+            </button>
           </div>
           <div className="lecturers-mission">
             <p className="science-text">
