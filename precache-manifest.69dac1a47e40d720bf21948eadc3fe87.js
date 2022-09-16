@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79454d2a1296a2f6d4430884543fdf50",
+    "revision": "b7f013aed1e3d341ce9dab48b943b9ef",
     "url": "/osadawiedzy/index.html"
   },
   {
-    "revision": "49e676463e55abcc7d51",
+    "revision": "046ec7c655fdf623fffa",
     "url": "/osadawiedzy/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "baa9288e7a4251748273",
+    "revision": "c1ba015eac1411f2979d",
     "url": "/osadawiedzy/static/css/main.6072ea77.chunk.css"
   },
   {
-    "revision": "49e676463e55abcc7d51",
-    "url": "/osadawiedzy/static/js/2.068d25aa.chunk.js"
+    "revision": "046ec7c655fdf623fffa",
+    "url": "/osadawiedzy/static/js/2.a710c9ea.chunk.js"
   },
   {
     "revision": "8c4b3bd464f69dcff9dd9560811d82a4",
-    "url": "/osadawiedzy/static/js/2.068d25aa.chunk.js.LICENSE.txt"
+    "url": "/osadawiedzy/static/js/2.a710c9ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "baa9288e7a4251748273",
-    "url": "/osadawiedzy/static/js/main.d7a3565f.chunk.js"
+    "revision": "c1ba015eac1411f2979d",
+    "url": "/osadawiedzy/static/js/main.92262770.chunk.js"
   },
   {
     "revision": "5a5d0d6a299efe659a11",
@@ -412,20 +412,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/cz3.29c0b160.jpg"
   },
   {
-    "revision": "9cf22ef7cb330a0121316758714ba274",
-    "url": "/osadawiedzy/static/media/forMinors-fb.9cf22ef7.svg"
+    "revision": "4eecc2334eb58206d79460395fbae447",
+    "url": "/osadawiedzy/static/media/forMinors-fb.4eecc233.svg"
   },
   {
-    "revision": "31ddb383671ee8446315bce4f5476ccf",
-    "url": "/osadawiedzy/static/media/forMinors-tik-tok.31ddb383.svg"
+    "revision": "d57e7ef6e7012bf639381ce2854f25cc",
+    "url": "/osadawiedzy/static/media/forMinors-tik-tok.d57e7ef6.svg"
   },
   {
-    "revision": "4298e2332dc731e16d26d3a95462768c",
-    "url": "/osadawiedzy/static/media/forMinors-wb.4298e233.svg"
+    "revision": "736540a9a27f6e9686ee604cd85c5c4b",
+    "url": "/osadawiedzy/static/media/forMinors-wb.736540a9.svg"
   },
   {
-    "revision": "8206c818e81d191ce3eb8f5ac02bf353",
-    "url": "/osadawiedzy/static/media/forMinors-yt.8206c818.svg"
+    "revision": "a405e9ca2ad775065ee881aa5dd9d3de",
+    "url": "/osadawiedzy/static/media/forMinors-yt.a405e9ca.svg"
   },
   {
     "revision": "6dd52eec5447a47e2a5a5f35fea09109",
@@ -520,20 +520,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/mainHeroSuperDesktop.ac1557f2.jpg"
   },
   {
-    "revision": "d5ee387ab9340a6e73d4b2a02dc6e0bd",
-    "url": "/osadawiedzy/static/media/mainIcon1.d5ee387a.svg"
+    "revision": "59f25998e42edc664eb46a6e1778cb9e",
+    "url": "/osadawiedzy/static/media/mainIcon1.59f25998.svg"
   },
   {
-    "revision": "848f8a4fb35e0bdeae3b7c12c14a7613",
-    "url": "/osadawiedzy/static/media/mainIcon2.848f8a4f.svg"
+    "revision": "3c16770d2d8e2ed9611f977c9760e451",
+    "url": "/osadawiedzy/static/media/mainIcon2.3c16770d.svg"
   },
   {
-    "revision": "2dfa8fa005012e723365e5a9e8b44d68",
-    "url": "/osadawiedzy/static/media/mainIcon3.2dfa8fa0.svg"
+    "revision": "ee7b6037bc3f65134dbfdbc41285d6c2",
+    "url": "/osadawiedzy/static/media/mainIcon3.ee7b6037.svg"
   },
   {
-    "revision": "5bdf1b81c9a4f7b39496e79c0c7bf333",
-    "url": "/osadawiedzy/static/media/mainIcon4.5bdf1b81.svg"
+    "revision": "c55ce2aa43552264f1cfb56404c20dd8",
+    "url": "/osadawiedzy/static/media/mainIcon4.c55ce2aa.svg"
   },
   {
     "revision": "4e7afe87b8fbdeee8a62f6927b4af87d",
@@ -680,24 +680,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osadawiedzy/static/media/programmingLecturerGif.008db65a.gif"
   },
   {
-    "revision": "f6ec744480cfd16f3e6955e38b6c2b4b",
-    "url": "/osadawiedzy/static/media/registerTypeArrow.f6ec7444.svg"
+    "revision": "4230d6918b0207d79dced2d5aeaa809a",
+    "url": "/osadawiedzy/static/media/registerTypeArrow.4230d691.svg"
   },
   {
     "revision": "af99c70f4912b32a16c51a6fe7367e3d",
     "url": "/osadawiedzy/static/media/rozklad-dnia.af99c70f.pdf"
   },
   {
-    "revision": "762d7dda3ed23730d301a5e3ee407f63",
-    "url": "/osadawiedzy/static/media/scienceArrow.762d7dda.svg"
+    "revision": "3dc591bf96bb6904e0d0827be2087c40",
+    "url": "/osadawiedzy/static/media/scienceArrow.3dc591bf.svg"
   },
   {
     "revision": "a1e62992c2000401c04c1b6e042516c0",
     "url": "/osadawiedzy/static/media/theboldfont.a1e62992.ttf"
   },
   {
-    "revision": "0ce4125ac77fa278994da03e8c11e4ef",
-    "url": "/osadawiedzy/static/media/triangle.0ce4125a.svg"
+    "revision": "a9ae3180f64793112ad4db37ec8bc561",
+    "url": "/osadawiedzy/static/media/triangle.a9ae3180.svg"
   },
   {
     "revision": "cf59bd47ca712c4982093d9dc7c55b43",
