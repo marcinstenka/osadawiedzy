@@ -26,8 +26,7 @@ const ScienceMail = color => {
     e.preventDefault();
     emailjs
       .sendForm(
-        // 'service_i2turqg',
-        'osadatest',
+        'service_i2turqg',
         'template_w9a8tbs',
         form.current,
         'zCfJ_UFvXZ_U3x64A'
@@ -37,7 +36,7 @@ const ScienceMail = color => {
           setStatus('Dziękujemy za wiadomość, wkrótce odpiszemy! :)');
         },
         error => {
-          alert('Coś poszło nie tak. Spróbuj ponownie za chwilę.');
+          setStatus('Coś poszło nie tak. Spróbuj ponownie za chwilę.');
         }
       );
   };
