@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ScienceArrow from '../assets/img/scienceArrow.svg';
-
+import LoadingGif from '../assets/img/loadingGif.gif';
 const ScienceMail = color => {
   const [buttonColor, setButtonColor] = useState(color);
   const [status, setStatus] = useState('');
@@ -9,18 +9,25 @@ const ScienceMail = color => {
   useEffect(() => {
     const registerStatus = document.querySelector('#register-status');
     const inputs = document.querySelectorAll('input');
+    const textarea = document.querySelector('textarea');
+    const select = document.querySelector('select');
     if (registerStatus) {
       registerStatus.innerHTML = status;
       inputs.forEach(input => {
         input.value = '';
       });
+      textarea.value = '';
+      select.selectedIndex = 0;
     }
   });
   const sendEmail = e => {
+    const registerStatus = document.querySelector('#register-status');
+    registerStatus.innerHTML = `<img src="${LoadingGif}" />`;
     e.preventDefault();
     emailjs
       .sendForm(
-        'service_i2turqg',
+        // 'service_i2turqg',
+        'osadatest',
         'template_w9a8tbs',
         form.current,
         'zCfJ_UFvXZ_U3x64A'
@@ -70,7 +77,7 @@ const ScienceMail = color => {
           <option value="Programowanie (matura)">Programowanie (matura)</option>
         </select>
         <label htmlFor="register-message">Twoja wiadomość:</label>
-        <input type="text" name="register-message" />
+        <textarea name="register-message" cols="30" rows="10" />
         <div className="register-button">
           <button style={{ background: buttonColor.color }}>
             wyślij <img src={ScienceArrow} alt="Strzałka zobacz więcej." />
