@@ -1765,8 +1765,8 @@ li {
   }
   .hero-science {
     display: block !important;
-    position: absolute;
-    height: 100%;
+    height: 845px;
+    max-height: none;
   }
   .hero-forMinors {
     height: 470px;
@@ -1774,26 +1774,25 @@ li {
   }
   .hero-science-links {
     display: block !important;
-    height: calc(100vh - 250px);
+    height: 730px;
   }
   .hero-science-links h1 {
     color: white;
     font-size: 44px;
     text-align: center;
     margin: 115px 0 50px 0;
+    text-shadow: 0 1px 2px #000;
   }
   .hero-science-links a {
     display: flex;
     max-width: 900px;
     text-decoration: none;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     padding: 0 15px;
-  }
-  .hero-science-links h2 {
     transition: 0.3s;
   }
-  .hero-science-links a:hover h2 {
-    font-size: 30px;
+  .hero-science-links a:hover {
+    translate: 0 -7px;
   }
   .hero-science-links ul {
     display: flex;
@@ -1804,6 +1803,7 @@ li {
     list-style-type: disc;
     gap: 20px;
     border-radius: 0 10px 10px 0;
+    box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 1);
   }
   .hero-science-links li {
     color: black;
@@ -2273,7 +2273,7 @@ li {
   .science-programming {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 25px;
+    grid-gap: 40px;
   }
   .science-physics.section-1 .section:nth-of-type(1),
   .science-maths .section:nth-of-type(1) {
@@ -2527,10 +2527,6 @@ li {
   }
   .section-img {
     padding: 0;
-  }
-  .science-physics,
-  .science-maths {
-    grid-gap: 60px;
   }
   .forMinors-tutors .about--text {
     padding: 0 10px;

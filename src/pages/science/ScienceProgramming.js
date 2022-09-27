@@ -108,7 +108,7 @@ const ScienceProgramming = () => {
 					<div className='section'>
 						<p className='science-text science-text-bigger'>
 							Zajęcia skierowane są do{' '}
-							<bold>młodych ludzi od VII klasy szkoły podstawowej</bold>
+							<bold>młodych ludzi od VII klasy szkoły podstawowej.</bold>
 							<br />
 							<br />
 							Zapisy przyjmujemy cały rok szkolny.

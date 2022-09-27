@@ -48,7 +48,6 @@ const ScienceMail = color => {
         wysłania wiadomości na adres zaranskanatalia@gmail.com lub skorzystania
         z poniższego formularza.
       </p>
-      <a id="asd">aasdasdasd</a>
       <form ref={form} className="register-form" onSubmit={sendEmail}>
         <label htmlFor="register-name">Imię i nazwisko:</label>
         <input type="text" name="register-name" required />
