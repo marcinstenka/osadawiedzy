@@ -2545,6 +2545,9 @@ li {
   .science-physics.section-2 .section:nth-of-type(1) ul {
     padding: 20px 0;
   }
+  .science-physics ul {
+    margin: 0 0 0 20px;
+  }
 }
 @media (min-width: 1450px) {
   nav {
