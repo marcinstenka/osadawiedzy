@@ -19,8 +19,21 @@ const OfferExpandedTwo = () => {
 					wszyscy najbardziej lubią.
 					<br />
 					<br />
-					<bold>FIZYKA DLA MATURZYSTÓW I MATURZYSTEK</bold>
-					<br />
+					<i>
+						To będzie intensywny czas, który pozwoli Ci nadrobić zaległości z
+						poprzednich lat i pozwoli ze spokojną głową podejść do matury.
+					</i>
+				</p>
+				<div className='expanded__cross'>
+					<span className='cross__cross1'></span>
+					<span className='cross__cross2'></span>
+				</div>
+			</div>
+			<div className='offer__expanded offer__expanded4'>
+				<div className='expanded__title title__border'>
+					2. Fizyka dla maturzystów i maturzystek
+				</div>
+				<p className='expanded__text'>
 					Jesteś uczniem klasy III LO lub IV technikum, zastanawiasz się nad
 					studiami technicznymi i maturą z fizyki. Proponujemy w ramach obozu
 					Osada Wiedzy kurs maturalny w ramach, którego dowiecie się w jaki
@@ -38,15 +51,7 @@ const OfferExpandedTwo = () => {
 					w jaki sposób zmniejszyć proces nadmiernego analizowania.
 					<br />
 					<br />
-					<i
-						style={{
-							display: 'block',
-							maxWidth: '90%',
-							textAlign: 'center',
-							fontWeight: 'bold',
-						}}
-					>
-						{' '}
+					<i>
 						To będzie intensywny czas, który pozwoli Ci nadrobić zaległości z
 						poprzednich lat i pozwoli ze spokojną głową podejść do matury.
 					</i>
@@ -56,8 +61,8 @@ const OfferExpandedTwo = () => {
 					<span className='cross__cross2'></span>
 				</div>
 			</div>
-			<div className='offer__expanded offer__expanded4'>
-				<div className='expanded__title title__border'>2. Matematyka</div>
+			<div className='offer__expanded offer__expanded5'>
+				<div className='expanded__title title__border'>3. Matematyka</div>
 				<p className='expanded__text'>
 					Zajęcia z matematyki to przede wszystkim rozwiązywanie zadań, w
 					których stawiamy na zrozumienie, a nie zapamiętywanie schematów. Tym
@@ -72,8 +77,8 @@ const OfferExpandedTwo = () => {
 					<span className='cross__cross2'></span>
 				</div>
 			</div>
-			<div className='offer__expanded offer__expanded5'>
-				<div className='expanded__title title__border'>3. Programowanie</div>
+			<div className='offer__expanded offer__expanded6'>
+				<div className='expanded__title title__border'>4. Programowanie</div>
 				<p className='expanded__text'>
 					Zajęcia z programowania są prowadzona w zależności od zaawansowania
 					uczestników. Może to być nauka podstaw programowania i algorytmów (w
@@ -89,9 +94,9 @@ const OfferExpandedTwo = () => {
 					<span className='cross__cross2'></span>
 				</div>
 			</div>
-			<div className='offer__expanded offer__expanded6'>
+			<div className='offer__expanded offer__expanded7'>
 				<div className='expanded__title title__border'>
-					4. Kompetencje społeczne
+					5. Kompetencje społeczne
 				</div>
 				<p className='expanded__text'>
 					Zajęcia mają na celu rozwój osobowości w tym między innymi:
@@ -109,8 +114,8 @@ const OfferExpandedTwo = () => {
 					<span className='cross__cross2'></span>
 				</div>
 			</div>
-			<div className='offer__expanded offer__expanded7'>
-				<div className='expanded__title'>5. Czas wolny</div>
+			<div className='offer__expanded offer__expanded8'>
+				<div className='expanded__title'>6. Czas wolny</div>
 				<p className='expanded__text'>
 					Czas wolny uczestników obozu to korzystanie z plaży, boiska do
 					siatkówki, kąpiel w jeziorze. Czas wolny przeznaczony jest także na

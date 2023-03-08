@@ -19,6 +19,7 @@ import Recomendations from './pages/Recomendations.js';
 import Downloads from './pages/Downloads.js';
 import Blog from './pages/Blog.js';
 import Page404 from './pages/Page404';
+import Form from './pages/Form';
 
 function App() {
 	AOS.init({
@@ -54,6 +55,7 @@ function App() {
 				<Route exact path='/zespol' component={Team} />
 				<Route exact path='/rekomendacje' component={Recomendations} />
 				<Route exact path='/do-pobrania' component={Downloads} />
+				<Route exact path='/kwestionariusz' component={Form} />
 				<Route exact path='/blog' component={Blog} />
 				<Route component={Page404} />
 			</Switch>
