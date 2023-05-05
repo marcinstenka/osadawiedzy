@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'; // problem with route - added  '/swiper-react' at the end
+import { Swiper, SwiperSlide } from 'swiper/react'; // problem with route - added  '/swiper-react' at the end | 05.05.2023 - there was a problem w compilation, I've to remove it
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 
 import PascoLogo from '../assets/img/pascoLogo.png';

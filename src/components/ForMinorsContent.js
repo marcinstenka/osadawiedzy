@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'; // problem with route - added  '/swiper-react' at the end
+import { Swiper, SwiperSlide } from 'swiper/react'; // problem with route - added  '/swiper-react' at the end
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 
 import WbIcon from '../assets/img/forMinors-wb.svg';

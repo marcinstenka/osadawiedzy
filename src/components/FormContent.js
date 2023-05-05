@@ -14,7 +14,7 @@ const FormContent = () => {
 					<br />
 					Miejsce wypoczynku: Załakowo 18a, 83-342 Sierakowice
 					<br />
-					Czas trwania: 30.07.2023r. – 8.07.2023r.
+					Czas trwania: 30.06.2023r. – 8.07.2023r.
 				</div>
 				<Form />
 			</div>
