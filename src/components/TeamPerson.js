@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 import IRimg1 from '../assets/img/ir1.jpg';
 import IRimg2 from '../assets/img/ir2.jpg';
@@ -23,6 +23,10 @@ import WMimg3 from '../assets/img/wm3.jpg';
 import PRimg1 from '../assets/img/pr1.jpg';
 import PRimg2 from '../assets/img/pr2.jpg';
 import PRimg3 from '../assets/img/pr3.jpg';
+
+import KKimg1 from '../assets/img/kk1.jpg';
+import KKimg2 from '../assets/img/kk2.jpg';
+import KKimg3 from '../assets/img/kk3.jpg';
 
 import CZ1img from '../assets/img/cz1.jpg';
 import CZ2img from '../assets/img/cz2.jpg';
@@ -113,6 +117,16 @@ const TeamPerson = () => {
 			],
 		},
 		{
+			name: 'Kamil Kostrzewa',
+			id: 'Kamil-Kostrzewa',
+			img1: KKimg1,
+			img2: KKimg2,
+			img3: KKimg3,
+			text: [
+				'- doktor nauk fizycznych, nauczyciel fizyki i matematyki z ponad dziesięcioletnim stażem, najpierw w gdańskich podstawówkach, gimnazjach i liceach, obecnie w lęborskim liceum. Aktywny popularyzator nauki, prowadzi zajęcia między innymi w MateManiakach, czy Zdolnych z Pomorza. Od ponad pięciu lat autor i twórca Wykładów Otwartych z Fizyki. Prywatnie miłośnik literatury i filmów fantasy, gier strategicznych oraz papierowych rpg-ów, siatkówki i eleganckich ubrań. Nauczycielem fizyki chciał być od zawsze (dokładniej od pierwszej lekcji fizyki w gimnazjum), choć z krótką przerwą na marzenia o byciu papieżem. Podczas obozu będzie miał z Wami zajęcia z matematyki.',
+			],
+		},
+		{
 			name: 'Cały zespół',
 			img1: CZ1img,
 			img2: CZ2img,
@@ -124,7 +138,7 @@ const TeamPerson = () => {
 		<>
 			{teamPersons.map(person => {
 				return (
-					<a id={person.id} key={person.name} className='team__section'>
+					<div id={person.id} key={person.name} className='team__section'>
 						<div className='team__name'>{person.name}</div>
 						<div className='team__imgs'>
 							<div className='team__img'>
@@ -140,7 +154,7 @@ const TeamPerson = () => {
 						<div className='team__text'>
 							<p>{person.text}</p>
 						</div>
-					</a>
+					</div>
 				);
 			})}
 		</>

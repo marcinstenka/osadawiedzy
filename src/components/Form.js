@@ -68,6 +68,12 @@ const Form = () => {
 					>
 						Obóz naukowy dla maturzystów i maturzystek
 					</option>
+					<option
+						value='Obóz naukowy z chemią
+'
+					>
+						Obóz naukowy z chemią
+					</option>
 				</select>
 				<div className='form-radio'>
 					Czy uczestnik/uczestniczka już u Nas był/a?

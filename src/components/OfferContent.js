@@ -9,11 +9,11 @@ import OfferPlace from './OfferPlace'
 const OfferContent = () => {
     // Logic for <OfferExpandedOne /> and OfferExpandedTwo />
     useEffect(()=>{
-        let coll = document.querySelectorAll(".offer__expanded ");
+        let coll = document.querySelectorAll(".expanded__title");
         for (let i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", ()=>{
-            coll[i].classList.toggle("active");
-            let content = coll[i].children[1];
+            coll[i].parentElement.classList.toggle("active");
+            let content = coll[i].parentElement.children[1];
             content.style.maxHeight ? content.style.maxHeight = null : content.style.maxHeight = content.scrollHeight + "px";
             });
         }
