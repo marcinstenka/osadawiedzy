@@ -76,7 +76,7 @@ const OfferExpandedTwo = () => {
 					<br />
 					<i>
 						W życiu nie ma rzeczy, których należy się bać, są tylko rzeczy, które trzeba zrozumieć.
-						Musimy rozumieć więcej aby móc bać się mniej
+						Musimy rozumieć więcej aby móc bać się mniej <br /> <div className='expanded__text-quote'>~ Maria Skłodowska Curie</div>
 					</i>
 				</p>
 				<div className='expanded__cross'>

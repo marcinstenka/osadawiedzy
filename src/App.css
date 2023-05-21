@@ -1138,6 +1138,10 @@ thin {
 	font-weight: bold;
 	margin: 0 auto;
 }
+.expanded__text-quote{
+	text-align: right;
+	font-style: normal;
+}
 .expanded__cross {
 	position: absolute;
 	width: 20px;
