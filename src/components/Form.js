@@ -276,8 +276,8 @@ const Form = () => {
 				/>
 				Płatności proszę dokonać na numer bankowy
 				<br />
-				<b>Bank Spółdzielczy w Łebie o numerze:</b>
-				<b>45 324 0008 0004 6314 2000 0010</b>
+				<b>Zjednoczony Bank Spóldzielczy o numerze:</b>
+				<b>45 9324 0008 0004 6314 2000 0010</b>
 				<br />
 				Wpłaty dokonuje się tytułem:
 				<i>
@@ -317,7 +317,7 @@ const Form = () => {
 				<br />
 				Umowę należy pobrać ze strony, uzupełnić i podpisać. <br /> Umowę należy
 				wydrukować w dwóch egzemplarzach, oba podpisać. <br /> Do umowy należy
-				dołączyć opinię nauczyciela matematyki i fizyki ( fizyka nie dotyczy
+				dołączyć opinię nauczyciela matematyki i fizyki (fizyka nie dotyczy
 				uczniów/uczennic po klasie VI Szkoły Podstawowej) <br /> Całość należy
 				przesłać na adres:{' '}
 				<b>
