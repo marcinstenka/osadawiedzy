@@ -6,7 +6,7 @@ const ColonyContent = () => {
 			<div className='about-section'>
 				<h2 className='about--header header'>O NAS</h2>
 				<p className='about--text'>
-					Jest rok 2023. Cały świat zdominowany został przez Mocarstwo
+					Jest rok 2024. Cały świat zdominowany został przez Mocarstwo
 					Edukacyjnej Negacji. Cały? Nie. Jedna jedyna osada, prowadzona przez
 					nieugiętych mentorów wciąż stawia opór najeźdźcom i walczy dzielnie
 					rzucając magicznym pyłem wyobraźni i pasji, aby wrzuceni w otchłań

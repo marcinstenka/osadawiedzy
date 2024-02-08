@@ -12,8 +12,8 @@ const OfferTables = () => {
 								<th className='term__header'>Cena</th>
 							</tr>
 							<tr>
-								<td className='term__row'>30.06 - 08.07.2023r.</td>
-								<td className='term__row'>2290,00 zł</td>
+								<td className='term__row'>28.06. - 06.07.2024r.</td>
+								<td className='term__row'>2490,00 zł</td>
 							</tr>
 						</tbody>
 					</table>
