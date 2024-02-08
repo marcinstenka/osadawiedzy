@@ -3,7 +3,8 @@ import React from 'react';
 import pdf1 from '../assets/links/umowa-oboz.pdf';
 import pdf2 from '../assets/links/Regulamin-obozu-naukowego.pdf';
 import pdf3 from '../assets/links/opinia-nauczyciela-matematyki-fizyki.pdf';
-import pdf4 from '../assets/links/rozklad-dnia.pdf';
+import pdf4 from '../assets/links/opinia-nauczyciela-chemii-biologii.pdf';
+import pdf5 from '../assets/links/rozklad-dnia.pdf';
 
 const DownloadsContent = () => {
 	return (
@@ -46,12 +47,17 @@ const DownloadsContent = () => {
 						</a>
 					</li>
 					<li className='downloads__list-item'>
-						<a href={pdf3} download='Opinia.pdf'>
+						<a href={pdf3} download='Opinia matematyka/fizyka.pdf'>
 							Opinia nauczyciela matematyki/fizyki
 						</a>
 					</li>
 					<li className='downloads__list-item'>
-						<a href={pdf4} download='Rozklad dnia.pdf'>
+						<a href={pdf4} download='Opinia chemia/biologia.pdf'>
+							Opinia nauczyciela chemii/biologii
+						</a>
+					</li>
+					<li className='downloads__list-item'>
+						<a href={pdf5} download='Rozklad dnia.pdf'>
 							Rozkład dnia
 						</a>
 					</li>
