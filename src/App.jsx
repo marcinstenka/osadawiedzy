@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+import { useCookies } from 'react-cookie';
 
 import Main from './pages/Main.jsx';
 import Colony from './pages/Colony.jsx';
@@ -27,8 +29,27 @@ function App() {
 		once: true,
 	});
 
+	//cookies
+	const [cookies, setCookie] = useCookies(['CookiesOsadaWiedzy']);
+	const handleCookie = () => {
+		setCookie('CookiesOsadaWiedzy', 'CookiesAccepted', { path: '/' });
+	};
+	useEffect(() => {
+		if (!cookies.CookiesOsadaWiedzy) {
+			const cookiesBtn = document.querySelector('.cookies button');
+			cookiesBtn.addEventListener('click', () => {
+				cookiesBtn.parentElement.style.display = 'none';
+			});
+		}
+	}, []);
 	return (
 		<BrowserRouter>
+			{!cookies.CookiesOsadaWiedzy && (
+				<div className='cookies'>
+					<p>Ta strona wykorzystuje pliki cookies.</p>{' '}
+					<button onClick={handleCookie}>X</button>
+				</div>
+			)}
 			<Switch>
 				<Route exact path='/' component={Main} />
 				<Route exact path='/oboz' component={Colony} />
