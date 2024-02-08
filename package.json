@@ -1,8 +1,8 @@
 {
 	"name": "osadawiedzy",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"private": true,
-	"homepage": "https://osadawiedzy.pl",
+	"homepage": "https://osadawiedzy.pl/",
 	"dependencies": {
 		"@emailjs/browser": "^3.7.0",
 		"@testing-library/jest-dom": "^4.2.4",

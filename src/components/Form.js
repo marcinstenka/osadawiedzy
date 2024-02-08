@@ -14,18 +14,18 @@ const Form = () => {
 		const selects = document.querySelectorAll('select');
 		if (registerStatus) {
 			registerStatus.innerHTML = status;
-			inputs.forEach(input => {
+			inputs.forEach((input) => {
 				input.value = '';
 			});
-			textareas.forEach(t => {
+			textareas.forEach((t) => {
 				t.value = '';
 			});
-			selects.forEach(s => {
+			selects.forEach((s) => {
 				s.selectedIndex = 0;
 			});
 		}
 	});
-	const sendEmail = e => {
+	const sendEmail = (e) => {
 		const registerStatus = document.querySelector('#register-status');
 		registerStatus.innerHTML = `<img src="${LoadingGif}" />`;
 		e.preventDefault();
@@ -37,10 +37,10 @@ const Form = () => {
 				'zCfJ_UFvXZ_U3x64A'
 			)
 			.then(
-				result => {
+				(result) => {
 					setStatus('Dziękujemy za wiadomość, wkrótce odpiszemy! :)');
 				},
-				error => {
+				(error) => {
 					setStatus('Coś poszło nie tak. Spróbuj ponownie za chwilę.');
 				}
 			);
@@ -56,23 +56,15 @@ const Form = () => {
 					<option value='' selected disabled hidden>
 						wybierz obóz
 					</option>
-					<option
-						value='Obóz naukowy dla dzieci i młodzieży
-'
-					>
-						Obóz naukowy dla dzieci i młodzieży
+					<option value='Obóz naukowy dla dzieci i młodzieży program matematyka/fizyka/programowanie'>
+						Obóz naukowy dla dzieci i młodzieży -
+						matematyka/fizyka/programowanie
 					</option>
-					<option
-						value='Obóz naukowy dla maturzystów i maturzystek
-'
-					>
-						Obóz naukowy dla maturzystów i maturzystek
+					<option value='Obóz naukowy dla maturzystów i maturzystek - fizyka'>
+						Obóz naukowy dla maturzystów i maturzystek - fizyka
 					</option>
-					<option
-						value='Obóz naukowy z chemią
-'
-					>
-						Obóz naukowy z chemią
+					<option value='Obóz naukowy program maturalny - chemia/biologia'>
+						Obóz naukowy program maturalny - chemia/biologia
 					</option>
 				</select>
 				<div className='form-radio'>
@@ -143,45 +135,6 @@ const Form = () => {
 					PESEL
 				</label>
 				<input type='number' name='form-participant-pesel' required />
-				<div className='form-radio'>
-					Rozmiar koszulki uczestnika/uczestniczki obozu
-					<div className='radio-labels'>
-						<div>
-							<input
-								type='radio'
-								value='S'
-								id='size-s'
-								checked
-								name='form-participant-shirt-size'
-							/>
-							<input
-								type='radio'
-								value='M'
-								id='size-m'
-								name='form-participant-shirt-size'
-							/>
-							<input
-								type='radio'
-								value='L'
-								id='size-l'
-								name='form-participant-shirt-size'
-							/>
-
-							<input
-								type='radio'
-								value='XL'
-								id='size-xl'
-								name='form-participant-shirt-size'
-							/>
-						</div>
-						<div>
-							<label htmlFor='size-s'>S</label>
-							<label htmlFor='size-m'>M</label>
-							<label htmlFor='size-l'>L</label>
-							<label htmlFor='size-xl'>XL</label>
-						</div>
-					</div>
-				</div>
 				<label htmlFor='form-participant-diseases'>
 					Przebyte choroby (ospa, różyczka itp.)
 				</label>
@@ -221,6 +174,65 @@ const Form = () => {
 					Inne uwagi o uczestniku, komentarz:
 				</label>
 				<textarea name='form-participant-other' cols='30' rows='10'></textarea>
+				<li>Pozostałe informacje</li>
+				<label htmlFor='form-diet' className='form-required'>
+					Preferowana dieta
+				</label>
+				<select name='form-diet' required>
+					<option value='' selected disabled hidden>
+						wybierz dietę
+					</option>
+					<option value='Dieta podstawowa'>Dieta podstawowa</option>
+					<option value='Dieta bezglutenowa'>Dieta bezglutenowa</option>
+					<option value='Dieta z ograniczeniem łatwo przyswajalnych węglowodanów (cukrzycowa)'>
+						Dieta z ograniczeniem łatwo przyswajalnych węglowodanów (cukrzycowa)
+					</option>
+					<option value='Dieta wegetariańska'>Dieta wegetariańska</option>
+					<option value='Dieta wegańska'>Dieta wegańska</option>
+					<option value='Dieta bez laktozy'>Dieta bez laktozy</option>
+					<option value='Inna'>
+						Inna - proszę opisać w podpunkcie "Inne uwagi o uczestniku"
+					</option>
+				</select>
+				<div className='form-radio'>
+					Rozmiar koszulki uczestnika/uczestniczki obozu
+					<div className='radio-labels'>
+						<div>
+							<input
+								type='radio'
+								value='S'
+								id='size-s'
+								checked
+								name='form-participant-shirt-size'
+							/>
+							<input
+								type='radio'
+								value='M'
+								id='size-m'
+								name='form-participant-shirt-size'
+							/>
+							<input
+								type='radio'
+								value='L'
+								id='size-l'
+								name='form-participant-shirt-size'
+							/>
+
+							<input
+								type='radio'
+								value='XL'
+								id='size-xl'
+								name='form-participant-shirt-size'
+							/>
+						</div>
+						<div>
+							<label htmlFor='size-s'>S</label>
+							<label htmlFor='size-m'>M</label>
+							<label htmlFor='size-l'>L</label>
+							<label htmlFor='size-xl'>XL</label>
+						</div>
+					</div>
+				</div>
 				<li>Informacje na temat osoby zgłaszającej</li>
 				<p>
 					Dalsza korespondencja będzie kierowana na podany niżej adres e-mail
@@ -282,7 +294,7 @@ const Form = () => {
 				Wpłaty dokonuje się tytułem:
 				<i>
 					"wpłata na organizację obozu naukowego „Osada Wiedzy” organizowanego w
-					dniach 30.06.2023r. – 08.07.2023r. uczestnik/uczestniczka
+					dniach 28.06.2024r. – 06.07.2024r. uczestnik/uczestniczka
 					……………………………………………".
 				</i>
 				<br />
@@ -323,7 +335,7 @@ const Form = () => {
 				<b>
 					{' '}
 					Osada Wiedzy ul. Długa 24A 84-353 Lębork-Mosty najpóźniej do
-					25.06.2023r.
+					21.06.2024r.
 				</b>{' '}
 				<br />
 				Umowa podpisana przez Organizatora zostanie odesłana na wskazany w
