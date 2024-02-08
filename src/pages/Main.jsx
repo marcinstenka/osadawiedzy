@@ -12,7 +12,6 @@ const Offer = () => {
 				<img className='main-logo' src={Logo} alt='Logo' />
 			</Link>
 			<MainContent />
-
 			<Footer />
 		</>
 	);

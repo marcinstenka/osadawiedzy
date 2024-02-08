@@ -1,5 +1,5 @@
 import React from 'react';
-import ScrollRestoration from '../components/ScrollRestoration';
+import ScrollRestoration from './ScrollRestoration';
 
 const Footer = ({ footerBottom }) => {
 	return (

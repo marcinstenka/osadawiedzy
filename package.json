@@ -1,6 +1,6 @@
 {
 	"name": "osadawiedzy",
-	"version": "1.0.3",
+	"version": "1.0.6",
 	"private": true,
 	"homepage": "https://osadawiedzy.pl/",
 	"dependencies": {
@@ -50,5 +50,8 @@
 			"not dead",
 			"not op_mini all"
 		]
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11"
 	}
 }

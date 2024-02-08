@@ -1,25 +1,25 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import Main from './pages/Main';
-import Colony from './pages/Colony';
-import History from './pages/History.js';
-import Offer from './pages/Offer';
-import Science from './pages/Science';
-import SciencePhysics from './pages/science/SciencePhysics.js';
-import ScienceMaths from './pages/science/ScienceMaths.js';
-import ScienceProgramming from './pages/science/ScienceProgramming.js';
-import ForMinors from './pages/ForMinors';
-import Pasco from './pages/Pasco';
-import Team from './pages/Team';
-import Recomendations from './pages/Recomendations.js';
-import Downloads from './pages/Downloads.js';
-import Blog from './pages/Blog.js';
-import Page404 from './pages/Page404';
-import Form from './pages/Form';
+import Main from './pages/Main.jsx';
+import Colony from './pages/Colony.jsx';
+import History from './pages/History.jsx';
+import Offer from './pages/Offer.jsx';
+import Science from './pages/Science.jsx';
+import SciencePhysics from './pages/science/SciencePhysics.jsx';
+import ScienceMaths from './pages/science/ScienceMaths.jsx';
+import ScienceProgramming from './pages/science/ScienceProgramming.jsx';
+import ForMinors from './pages/ForMinors.jsx';
+import Pasco from './pages/Pasco.jsx';
+import Team from './pages/Team.jsx';
+import Recomendations from './pages/Recomendations.jsx';
+import Downloads from './pages/Downloads.jsx';
+import Blog from './pages/Blog.jsx';
+import Page404 from './pages/Page404.jsx';
+import Form from './pages/Form.jsx';
 
 function App() {
 	AOS.init({
@@ -28,7 +28,7 @@ function App() {
 	});
 
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Switch>
 				<Route exact path='/' component={Main} />
 				<Route exact path='/oboz' component={Colony} />
@@ -59,7 +59,7 @@ function App() {
 				<Route exact path='/blog' component={Blog} />
 				<Route component={Page404} />
 			</Switch>
-		</HashRouter>
+		</BrowserRouter>
 	);
 }
 
