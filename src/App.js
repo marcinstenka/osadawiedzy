@@ -1,5 +1,5 @@
-import React, { useRef, useMemo } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -28,7 +28,7 @@ function App() {
 	});
 
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Switch>
 				<Route exact path='/' component={Main} />
 				<Route exact path='/oboz' component={Colony} />
@@ -59,7 +59,7 @@ function App() {
 				<Route exact path='/blog' component={Blog} />
 				<Route component={Page404} />
 			</Switch>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
