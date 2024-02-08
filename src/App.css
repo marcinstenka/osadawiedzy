@@ -1627,6 +1627,19 @@ input[type='number'] {
 	margin: 0;
 }
 
+/* Faq */
+.question {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question h3 {
+	margin: 15px 0 -10px 0;
+}
+.faq .question:last-of-type {
+	padding: 0 0 20px 0;
+}
 /* Team */
 .team__section {
 	display: flex;
@@ -1635,14 +1648,16 @@ input[type='number'] {
 	align-items: center;
 	padding: 0 0 30px 0;
 }
-.team__header {
+.team__header,
+.faq__header {
 	margin: 140px 0 0 30px;
 }
 .team__name {
 	font-size: 25px;
 	margin: 60px 0 20px 0;
 }
-.team__text {
+.team__text,
+.question {
 	font-size: 20px;
 	margin: 20px 30px 10px 30px;
 	text-align: justify;
@@ -2121,7 +2136,8 @@ li {
 	.team__img:last-of-type {
 		margin: 0;
 	}
-	.team__header {
+	.team__header,
+	.faq__header {
 		margin: 150px 0 60px 90px;
 	}
 	.team__name {
@@ -2129,6 +2145,11 @@ li {
 		margin: 70px 0 20px 0;
 	}
 	.team__text {
+		max-width: 968px;
+	}
+	/* Faq */
+	.question {
+		margin: 0 auto;
 		max-width: 968px;
 	}
 	/* Contact */
@@ -2221,6 +2242,41 @@ li {
 		padding: 0;
 	}
 }
+@media (min-width: 1120px) {
+	.menu-desktop {
+		display: block;
+		font-size: 20px;
+		padding: 0 0 0 100px;
+	}
+	nav {
+		justify-content: flex-end;
+		height: 100px;
+	}
+	.hamburger,
+	.mobile-menu {
+		display: none;
+	}
+
+	.menu-ul {
+		list-style: none;
+		display: flex;
+		margin: 0 30px 0 0;
+	}
+	.menu-link {
+		color: var(--header-gray);
+		text-decoration: none;
+		margin: 0 20px 0 0;
+		font-size: 18px;
+		font-weight: 700;
+		transition: 0.5s;
+	}
+	.menu-link-hero {
+		color: black !important;
+	}
+	.menu-link:hover {
+		color: var(--green) !important;
+	}
+}
 @media (min-width: 1080px) {
 	.br-reverse {
 		display: none;
@@ -2253,38 +2309,7 @@ li {
 		width: 115px;
 		bottom: -55px;
 	}
-	nav {
-		justify-content: flex-end;
-		height: 100px;
-	}
-	.hamburger,
-	.mobile-menu {
-		display: none;
-	}
-	.menu-desktop {
-		display: block;
-		font-size: 20px;
-		padding: 0 0 0 100px;
-	}
-	.menu-ul {
-		list-style: none;
-		display: flex;
-		margin: 0 30px 0 0;
-	}
-	.menu-link {
-		color: var(--header-gray);
-		text-decoration: none;
-		margin: 0 20px 0 0;
-		font-size: 18px;
-		font-weight: 700;
-		transition: 0.5s;
-	}
-	.menu-link-hero {
-		color: black !important;
-	}
-	.menu-link:hover {
-		color: var(--green) !important;
-	}
+
 	.hero-text {
 		width: 1080px;
 		display: grid;

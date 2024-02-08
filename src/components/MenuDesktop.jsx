@@ -41,6 +41,11 @@ const MenuDesktop = ({ isHero }) => {
 					</Link>
 				</li>
 				<li>
+					<Link className='menu-link' to='/faq'>
+						FAQ
+					</Link>
+				</li>
+				<li>
 					<a className='menu-link' href='//osadawiedzyy.blogspot.com'>
 						BLOG
 					</a>

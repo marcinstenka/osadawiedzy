@@ -16,6 +16,7 @@ const MenuMobile = () => {
 				<Link to='/rekomendacje'>REKOMENDACJE</Link>
 				<Link to='/do-pobrania'>DO POBRANIA</Link>
 				<Link to='/kwestionariusz'>KWESTIONARIUSZ</Link>
+				<Link to='/faq'>FAQ</Link>
 				<a href='//osadawiedzyy.blogspot.com/'>BLOG</a>
 			</div>
 		</div>

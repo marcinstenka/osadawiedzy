@@ -18,6 +18,7 @@ import ForMinors from './pages/ForMinors.jsx';
 import Pasco from './pages/Pasco.jsx';
 import Team from './pages/Team.jsx';
 import Recomendations from './pages/Recomendations.jsx';
+import Faq from './pages/Faq.jsx';
 import Downloads from './pages/Downloads.jsx';
 import Blog from './pages/Blog.jsx';
 import Page404 from './pages/Page404.jsx';
@@ -42,6 +43,7 @@ function App() {
 			});
 		}
 	}, []);
+	
 	return (
 		<BrowserRouter>
 			{!cookies.CookiesOsadaWiedzy && (
@@ -77,6 +79,7 @@ function App() {
 				<Route exact path='/rekomendacje' component={Recomendations} />
 				<Route exact path='/do-pobrania' component={Downloads} />
 				<Route exact path='/kwestionariusz' component={Form} />
+				<Route exact path='/faq' component={Faq} />
 				<Route exact path='/blog' component={Blog} />
 				<Route component={Page404} />
 			</Switch>
