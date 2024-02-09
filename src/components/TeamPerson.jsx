@@ -70,10 +70,21 @@ const TeamPerson = () => {
 			img2: NZimg2,
 			img3: NZimg3,
 			text: [
-				'- coach, trener i mówca John Maxwell Team, trener psychologii pozytywnej, facylitator job craftingu, doradca zawodowy. Zakochana w zmianie. Jej mentorami są Paul Martinelli, Joe Dispenza oraz Gregg Braden . To od nich czerpie wiedzę, to oni nadają kierunek jej pracy. Prowadzi terapię zgodną z nurtem Racjonalnej Terapii Zachowania, która w głównej mierze opiera się na pracy z przekonaniami. Z pierwszego wykształcenia jest pedagogiem i przez 22 lata prowadziła młodych ludzi w okresie dojrzewania, wspierała także rodziców, prowadząc szkolenia i warsztaty. Właścicielka Akademii Rozwoju Prosperity w ramach, której działa Soward Smart Kids Academy oraz Akademia Lidera Still Up. Współwłaścicielka firmy, w ramach której organizuje obozy naukowe Osada Wiedzy. Jedna z kreatorek Festiwalu Inspiracje. Prezes Stowarzyszenia FPUNKT. Finalistka konkursu im. Ireny Sendlerowej „Za naprawianie świata”. W 2021r. została zakwalifikowana przez Centrum Edukacji Obywatelskiej oraz Ambasadę Amerykańską do programu International Visitor Leadershi i jako jedna z sześciu nauczycieli i nauczycielek, wybranych spośród wszystkich finalistów i laureatów tego konkursu, odbędzie 21-dniową studyjną wizytę w USA. Za swoje działania otrzymała Medal Komisji Edukacji Narodowej.  Jej pasją są musicale, które tworzy wspólnie z młodzieżą. Jej spektakle stanęły na Stadionie Narodowym (spektakl „Szukając siebie”) a także na dużej scenie Teatru Muzycznego w Gdyni (musical „Szepty serc”). W Osadzie Wiedzy prowadzi warsztaty pewności siebie i wartości własnej, które leżą w jej obszarze zainteresowań naukowych.',
+				'coach, trener i mówca Maxwell Leadership Certified Team Poland, trener psychologii pozytywnej, facylitator job craftingu, doradca zawodowy. Zakochana w zmianie. Z pierwszego wykształcenia jest pedagogiem i przez 22 lata prowadziła młodych ludzi w okresie dojrzewania, wspierała także rodziców, prowadząc szkolenia i warsztaty.',
+				<br />,
+				<br />,
+				'Właścicielka Akademii Rozwoju Prosperity oraz Soward Smart Kids Academy będącej przestrzenią rozwoju młodych ludzi w zakresie kompetencji społecznych, matematyki mentalnej, edukacji medialnej i krytycznego korzystania z mediów oraz międzynarodowej metody Brainy Sensory Enhancement. Prezes Stowarzyszenia FPUNKT. Finalistka konkursu im. Ireny Sendlerowej „Za naprawianie świata”. Absolwentka programu wymiany rządu USA International Visitor Leadership. Za swoje działania otrzymała Medal Komisji Edukacji Narodowej.',
+				<br />,
+				<br />,
+				'Jej pasją są musicale, które tworzy wspólnie z młodzieżą. Jej spektakle stanęły na Stadionie Narodowym (spektakl „Szukając siebie”) a także na dużej scenie Teatru Muzycznego w Gdyni (musical „Szepty serc”). Przez wiele lat realizowała profilaktykę rówieśniczą pokazując młodym ludziom możliwości własnego rozwoju, ucząc, że ciekawość to nie pierwszy stopień do piekła, a możliwość dokonywania niemożliwego.',
+				,
 				<br />,
 				<br />,
 				<a href='//nataliazaranska.pl'>www.nataliazaranska.pl</a>,
+				<br />,
+				<a href='//smartkids.soward.eu/lokalizacje/lebork'>
+					https://smartkids.soward.eu/lokalizacje/lebork
+				</a>,
 			],
 		},
 		{
@@ -136,7 +147,7 @@ const TeamPerson = () => {
 	];
 	return (
 		<>
-			{teamPersons.map(person => {
+			{teamPersons.map((person) => {
 				return (
 					<div id={person.id} key={person.name} className='team__section'>
 						<div className='team__name'>{person.name}</div>
