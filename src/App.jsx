@@ -20,9 +20,10 @@ import Team from './pages/Team.jsx';
 import Recomendations from './pages/Recomendations.jsx';
 import Faq from './pages/Faq.jsx';
 import Downloads from './pages/Downloads.jsx';
-import Blog from './pages/Blog.jsx';
-import Page404 from './pages/Page404.jsx';
 import Form from './pages/Form.jsx';
+import Blog from './pages/Blog.jsx';
+import Policy from './pages/Policy.jsx';
+import Page404 from './pages/Page404.jsx';
 
 function App() {
 	AOS.init({
@@ -81,6 +82,7 @@ function App() {
 				<Route exact path='/kwestionariusz' component={Form} />
 				<Route exact path='/faq' component={Faq} />
 				<Route exact path='/blog' component={Blog} />
+				<Route exact path='/polityka-prywatnosci' component={Policy} />
 				<Route component={Page404} />
 			</Switch>
 		</BrowserRouter>

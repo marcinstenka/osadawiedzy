@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollRestoration from './ScrollRestoration';
+import { Link } from 'react-router-dom';
 
 const Footer = ({ footerBottom }) => {
 	return (
@@ -86,6 +87,7 @@ const Footer = ({ footerBottom }) => {
 					</div>
 				</div>
 				<div className='footer-copyright'>
+					<Link to="/polityka-prywatnosci">Polityka prywatności</Link>
 					<p>
 						Osada Wiedzy
 						<br />© copyright 2023
