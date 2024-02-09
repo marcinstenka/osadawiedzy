@@ -20,7 +20,7 @@ const DownloadsContent = () => {
 						Całość prosimy przesłać na adres:{' '}
 						<bold>
 							Osada Wiedzy ul. Długa 24A 84-353 Lębork-Mosty najpóźniej do
-							25.06.2023r.{' '}
+							21.06.2024r.{' '}
 						</bold>
 					</li>
 					<li>

@@ -83,7 +83,7 @@ const TeamPerson = () => {
 				<a href='//nataliazaranska.pl'>www.nataliazaranska.pl</a>,
 				<br />,
 				<a href='//smartkids.soward.eu/lokalizacje/lebork'>
-					https://smartkids.soward.eu/lokalizacje/lebork
+					https://smartkids.soward.eu
 				</a>,
 			],
 		},

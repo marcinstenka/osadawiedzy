@@ -1180,6 +1180,7 @@ thin {
 	right: 30px;
 	padding: 20px;
 	top: 9px;
+	cursor: pointer;
 }
 .expanded__cross::before,
 .expanded__cross::after {
