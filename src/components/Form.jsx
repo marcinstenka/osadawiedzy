@@ -340,6 +340,12 @@ const Form = () => {
 				<br />
 				Umowa podpisana przez Organizatora zostanie odesłana na wskazany w
 				kwestionariuszu adres.
+				<br />
+				<br />
+				Do umowy należy dołączyć opinię nauczyciela matematyki i fizyki (fizyka
+				nie dotyczy uczniów/uczennic po klasie VI Szkoły Podstawowej) w
+				przypadku wyboru opcji biologia/chemia opinię nauczyciela tych
+				przedmiotów.
 			</ol>
 
 			<div className='register-button'>
