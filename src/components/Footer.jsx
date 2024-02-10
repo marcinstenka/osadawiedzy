@@ -94,7 +94,7 @@ const Footer = ({ footerBottom }) => {
 				<div className='footer-copyright'>
 					<p>
 						Osada Wiedzy
-						<br />© copyright 2023
+						<br />© copyright 2024
 					</p>
 				</div>
 			</div>
