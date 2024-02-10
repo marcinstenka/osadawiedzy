@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -44,7 +44,7 @@ function App() {
 			});
 		}
 	}, []);
-	
+
 	return (
 		<BrowserRouter>
 			{!cookies.CookiesOsadaWiedzy && (
@@ -53,38 +53,38 @@ function App() {
 					<button onClick={handleCookie}>X</button>
 				</div>
 			)}
-			<Switch>
-				<Route exact path='/' component={Main} />
-				<Route exact path='/oboz' component={Colony} />
-				<Route exact path='/historia' component={History} />
-				<Route exact path='/oferta' component={Offer} />
-				<Route exact path='/nauki-scisle-po-godzinach' component={Science} />
+			<Routes>
+				<Route exact path='/' element={<Main />} />
+				<Route exact path='/oboz' element={<Colony />} />
+				<Route exact path='/historia' element={<History />} />
+				<Route exact path='/oferta' element={<Offer />} />
+				<Route exact path='/nauki-scisle-po-godzinach' element={<Science />} />
 				<Route
 					exact
 					path='/nauki-scisle-po-godzinach/fizyka'
-					component={SciencePhysics}
+					element={<SciencePhysics />}
 				/>
 				<Route
 					exact
 					path='/nauki-scisle-po-godzinach/matematyka'
-					component={ScienceMaths}
+					element={<ScienceMaths />}
 				/>
 				<Route
 					exact
 					path='/nauki-scisle-po-godzinach/programowanie'
-					component={ScienceProgramming}
+					element={<ScienceProgramming />}
 				/>
-				<Route exact path='/fizyka-dla-nieletnich' component={ForMinors} />
-				<Route exact path='/pasco' component={Pasco} />
-				<Route exact path='/zespol' component={Team} />
-				<Route exact path='/rekomendacje' component={Recomendations} />
-				<Route exact path='/do-pobrania' component={Downloads} />
-				<Route exact path='/kwestionariusz' component={Form} />
-				<Route exact path='/faq' component={Faq} />
-				<Route exact path='/blog' component={Blog} />
-				<Route exact path='/polityka-prywatnosci' component={Policy} />
-				<Route component={Page404} />
-			</Switch>
+				<Route exact path='/fizyka-dla-nieletnich' element={<ForMinors />} />
+				<Route exact path='/pasco' element={<Pasco />} />
+				<Route exact path='/zespol' element={<Team />} />
+				<Route exact path='/rekomendacje' element={<Recomendations />} />
+				<Route exact path='/do-pobrania' element={<Downloads />} />
+				<Route exact path='/kwestionariusz' element={<Form />} />
+				<Route exact path='/faq' element={<Faq />} />
+				<Route exact path='/blog' element={<Blog />} />
+				<Route exact path='/polityka-prywatnosci' element={<Policy />} />
+				<Route element={<Page404 />} />
+			</Routes>
 		</BrowserRouter>
 	);
 }

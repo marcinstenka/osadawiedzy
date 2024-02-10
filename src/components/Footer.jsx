@@ -36,6 +36,11 @@ const Footer = ({ footerBottom }) => {
 							Ignacy Rejmak <br />
 							<a href='tel+663056976'>663-056-976</a>
 						</p>
+						<p>
+							<Link to='/polityka-prywatnosci'>
+								<bold>Polityka prywatności</bold>
+							</Link>
+						</p>
 					</div>
 					<div className='footer-section'>
 						<h2>ŚLEDŹ NAS</h2>
@@ -87,7 +92,6 @@ const Footer = ({ footerBottom }) => {
 					</div>
 				</div>
 				<div className='footer-copyright'>
-					<Link to="/polityka-prywatnosci">Polityka prywatności</Link>
 					<p>
 						Osada Wiedzy
 						<br />© copyright 2023

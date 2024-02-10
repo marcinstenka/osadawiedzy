@@ -1120,14 +1120,12 @@ thin {
 	min-width: 100px;
 }
 .footer-section p,
-.footer-copyright p,
-.footer-copyright a {
+.footer-copyright p {
 	color: var(--text-gray);
 	font-size: 13px;
 	margin: 15px 0;
 }
-.footer-copyright p,
-.footer-copyright a {
+.footer-copyright p {
 	min-width: 90px;
 	text-align: right;
 	margin: 15px 0 15px -30px;
@@ -2758,8 +2756,7 @@ li {
 		max-width: 80%;
 		margin: 20px auto;
 	}
-	.footer-copyright p,
-	.footer-copyright a {
+	.footer-copyright p {
 		font-size: 15px;
 		margin: 0 150px 0 0;
 	}
