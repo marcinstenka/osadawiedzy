@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Navbar from '../components/Navbar';
-import HistoryContent from '../components/HistoryContent';
+import HistoryContent from '../components/HisotryContent';
 import Footer from '../components/Footer'
 
 
