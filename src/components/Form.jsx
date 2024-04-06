@@ -194,7 +194,7 @@ const Form = () => {
 						Inna - proszę opisać w podpunkcie "Inne uwagi o uczestniku"
 					</option>
 				</select>
-				<div className='form-radio'>
+				<div className='form-radio' >
 					Rozmiar koszulki uczestnika/uczestniczki obozu
 					<div className='radio-labels'>
 						<div>
@@ -233,6 +233,21 @@ const Form = () => {
 						</div>
 					</div>
 				</div>
+				<label htmlFor='form-participant-school' className='form-required'>
+					Typ szkoły
+				</label>
+				<select name='form-participant-school' required>
+					<option value='' selected disabled hidden>
+						wybierz typ szkoły
+					</option>
+					<option value='Szkoła podstawowa'>Szkoła podstawowa</option>
+					<option value='Liceum'>Liceum</option>
+					<option value='Technikum'>Technikum</option>
+				</select>
+				<label htmlFor='form-participant-school' className='form-required'>
+					Klasa
+				</label>
+				<input type='number' name='form-participant-school-grade' required />
 				<li>Informacje na temat osoby zgłaszającej</li>
 				<p>
 					Dalsza korespondencja będzie kierowana na podany niżej adres e-mail
