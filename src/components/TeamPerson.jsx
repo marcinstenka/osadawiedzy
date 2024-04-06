@@ -41,7 +41,7 @@ const TeamPerson = () => {
 			img2: IRimg2,
 			img3: IRimg3,
 			text: [
-				'- nauczyciel fizyki w technikum w Wejherowie i w liceum w Lęborku. Przez 10 lat pracował w gimnazjum ucząc matematyki i fizyki. Przez ten czas pracował z uczniami szczególnie uzdolnionymi w kierunku przedmiotów ścisłych, przygotowując ich do konkursów i olimpiad zarówno fizycznych, matematycznych i informatycznych. Przez ten czas wychował ponad 20 laureatów i finalistów, głównie konkursów fizycznych. Od 10 lat współorganizuje obozy naukowe. Współpracuje z Uniwersytetem Gdańskim, współorganizując konferencje metodyczne dla nauczycieli fizyki z województwa pomorskiego.',
+				'- nauczyciel fizyki w technikum w Wejherowie oraz w szkołach podstawowych w Bolszewie i w Rumi. Przez 10 lat pracował w gimnazjum ucząc matematyki i fizyki. Przez ten czas pracował z uczniami szczególnie uzdolnionymi w kierunku przedmiotów ścisłych, przygotowując ich do konkursów i olimpiad zarówno fizycznych, matematycznych i informatycznych. Przez ten czas wychował ponad 20 laureatów i finalistów, głównie konkursów fizycznych. Od 10 lat współorganizuje obozy naukowe.',
 				<br />,
 				<br />,
 				'Ignacy Rejmak jest bohaterem niezwykłego filmu dokumentalnego, który swoją premierę miał we wrześniu 2020. “Nieletni inżynierowie” to historia przemiany, odkrywania pasji i zdobywania wiedzy. To opowieść o miłości do nauki i mocy relacji, tak bardzo nam dzisiaj potrzebnej. Film pojawił się na międzynarodowych festiwalach otrzymując wiele cennych nagród takich jak: Festiwal Cineminha B. w Brazylii, International CHINH INDIA KIDS FILM FESTIVAL w Indiach, Delco Film Festival w USA, Polish Film Festival Los Angeles, Festiwalu Filmowym Zlin w Czechach, Satisfied Eye International Film Festival w Wielkiej Brytanii gdzie stał się Najlepszym Filmem Dokumentalnym, a Ignacy Rejmak otrzymał na tym festiwalu Nagrodę Jury Satisfied Eye International Film Festival.',
@@ -53,7 +53,7 @@ const TeamPerson = () => {
 				</a>,
 				<br />,
 				<br />,
-				'Ponadto Ignacy Rejmak wraz z Przemysławem Rojewskim uczestniczy w unikalnym projekcie edukacyjnomedialnym dla uczniów i nauczycieli klas szkół podstawowych oraz średnich realizowanym w Powiatowym Zespole Szkół nr 2 im. Bohaterskiej Załogi ORP “Orzeł” w Wejherowie „Fizyka dla nieletnich” Projekt zakłada tworzenie 12-minutowych odcinków dla uczniów, które będą dostępne na Facebooku oraz kanale YouTube. Ich celem jest wyjaśnianie zjawisk fizycznych w prosty, przystępny, a zarazem ciekawy sposób, a w efekcie zachęcenie młodych ludzi do zawodów i kierunków technicznych. Więcej o projekcie ',
+				'Ponadto Ignacy Rejmak wraz z Przemysławem Rojewskim uczestniczy w unikalnym projekcie edukacyjnomedialnym dla uczniów i nauczycieli klas szkół podstawowych oraz średnich realizowanym w Powiatowym Zespole Szkół nr 2 im. Bohaterskiej Załogi ORP “Orzeł” w Wejherowie „Fizyka dla nieletnich” Projekt zakłada tworzenie 12-minutowych odcinków dla uczniów, które będą dostępne na Facebooku oraz kanale YouTube. Ich celem jest wyjaśnianie zjawisk fizycznych w prosty, przystępny, a zarazem ciekawy sposób, a w efekcie zachęcenie młodych ludzi do zawodów i kierunków technicznych. Więcej o projekcie:',
 				<br />,
 				<a href='//underage.pro/fizyka '>https://underage.pro/fizyka </a>,
 				<br />,
@@ -70,7 +70,7 @@ const TeamPerson = () => {
 			img2: NZimg2,
 			img3: NZimg3,
 			text: [
-				'coach, trener i mówca Maxwell Leadership Certified Team Poland, trener psychologii pozytywnej, facylitator job craftingu, doradca zawodowy. Zakochana w zmianie. Z pierwszego wykształcenia jest pedagogiem i przez 22 lata prowadziła młodych ludzi w okresie dojrzewania, wspierała także rodziców, prowadząc szkolenia i warsztaty.',
+				'- coach, trener i mówca Maxwell Leadership Certified Team Poland, trener psychologii pozytywnej, facylitator job craftingu, doradca zawodowy. Zakochana w zmianie. Z pierwszego wykształcenia jest pedagogiem i przez 22 lata prowadziła młodych ludzi w okresie dojrzewania, wspierała także rodziców, prowadząc szkolenia i warsztaty.',
 				<br />,
 				<br />,
 				'Właścicielka Akademii Rozwoju Prosperity oraz Soward Smart Kids Academy będącej przestrzenią rozwoju młodych ludzi w zakresie kompetencji społecznych, matematyki mentalnej, edukacji medialnej i krytycznego korzystania z mediów oraz międzynarodowej metody Brainy Sensory Enhancement. Prezes Stowarzyszenia FPUNKT. Finalistka konkursu im. Ireny Sendlerowej „Za naprawianie świata”. Absolwentka programu wymiany rządu USA International Visitor Leadership. Za swoje działania otrzymała Medal Komisji Edukacji Narodowej.',
@@ -114,7 +114,7 @@ const TeamPerson = () => {
 			img2: WMimg2,
 			img3: WMimg3,
 			text: [
-				'- swój pierwszy program komputerowy napisał w wieku 12 lat na komputerze Commodore 64. Od tego czasu z małą przerwą uczy się nowych języków programowania i nieustannie poszerza swoją wiedzę i umiejętności, przechodząc od Basica przez Pascala do C++ i Pythona po drodze zahaczając o JavaScript i VBA. Od 2010 roku pracuje jako nauczyciel, nie tylko w szkole, ale także w projektach związanych z prowadzeniem zajęć dla młodzieży uzdolnionej w Słupsku, Lęborku i Kartuzach. Od 2012 roku uczestniczy w obozach naukowych w czasie wakacji. Przygotowywał również uczniów do olimpiad informatycznych, w tym do olimpiady z programowania zespołowego. Aby podnieść swoje umiejętności uczestniczy w warsztatach dla nauczycieli olimpiady informatycznych. Ukończył studia podyplomowe z zakresu testowania oprogramowania, programowania aplikacji internetowych oraz cyberbezpieczeństwa. Najbardziej ceni u siebie zapał do uczenia się nowych rzeczy. W Osadzie Wiedzy prowadzi zajęcia z programowania.',
+				'- swój pierwszy program komputerowy napisał w wieku 12 lat na komputerze Commodore 64. Od tego czasu uczy się nowych języków programowania i nieustannie poszerza swoją wiedzę i umiejętności, przechodząc od Basica przez Pascala do C++ i Pythona po drodze zahaczając o JavaScript i VBA. Od 2010 roku pracuje jako nauczyciel, nie tylko w szkole, ale także w projektach związanych z zajęiami dla młodzieży uzdolnionej w Słupsku, Lęborku i Kartuzach. Od 2012 roku uczestniczy w obozach naukowych w czasie wakacji. Przygotowywał również uczniów do olimpiad informatycznych, w tym do olimpiady z programowania zespołowego. Aby podnieść swoje umiejętności uczestniczy w warsztatach informatycznych. Ukończył studia podyplomowe z zakresu testowania oprogramowania, programowania aplikacji internetowych oraz cyberbezpieczeństwa. Najbardziej ceni u siebie zapał do uczenia się nowych rzeczy i ciekawość. Obecnie studiuje filozofię. W Osadzie Wiedzy prowadzi zajęcia z programowania.',
 			],
 		},
 		{
@@ -124,7 +124,10 @@ const TeamPerson = () => {
 			img2: PRimg2,
 			img3: PRimg3,
 			text: [
-				'- nauczyciel fizyki w Powiatowym Zespole Szkół nr 2 w Wejherowie. W zawodzie od 20 lat Od 11 lat pracuje z uczniami szczególnie uzdolnionymi w ramach Projektu „Zdolni z Pomorza” przygotowując ich do konkursów i olimpiad  szczególnie w części doświadczalnej. Przez ten czas wychował wielu laureatów i finalistów. Jest doświadczonym egzaminatorem OKE w Gdańsku od 16 lat uczestniczy w pracach komisji egzaminacyjnej egzaminu maturalnego z fizyki. Również przygotowuje z powodzeniem uczniów do tego egzaminu. Od kilku lat tworzy pracownię fizyczną z prawdziwego zdarzenia wyposażoną w najnowocześniejszy dostępny sprzęt pomiarowy. W czasie wolnym nie może obyć się bez treningów biegowych jest zwycięzcą wielu biegów długodystansowych i maratonów.',
+				'- nauczyciel fizyki w Powiatowym Zespole Szkół nr 2 w Wejherowie. W zawodzie od ponad 20 lat. Przez 12 lat pracował z uczniami szczególnie uzdolnionymi w ramach Projektu „Zdolni z Pomorza” przygotowując ich do konkursów i olimpiad szczególnie w części doświadczalnej. Przez ten czas wychował wielu laureatów i finalistów. Co najważniejsze jest doświadczonym egzaminatorem i od wielu lat uczestniczy w pracach komisji egzaminacyjnej egzaminu maturalnego z fizyki. Również przygotowuje z powodzeniem uczniów do tego egzaminu. ',
+				<br />,
+				<br />,
+				'Od kilku lat tworzy pracownię fizyczną z prawdziwego zdarzenia wyposażoną w najnowocześniejszy dostępny sprzęt pomiarowy. W czasie wolnym nie może obyć się bez treningów biegowych jest zwycięzcą wielu biegów długodystansowych i maratonów.',
 			],
 		},
 		{
