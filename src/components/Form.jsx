@@ -74,7 +74,7 @@ const Form = () => {
 							<input
 								type='radio'
 								value='Nie'
-								checked
+								defaultChecked
 								name='form-first-time'
 								id='form-first-time-no'
 							/>
@@ -194,7 +194,7 @@ const Form = () => {
 						Inna - proszę opisać w podpunkcie "Inne uwagi o uczestniku"
 					</option>
 				</select>
-				<div className='form-radio' >
+				<div className='form-radio'>
 					Rozmiar koszulki uczestnika/uczestniczki obozu
 					<div className='radio-labels'>
 						<div>
@@ -202,7 +202,7 @@ const Form = () => {
 								type='radio'
 								value='S'
 								id='size-s'
-								checked
+								defaultChecked
 								name='form-participant-shirt-size'
 							/>
 							<input
@@ -244,7 +244,10 @@ const Form = () => {
 					<option value='Liceum'>Liceum</option>
 					<option value='Technikum'>Technikum</option>
 				</select>
-				<label htmlFor='form-participant-school' className='form-required'>
+				<label
+					htmlFor='form-participant-school-grade'
+					className='form-required'
+				>
 					Klasa
 				</label>
 				<input type='number' name='form-participant-school-grade' required />
@@ -278,7 +281,7 @@ const Form = () => {
 							<input
 								type='radio'
 								value='Nie'
-								checked
+								defaultChecked
 								name='form-parent-invoice'
 								id='form-parent-invoice-no'
 							/>

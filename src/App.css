@@ -1625,6 +1625,7 @@ input[type='number'] {
 .form-checkbox label {
 	margin: 0 0 0 30px;
 	max-width: 950px;
+	cursor: pointer;
 }
 .form-container button {
 	background: var(--green);
