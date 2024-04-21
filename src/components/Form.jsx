@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ScienceArrow from '../assets/img/scienceArrow.svg';
 import LoadingGif from '../assets/img/loadingGif.gif';
@@ -7,28 +7,10 @@ const Form = () => {
 	const [status, setStatus] = useState('');
 	const form = useRef();
 
-	useEffect(() => {
-		const registerStatus = document.querySelector('#register-status');
-		const inputs = document.querySelectorAll('input');
-		const textareas = document.querySelectorAll('textarea');
-		const selects = document.querySelectorAll('select');
-		if (registerStatus) {
-			registerStatus.innerHTML = status;
-			inputs.forEach((input) => {
-				input.value = '';
-			});
-			textareas.forEach((t) => {
-				t.value = '';
-			});
-			selects.forEach((s) => {
-				s.selectedIndex = 0;
-			});
-		}
-	});
 	const sendEmail = (e) => {
+		e.preventDefault();
 		const registerStatus = document.querySelector('#register-status');
 		registerStatus.innerHTML = `<img src="${LoadingGif}" />`;
-		e.preventDefault();
 		emailjs
 			.sendForm(
 				'service_i2turqg',
@@ -39,6 +21,20 @@ const Form = () => {
 			.then(
 				(result) => {
 					setStatus('Dziękujemy za wiadomość, wkrótce odpiszemy! :)');
+					const inputs = document.querySelectorAll('input');
+					const textareas = document.querySelectorAll('textarea');
+					const selects = document.querySelectorAll('select');
+
+					inputs.forEach((input) => {
+						input.value = '';
+						input.checked = false;
+					});
+					textareas.forEach((t) => {
+						t.value = '';
+					});
+					selects.forEach((s) => {
+						s.selectedIndex = 0;
+					});
 				},
 				(error) => {
 					setStatus('Coś poszło nie tak. Spróbuj ponownie za chwilę.');
@@ -53,7 +49,7 @@ const Form = () => {
 					Proszę wybrać jeden z dostępnych obozów.{' '}
 				</label>
 				<select name='form-campus-type' required>
-					<option value='' selected disabled hidden>
+					<option value='' defaultValue disabled hidden>
 						wybierz obóz
 					</option>
 					<option value='Obóz naukowy dla dzieci i młodzieży program matematyka/fizyka/programowanie'>
@@ -370,7 +366,9 @@ const Form = () => {
 				<button>
 					wyślij <img src={ScienceArrow} alt='Strzałka zobacz więcej.' />
 				</button>
-				<div className='register-status' id='register-status'></div>
+				<div className='register-status' id='register-status'>
+					{status}
+				</div>
 			</div>
 		</form>
 	);
