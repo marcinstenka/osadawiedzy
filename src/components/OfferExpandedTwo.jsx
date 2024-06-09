@@ -96,7 +96,32 @@ const OfferExpandedTwo = () => {
 				</div>
 			</div>
 			<div className='offer__expanded '>
-				<div className='expanded__title title__border'>4. Matematyka</div>
+				<div className='expanded__title title__border'>4. Biologia</div>
+				<p className='expanded__text'>
+					Jesteś uczniem szkoły ponadpodstawowej i chcesz zdać maturę z
+					biologii? Nasze zajęcia z biologii to nie tylko podręczniki i wykłady
+					- to interaktywna podróż przez tajemnice życia na organizmów. Dowiedz
+					się, jak funkcjonuje każdy organizm, od mikroskopijnych komórek po
+					majestatyczne ekosystemy . Nasza kadra to pełni pasji nauczyciele
+					biologii, którzy nie tylko doskonale znają materiał maturalny, ale
+					także potrafią przekazać go w sposób interesujący i przystępny. Dzięki
+					nim każde zajęcia staną się inspirującą podróżą do świata biologii.
+					Nasze zajęcia pomogą Ci zrozumieć i zapamiętać materiał w sposób
+					trwały i przyjemny. Otrzymasz wsparcie, które pomoże Ci nadrobić
+					zaległości i rozwiać wszelkie wątpliwości, a nasz program jest
+					dokładnie dostosowany do wymagań egzaminu maturalnego. Zapewniamy
+					pasjonujące spotkania, ciekawe wykłady i praktyczne ćwiczenia, które
+					pobudzą Twoją ciekawość i rozwijają zrozumienie biologicznych
+					procesów. Dołącz do naszej społeczności biologicznych entuzjastów i
+					odkryj, jak wspaniałe może być studiowanie życia!"
+				</p>
+				<div className='expanded__cross'>
+					<span className='cross__cross1'></span>
+					<span className='cross__cross2'></span>
+				</div>
+			</div>
+			<div className='offer__expanded '>
+				<div className='expanded__title title__border'>5. Matematyka</div>
 				<p className='expanded__text'>
 					Zajęcia z matematyki to przede wszystkim rozwiązywanie zadań, w
 					których stawiamy na zrozumienie, a nie zapamiętywanie schematów. Tym
@@ -112,7 +137,7 @@ const OfferExpandedTwo = () => {
 				</div>
 			</div>
 			<div className='offer__expanded '>
-				<div className='expanded__title title__border'>5. Programowanie</div>
+				<div className='expanded__title title__border'>6. Programowanie</div>
 				<p className='expanded__text'>
 					Zajęcia z programowania są prowadzona w zależności od zaawansowania
 					uczestników. Może to być nauka podstaw programowania i algorytmów (w
@@ -130,7 +155,7 @@ const OfferExpandedTwo = () => {
 			</div>
 			<div className='offer__expanded '>
 				<div className='expanded__title title__border'>
-					6. Kompetencje społeczne
+					7. Kompetencje społeczne
 				</div>
 				<p className='expanded__text'>
 					Zajęcia mają na celu rozwój osobowości w tym między innymi:
@@ -149,7 +174,7 @@ const OfferExpandedTwo = () => {
 				</div>
 			</div>
 			<div className='offer__expanded '>
-				<div className='expanded__title'>7. Czas wolny</div>
+				<div className='expanded__title'>8. Czas wolny</div>
 				<p className='expanded__text'>
 					Czas wolny uczestników obozu to korzystanie z plaży, boiska do
 					siatkówki, kąpiel w jeziorze. Czas wolny przeznaczony jest także na
