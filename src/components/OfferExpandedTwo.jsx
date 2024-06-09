@@ -64,20 +64,31 @@ const OfferExpandedTwo = () => {
 			<div className='offer__expanded '>
 				<div className='expanded__title title__border'>3. Chemia</div>
 				<p className='expanded__text'>
-					Jesteś uczniem klasy VII, VIII szkoły podstawowej lub klasy I liceum bądź technikum? Jeśli tak, to nasza
-					oferta zajęć z chemii skierowana jest właśnie do Ciebie. Na zajęciach z chemii w sposób zrozumiały dla
-					młodych ludzi przedstawimy treści, z którymi uczniowie zmierzą się w liceum, technikum w nowym roku
-					szkolnym. Nie będzie Wam obca budowa atomu, zapisywanie konfiguracji elektronowych czy
-					zapisywanie równań reakcji chemicznych. Nauczymy Was jak najprościej i bez strachu podchodzić do
-					reakcji redoks. Na przykładzie dziesiątków zadań maturalnych pokażemy jak uniknąć najczęstszych
-					błędów, jak podchodzić ze spokojem do zadań obliczeniowych. Postaramy się, aby nauka w czasie obozu
-					była skuteczna, a zarazem atrakcyjna, dlatego przeprowadzimy kilka prostych eksperymentów.
-					<br />
-					<br />
-					<i>
-						W życiu nie ma rzeczy, których należy się bać, są tylko rzeczy, które trzeba zrozumieć.
-						Musimy rozumieć więcej aby móc bać się mniej <br /> <div className='expanded__text-quote'>~ Maria Skłodowska Curie</div>
-					</i>
+					Jesteś uczniem szkoły ponadpodstawowej i chcesz solidnie przygotować
+					się do egzaminu maturalnego z chemii? Nasze zajęcia to połączenie
+					intensywnej nauki oraz wsparcia doświadczonych nauczycieli, które
+					pozwolą Ci osiągnąć najlepsze wyniki na maturze! Wspólnie powtórzymy
+					kluczowe zagadnienia, które pojawiają się na egzaminie maturalnym,
+					abyś mógł czuć się pewnie i przygotowany. Przeprowadzimy intensywne
+					warsztaty, podczas których będziesz rozwiązywać zadania z komentarzem
+					egzaminatorów maturalnych. Pokażemy Ci, jak efektywnie pracować z
+					zadaniami, na co zwracać uwagę i jak unikać najczęściej popełnianych
+					błędów. Nasz zespół to wykwalifikowani i doświadczeni nauczyciele
+					chemii, którzy doskonale znają wymagania maturalne. Służymy pomocą i
+					wsparciem na każdym etapie przygotowań, odpowiadając na Twoje pytania
+					i wyjaśniając trudniejsze zagadnienia.
+					<ul className='expanded__list'>
+						<p>Co możesz zyskać dzięki naszym zajęciom?</p>
+						<li>
+							Pewność siebie: Dzięki solidnemu przygotowaniu teoretycznemu i
+							praktycznemu.
+						</li>
+						<li>Wiedza: Dogłębne zrozumienie materiału maturalnego.</li>
+						<li>
+							Strategie egzaminacyjne: Techniki rozwiązywania zadań maturalnych{' '}
+						</li>
+						<li>Motywacja: Inspiracja do dalszego zgłębiania chemii.</li>
+					</ul>
 				</p>
 				<div className='expanded__cross'>
 					<span className='cross__cross1'></span>

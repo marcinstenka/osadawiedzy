@@ -1227,6 +1227,21 @@ thin {
 	line-height: 1.4;
 	text-align: justify;
 }
+.expanded__list li {
+	padding: 0 0 0 15px;
+	position: relative;
+}
+.expanded__list li::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: var(--green);
+}
 /* Offer - section 2 and 3*/
 table {
 	width: 100%;
